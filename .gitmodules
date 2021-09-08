@@ -1,0 +1,3 @@
+[submodule "XPEViewer"]
+	path = XPEViewer
+	url = https://github.com/horsicq/XPEViewer
