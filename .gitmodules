@@ -13,3 +13,6 @@
 [submodule "projects/DIE-engine"]
 	path = projects/DIE-engine
 	url = https://github.com/horsicq/DIE-engine
+[submodule "XTranslation"]
+	path = XTranslation
+	url = https://github.com/horsicq/XTranslation
