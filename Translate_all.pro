@@ -1,6 +1,7 @@
 TRANSLATIONS = \
     translation/ar.ts \
     translation/de.ts \
+    translation/en.ts \
     translation/es.ts \
     translation/fr.ts \
     translation/he.ts \
