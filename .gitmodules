@@ -16,3 +16,9 @@
 [submodule "XTranslation"]
 	path = XTranslation
 	url = https://github.com/horsicq/XTranslation
+[submodule "projects/xntsv"]
+	path = projects/xntsv
+	url = https://github.com/horsicq/xntsv
+[submodule "projects/PDBRipper"]
+	path = projects/PDBRipper
+	url = https://github.com/horsicq/PDBRipper
