@@ -75,6 +75,8 @@ FORMS += \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.ui \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.ui \
+    projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/DIE-engine/XDynStructsWidget/xdynstructswidget.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropy.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.ui \
     projects/DIE-engine/XEntropyWidget/xentropywidget.ui \
@@ -101,6 +103,12 @@ FORMS += \
     projects/DIE-engine/gui_source/dialogoptions.ui \
     projects/DIE-engine/gui_source/guimainwindow.ui \
     projects/DIE-engine/nfd_widget/nfd_widget.ui \
+    projects/PDBRipper/XShortcuts/dialogshortcuts.ui \
+    projects/PDBRipper/gui_source/dialogabout.ui \
+    projects/PDBRipper/gui_source/dialogexport.ui \
+    projects/PDBRipper/gui_source/dialogoptions.ui \
+    projects/PDBRipper/gui_source/dialogprocess.ui \
+    projects/PDBRipper/gui_source/guimainwindow.ui \
     projects/XAPKDetector/FormatDialogs/dialogdump.ui \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.ui \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.ui \
@@ -159,6 +167,8 @@ FORMS += \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.ui \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.ui \
+    projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XAPKDetector/XDynStructsWidget/xdynstructswidget.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.ui \
     projects/XAPKDetector/XEntropyWidget/xentropywidget.ui \
@@ -239,6 +249,8 @@ FORMS += \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.ui \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.ui \
+    projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XELFViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropy.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XELFViewer/XEntropyWidget/xentropywidget.ui \
@@ -311,6 +323,8 @@ FORMS += \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.ui \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.ui \
+    projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XMACHOViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XMACHOViewer/XEntropyWidget/xentropywidget.ui \
@@ -383,6 +397,8 @@ FORMS += \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.ui \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.ui \
+    projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XPEViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropy.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XPEViewer/XEntropyWidget/xentropywidget.ui \
@@ -396,7 +412,84 @@ FORMS += \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
     projects/XPEViewer/gui_source/dialogabout.ui \
     projects/XPEViewer/gui_source/dialogoptions.ui \
-    projects/XPEViewer/gui_source/guimainwindow.ui
+    projects/XPEViewer/gui_source/guimainwindow.ui \
+    projects/xntsv/FormatDialogs/dialogdump.ui \
+    projects/xntsv/FormatDialogs/dialogdumpprocess.ui \
+    projects/xntsv/FormatDialogs/dialoggotoaddress.ui \
+    projects/xntsv/FormatDialogs/dialoghexsignature.ui \
+    projects/xntsv/FormatDialogs/dialoginfo.ui \
+    projects/xntsv/FormatDialogs/dialogsearch.ui \
+    projects/xntsv/FormatDialogs/dialogsearchprocess.ui \
+    projects/xntsv/FormatDialogs/dialogtextinfo.ui \
+    projects/xntsv/FormatWidgets/Binary/binarywidget.ui \
+    projects/xntsv/FormatWidgets/Binary/dialogbinary.ui \
+    projects/xntsv/FormatWidgets/DEX/dexsectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/DEX/dexwidget.ui \
+    projects/xntsv/FormatWidgets/DEX/dialogdex.ui \
+    projects/xntsv/FormatWidgets/ELF/dialogelf.ui \
+    projects/xntsv/FormatWidgets/ELF/elfsectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/ELF/elfwidget.ui \
+    projects/xntsv/FormatWidgets/LE/dialogle.ui \
+    projects/xntsv/FormatWidgets/LE/lesectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/LE/lewidget.ui \
+    projects/xntsv/FormatWidgets/MACH/dialogmach.ui \
+    projects/xntsv/FormatWidgets/MACH/machsectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/MACH/machwidget.ui \
+    projects/xntsv/FormatWidgets/MACHOFAT/machofatwidget.ui \
+    projects/xntsv/FormatWidgets/MSDOS/dialogmsdos.ui \
+    projects/xntsv/FormatWidgets/MSDOS/msdoswidget.ui \
+    projects/xntsv/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
+    projects/xntsv/FormatWidgets/NE/dialogne.ui \
+    projects/xntsv/FormatWidgets/NE/nesectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/NE/newidget.ui \
+    projects/xntsv/FormatWidgets/PE/dialogpe.ui \
+    projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/PE/pewidget.ui \
+    projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
+    projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
+    projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/xntsv/FormatWidgets/dialogmodelinfo.ui \
+    projects/xntsv/FormatWidgets/dialogprocessdata.ui \
+    projects/xntsv/FormatWidgets/dialogsectionheader.ui \
+    projects/xntsv/FormatWidgets/formatswidget.ui \
+    projects/xntsv/FormatWidgets/toolswidget.ui \
+    projects/xntsv/StaticScan/dialogstaticscan.ui \
+    projects/xntsv/StaticScan/dialogstaticscanprocess.ui \
+    projects/xntsv/StaticScan/formresult.ui \
+    projects/xntsv/StaticScan/formstaticscan.ui \
+    projects/xntsv/StaticScan/heurwidget.ui \
+    projects/xntsv/XDemangleWidget/dialogdemangle.ui \
+    projects/xntsv/XDemangleWidget/xdemanglewidget.ui \
+    projects/xntsv/XDisasmView/dialogmultidisasm.ui \
+    projects/xntsv/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/xntsv/XDisasmView/xmultidisasmwidget.ui \
+    projects/xntsv/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/xntsv/XDynStructsWidget/xdynstructswidget.ui \
+    projects/xntsv/XEntropyWidget/dialogentropy.ui \
+    projects/xntsv/XEntropyWidget/dialogentropyprocess.ui \
+    projects/xntsv/XEntropyWidget/xentropywidget.ui \
+    projects/xntsv/XHashWidget/dialoghash.ui \
+    projects/xntsv/XHashWidget/dialoghashprocess.ui \
+    projects/xntsv/XHashWidget/xhashwidget.ui \
+    projects/xntsv/XHexView/dialoghexview.ui \
+    projects/xntsv/XHexView/xhexviewwidget.ui \
+    projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
+    projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.ui \
+    projects/xntsv/XProcessWidget/xprocessdialoghex.ui \
+    projects/xntsv/XProcessWidget/xprocesswidget.ui \
+    projects/xntsv/XShortcuts/dialogshortcuts.ui \
+    projects/xntsv/archive_widget/archive_widget.ui \
+    projects/xntsv/archive_widget/dialogarchive.ui \
+    projects/xntsv/archive_widget/dialogcreateviewmodel.ui \
+    projects/xntsv/archive_widget/dialogshowimage.ui \
+    projects/xntsv/archive_widget/dialogshowtext.ui \
+    projects/xntsv/archive_widget/dialogunpackfile.ui \
+    projects/xntsv/gui_source/dialogabout.ui \
+    projects/xntsv/gui_source/dialogoptions.ui \
+    projects/xntsv/gui_source/guimainwindow.ui \
+    projects/xntsv/nfd_widget/nfd_widget.ui
 
 SOURCES += \
     projects/DIE-engine/Controls/hexvalidator.cpp \
@@ -405,6 +498,7 @@ SOURCES += \
     projects/DIE-engine/Controls/xcomboboxex.cpp \
     projects/DIE-engine/Controls/xdatetimeeditx.cpp \
     projects/DIE-engine/Controls/xdevicetableview.cpp \
+    projects/DIE-engine/Controls/xhtml.cpp \
     projects/DIE-engine/Controls/xlineedithex.cpp \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.cpp \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.cpp \
@@ -511,6 +605,9 @@ SOURCES += \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/DIE-engine/XDisasmView/xdisasmview.cpp \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.cpp \
+    projects/DIE-engine/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/DIE-engine/XDynStructsWidget/xdynstructswidget.cpp \
     projects/DIE-engine/XEntropyWidget/dialogentropy.cpp \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.cpp \
     projects/DIE-engine/XEntropyWidget/entropyprocess.cpp \
@@ -662,12 +759,30 @@ SOURCES += \
     projects/DIE-engine/gui_source/main_gui.cpp \
     projects/DIE-engine/nfd_widget/nfd_widget.cpp \
     projects/DIE-engine/winloader_source/winloader.cpp \
+    projects/PDBRipper/XOptions/xoptions.cpp \
+    projects/PDBRipper/XShortcuts/dialogshortcuts.cpp \
+    projects/PDBRipper/XShortcuts/xshortcuts.cpp \
+    projects/PDBRipper/XShortcuts/xshortcutsdialog.cpp \
+    projects/PDBRipper/XShortcuts/xshortcutstscrollarea.cpp \
+    projects/PDBRipper/XShortcuts/xshortcutswidget.cpp \
+    projects/PDBRipper/console_source/consoleoutput.cpp \
+    projects/PDBRipper/console_source/main_console.cpp \
+    projects/PDBRipper/gui_source/dialogabout.cpp \
+    projects/PDBRipper/gui_source/dialogexport.cpp \
+    projects/PDBRipper/gui_source/dialogoptions.cpp \
+    projects/PDBRipper/gui_source/dialogprocess.cpp \
+    projects/PDBRipper/gui_source/guimainwindow.cpp \
+    projects/PDBRipper/gui_source/main_gui.cpp \
+    projects/PDBRipper/pdbprocess.cpp \
+    projects/PDBRipper/qwinpdb.cpp \
+    projects/PDBRipper/winloader_source/winloader.cpp \
     projects/XAPKDetector/Controls/hexvalidator.cpp \
     projects/XAPKDetector/Controls/subclassofqstyleditemdelegate.cpp \
     projects/XAPKDetector/Controls/xabstracttableview.cpp \
     projects/XAPKDetector/Controls/xcomboboxex.cpp \
     projects/XAPKDetector/Controls/xdatetimeeditx.cpp \
     projects/XAPKDetector/Controls/xdevicetableview.cpp \
+    projects/XAPKDetector/Controls/xhtml.cpp \
     projects/XAPKDetector/Controls/xlineedithex.cpp \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.cpp \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.cpp \
@@ -777,6 +892,9 @@ SOURCES += \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XAPKDetector/XDisasmView/xdisasmview.cpp \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.cpp \
+    projects/XAPKDetector/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XAPKDetector/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.cpp \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XAPKDetector/XEntropyWidget/entropyprocess.cpp \
@@ -918,6 +1036,7 @@ SOURCES += \
     projects/XELFViewer/Controls/xcomboboxex.cpp \
     projects/XELFViewer/Controls/xdatetimeeditx.cpp \
     projects/XELFViewer/Controls/xdevicetableview.cpp \
+    projects/XELFViewer/Controls/xhtml.cpp \
     projects/XELFViewer/Controls/xlineedithex.cpp \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.cpp \
@@ -1027,6 +1146,9 @@ SOURCES += \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XELFViewer/XDisasmView/xdisasmview.cpp \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.cpp \
+    projects/XELFViewer/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XELFViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XELFViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XELFViewer/XEntropyWidget/entropyprocess.cpp \
@@ -1150,12 +1272,14 @@ SOURCES += \
     projects/XELFViewer/gui_source/dialogoptions.cpp \
     projects/XELFViewer/gui_source/guimainwindow.cpp \
     projects/XELFViewer/gui_source/main_gui.cpp \
+    projects/XELFViewer/primeNum .cpp \
     projects/XMACHOViewer/Controls/hexvalidator.cpp \
     projects/XMACHOViewer/Controls/subclassofqstyleditemdelegate.cpp \
     projects/XMACHOViewer/Controls/xabstracttableview.cpp \
     projects/XMACHOViewer/Controls/xcomboboxex.cpp \
     projects/XMACHOViewer/Controls/xdatetimeeditx.cpp \
     projects/XMACHOViewer/Controls/xdevicetableview.cpp \
+    projects/XMACHOViewer/Controls/xhtml.cpp \
     projects/XMACHOViewer/Controls/xlineedithex.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.cpp \
@@ -1265,6 +1389,9 @@ SOURCES += \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XMACHOViewer/XDisasmView/xdisasmview.cpp \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.cpp \
+    projects/XMACHOViewer/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XMACHOViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XMACHOViewer/XEntropyWidget/entropyprocess.cpp \
@@ -1403,6 +1530,7 @@ SOURCES += \
     projects/XPEViewer/Controls/xcomboboxex.cpp \
     projects/XPEViewer/Controls/xdatetimeeditx.cpp \
     projects/XPEViewer/Controls/xdevicetableview.cpp \
+    projects/XPEViewer/Controls/xhtml.cpp \
     projects/XPEViewer/Controls/xlineedithex.cpp \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.cpp \
@@ -1502,6 +1630,9 @@ SOURCES += \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XPEViewer/XDisasmView/xdisasmview.cpp \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.cpp \
+    projects/XPEViewer/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XPEViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XPEViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XPEViewer/XEntropyWidget/entropyprocess.cpp \
@@ -1624,4 +1755,247 @@ SOURCES += \
     projects/XPEViewer/gui_source/dialogabout.cpp \
     projects/XPEViewer/gui_source/dialogoptions.cpp \
     projects/XPEViewer/gui_source/guimainwindow.cpp \
-    projects/XPEViewer/gui_source/main_gui.cpp
+    projects/XPEViewer/gui_source/main_gui.cpp \
+    projects/XPEViewer/leap.cpp \
+    projects/xntsv/Controls/hexvalidator.cpp \
+    projects/xntsv/Controls/subclassofqstyleditemdelegate.cpp \
+    projects/xntsv/Controls/xabstracttableview.cpp \
+    projects/xntsv/Controls/xcomboboxex.cpp \
+    projects/xntsv/Controls/xdatetimeeditx.cpp \
+    projects/xntsv/Controls/xdevicetableview.cpp \
+    projects/xntsv/Controls/xhtml.cpp \
+    projects/xntsv/Controls/xlineedithex.cpp \
+    projects/xntsv/FormatDialogs/dialogdumpprocess.cpp \
+    projects/xntsv/FormatDialogs/dialoggotoaddress.cpp \
+    projects/xntsv/FormatDialogs/dialoghexsignature.cpp \
+    projects/xntsv/FormatDialogs/dialoginfo.cpp \
+    projects/xntsv/FormatDialogs/dialogsearch.cpp \
+    projects/xntsv/FormatDialogs/dialogsearchprocess.cpp \
+    projects/xntsv/FormatDialogs/dialogtextinfo.cpp \
+    projects/xntsv/FormatDialogs/dumpprocess.cpp \
+    projects/xntsv/FormatDialogs/searchprocess.cpp \
+    projects/xntsv/FormatWidgets/Binary/binary_defs.cpp \
+    projects/xntsv/FormatWidgets/Binary/binarywidget.cpp \
+    projects/xntsv/FormatWidgets/Binary/dialogbinary.cpp \
+    projects/xntsv/FormatWidgets/DEX/dex_defs.cpp \
+    projects/xntsv/FormatWidgets/DEX/dexprocessdata.cpp \
+    projects/xntsv/FormatWidgets/DEX/dexsectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/DEX/dexwidget.cpp \
+    projects/xntsv/FormatWidgets/DEX/dialogdex.cpp \
+    projects/xntsv/FormatWidgets/ELF/dialogelf.cpp \
+    projects/xntsv/FormatWidgets/ELF/elf_defs.cpp \
+    projects/xntsv/FormatWidgets/ELF/elfprocessdata.cpp \
+    projects/xntsv/FormatWidgets/ELF/elfsectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/ELF/elfwidget.cpp \
+    projects/xntsv/FormatWidgets/LE/dialogle.cpp \
+    projects/xntsv/FormatWidgets/LE/le_defs.cpp \
+    projects/xntsv/FormatWidgets/LE/leprocessdata.cpp \
+    projects/xntsv/FormatWidgets/LE/lesectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/LE/lewidget.cpp \
+    projects/xntsv/FormatWidgets/MACH/dialogmach.cpp \
+    projects/xntsv/FormatWidgets/MACH/mach_defs.cpp \
+    projects/xntsv/FormatWidgets/MACH/machprocessdata.cpp \
+    projects/xntsv/FormatWidgets/MACH/machsectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/MACH/machwidget.cpp \
+    projects/xntsv/FormatWidgets/MACHOFAT/machofatwidget.cpp \
+    projects/xntsv/FormatWidgets/MSDOS/dialogmsdos.cpp \
+    projects/xntsv/FormatWidgets/MSDOS/msdos_defs.cpp \
+    projects/xntsv/FormatWidgets/MSDOS/msdoswidget.cpp \
+    projects/xntsv/FormatWidgets/MultiSearch/dialogmultisearchprocess.cpp \
+    projects/xntsv/FormatWidgets/MultiSearch/multisearch.cpp \
+    projects/xntsv/FormatWidgets/NE/dialogne.cpp \
+    projects/xntsv/FormatWidgets/NE/ne_defs.cpp \
+    projects/xntsv/FormatWidgets/NE/neprocessdata.cpp \
+    projects/xntsv/FormatWidgets/NE/nesectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/NE/newidget.cpp \
+    projects/xntsv/FormatWidgets/PE/dialogpe.cpp \
+    projects/xntsv/FormatWidgets/PE/pe_defs.cpp \
+    projects/xntsv/FormatWidgets/PE/peprocessdata.cpp \
+    projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/PE/pewidget.cpp \
+    projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
+    projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
+    projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/xntsv/FormatWidgets/dialogmodelinfo.cpp \
+    projects/xntsv/FormatWidgets/dialogprocessdata.cpp \
+    projects/xntsv/FormatWidgets/dialogsectionheader.cpp \
+    projects/xntsv/FormatWidgets/formatswidget.cpp \
+    projects/xntsv/FormatWidgets/formatwidget.cpp \
+    projects/xntsv/FormatWidgets/invwidget.cpp \
+    projects/xntsv/FormatWidgets/processdata.cpp \
+    projects/xntsv/FormatWidgets/toolswidget.cpp \
+    projects/xntsv/Formats/subdevice.cpp \
+    projects/xntsv/Formats/xbinary.cpp \
+    projects/xntsv/Formats/xcom.cpp \
+    projects/xntsv/Formats/xelf.cpp \
+    projects/xntsv/Formats/xformats.cpp \
+    projects/xntsv/Formats/xle.cpp \
+    projects/xntsv/Formats/xmach.cpp \
+    projects/xntsv/Formats/xmsdos.cpp \
+    projects/xntsv/Formats/xne.cpp \
+    projects/xntsv/Formats/xpe.cpp \
+    projects/xntsv/SpecAbstract/signatures.cpp \
+    projects/xntsv/SpecAbstract/specabstract.cpp \
+    projects/xntsv/StaticScan/dialogstaticscan.cpp \
+    projects/xntsv/StaticScan/dialogstaticscanprocess.cpp \
+    projects/xntsv/StaticScan/formresult.cpp \
+    projects/xntsv/StaticScan/formstaticscan.cpp \
+    projects/xntsv/StaticScan/heurwidget.cpp \
+    projects/xntsv/StaticScan/staticscan.cpp \
+    projects/xntsv/StaticScan/staticscanitem.cpp \
+    projects/xntsv/StaticScan/staticscanitemmodel.cpp \
+    projects/xntsv/XArchive/xarchive.cpp \
+    projects/xntsv/XArchive/xarchives.cpp \
+    projects/xntsv/XArchive/xcab.cpp \
+    projects/xntsv/XArchive/xmachofat.cpp \
+    projects/xntsv/XArchive/xrar.cpp \
+    projects/xntsv/XArchive/xsevenzip.cpp \
+    projects/xntsv/XArchive/xzip.cpp \
+    projects/xntsv/XCapstone/xcapstone.cpp \
+    projects/xntsv/XCppfilt/xcppfilt.cpp \
+    projects/xntsv/XDEX/xandroidbinary.cpp \
+    projects/xntsv/XDEX/xdex.cpp \
+    projects/xntsv/XDemangle/xdemangle.cpp \
+    projects/xntsv/XDemangleWidget/dialogdemangle.cpp \
+    projects/xntsv/XDemangleWidget/xdemanglewidget.cpp \
+    projects/xntsv/XDisasmView/dialogmultidisasm.cpp \
+    projects/xntsv/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/xntsv/XDisasmView/xdisasmview.cpp \
+    projects/xntsv/XDisasmView/xmultidisasmwidget.cpp \
+    projects/xntsv/XDynStructsEngine/xdynstructsengine.cpp \
+    projects/xntsv/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/xntsv/XDynStructsWidget/xdynstructswidget.cpp \
+    projects/xntsv/XEntropyWidget/dialogentropy.cpp \
+    projects/xntsv/XEntropyWidget/dialogentropyprocess.cpp \
+    projects/xntsv/XEntropyWidget/entropyprocess.cpp \
+    projects/xntsv/XEntropyWidget/xentropywidget.cpp \
+    projects/xntsv/XHashWidget/dialoghash.cpp \
+    projects/xntsv/XHashWidget/dialoghashprocess.cpp \
+    projects/xntsv/XHashWidget/hashprocess.cpp \
+    projects/xntsv/XHashWidget/xhashwidget.cpp \
+    projects/xntsv/XHexView/dialoghexview.cpp \
+    projects/xntsv/XHexView/xhexview.cpp \
+    projects/xntsv/XHexView/xhexviewwidget.cpp \
+    projects/xntsv/XMemoryMapWidget/dialogmemorymap.cpp \
+    projects/xntsv/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/xntsv/XOptions/xoptions.cpp \
+    projects/xntsv/XProcess/xprocess.cpp \
+    projects/xntsv/XProcess/xprocessdevice.cpp \
+    projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.cpp \
+    projects/xntsv/XProcessWidget/xprocessdialoghex.cpp \
+    projects/xntsv/XProcessWidget/xprocesswidget.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_compass.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_compass_rose.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_counter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_curve_fitter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_date.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_date_scale_draw.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_date_scale_engine.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_dial.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_dial_needle.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_dyngrid_layout.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_event_pattern.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_graphic.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_interval.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_interval_symbol.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_knob.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_legend.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_legend_data.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_legend_label.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_magnifier.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_math.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_matrix_raster_data.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_null_paintdevice.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_painter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_painter_command.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_panner.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_picker.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_picker_machine.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_curve.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_item.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_layout.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_legenditem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_renderer.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_rescaler.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_scaleitem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_seriesitem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_shapeitem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_spectrocurve.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_spectrogram.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_scale_div.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_scale_draw.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_scale_engine.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_scale_map.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_scale_widget.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_text.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_text_engine.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
+    projects/xntsv/XShortcuts/dialogshortcuts.cpp \
+    projects/xntsv/XShortcuts/xshortcuts.cpp \
+    projects/xntsv/XShortcuts/xshortcutsdialog.cpp \
+    projects/xntsv/XShortcuts/xshortcutstscrollarea.cpp \
+    projects/xntsv/XShortcuts/xshortcutswidget.cpp \
+    projects/xntsv/archive_widget/archive_widget.cpp \
+    projects/xntsv/archive_widget/createviewmodelprocess.cpp \
+    projects/xntsv/archive_widget/dialogarchive.cpp \
+    projects/xntsv/archive_widget/dialogcreateviewmodel.cpp \
+    projects/xntsv/archive_widget/dialogshowimage.cpp \
+    projects/xntsv/archive_widget/dialogshowtext.cpp \
+    projects/xntsv/archive_widget/dialogunpackfile.cpp \
+    projects/xntsv/archive_widget/unpackfileprocess.cpp \
+    projects/xntsv/gui_source/dialogabout.cpp \
+    projects/xntsv/gui_source/dialogoptions.cpp \
+    projects/xntsv/gui_source/guimainwindow.cpp \
+    projects/xntsv/gui_source/main_gui.cpp \
+    projects/xntsv/nfd_widget/nfd_widget.cpp
+
