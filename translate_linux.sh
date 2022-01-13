@@ -30,6 +30,7 @@ translate pt_BR dict_pt-BR
 translate pt_PT dict_pt-PT
 translate ru dict_ru
 translate tr dict_tr
+translate uk dict_uk
 translate vi dict_vi
 translate zh dict_zh
 translate zh_TW dict_zh-TW

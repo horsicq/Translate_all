@@ -14,6 +14,7 @@ TRANSLATIONS = \
     translation/pt_PT.ts \
     translation/ru.ts \
     translation/tr.ts\
+    translation/uk.ts\
     translation/vi.ts \
     translation/zh.ts \
     translation/zh_TW.ts
@@ -23,7 +24,6 @@ FORMS += \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.ui \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.ui \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.ui \
-    projects/DIE-engine/FormatDialogs/dialoginfo.ui \
     projects/DIE-engine/FormatDialogs/dialogsearch.ui \
     projects/DIE-engine/FormatDialogs/dialogsearchprocess.ui \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.ui \
@@ -52,6 +52,7 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/DIE-engine/FormatWidgets/PE/pewidget.ui \
     projects/DIE-engine/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/DIE-engine/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -61,10 +62,12 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/formatswidget.ui \
     projects/DIE-engine/FormatWidgets/toolswidget.ui \
     projects/DIE-engine/StaticScan/dialogstaticscan.ui \
+    projects/DIE-engine/StaticScan/dialogstaticscandirectory.ui \
     projects/DIE-engine/StaticScan/dialogstaticscanprocess.ui \
     projects/DIE-engine/StaticScan/formresult.ui \
     projects/DIE-engine/StaticScan/formstaticscan.ui \
     projects/DIE-engine/StaticScan/heurwidget.ui \
+    projects/DIE-engine/StaticScan/staticscanoptionswidget.ui \
     projects/DIE-engine/XDemangleWidget/dialogdemangle.ui \
     projects/DIE-engine/XDemangleWidget/xdemanglewidget.ui \
     projects/DIE-engine/XDisasm/dialogasmsignature.ui \
@@ -74,21 +77,27 @@ FORMS += \
     projects/DIE-engine/XDisasm/xdisasmwidget.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.ui \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.ui \
     projects/DIE-engine/XDynStructsWidget/xdynstructswidget.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropy.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.ui \
     projects/DIE-engine/XEntropyWidget/xentropywidget.ui \
+    projects/DIE-engine/XFileInfo/dialogxfileinfo.ui \
+    projects/DIE-engine/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/DIE-engine/XFileInfo/xfileinfowidget.ui \
     projects/DIE-engine/XHashWidget/dialoghash.ui \
     projects/DIE-engine/XHashWidget/dialoghashprocess.ui \
     projects/DIE-engine/XHashWidget/xhashwidget.ui \
     projects/DIE-engine/XHexView/dialoghexview.ui \
+    projects/DIE-engine/XHexView/xhexviewoptionswidget.ui \
     projects/DIE-engine/XHexView/xhexviewwidget.ui \
     projects/DIE-engine/XMIMEWidget/dialogmime.ui \
     projects/DIE-engine/XMIMEWidget/xmimewidget.ui \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.ui \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/DIE-engine/XOptions/xoptionswidget.ui \
     projects/DIE-engine/XShortcuts/dialogshortcuts.ui \
     projects/DIE-engine/archive_widget/archive_widget.ui \
     projects/DIE-engine/archive_widget/dialogarchive.ui \
@@ -96,13 +105,19 @@ FORMS += \
     projects/DIE-engine/archive_widget/dialogshowimage.ui \
     projects/DIE-engine/archive_widget/dialogshowtext.ui \
     projects/DIE-engine/archive_widget/dialogunpackfile.ui \
+    projects/DIE-engine/die_widget/dialogdiescandirectory.ui \
+    projects/DIE-engine/die_widget/dialogdiescanprocess.ui \
+    projects/DIE-engine/die_widget/dialogelapsed.ui \
     projects/DIE-engine/die_widget/dialoglog.ui \
     projects/DIE-engine/die_widget/dialogsignatures.ui \
     projects/DIE-engine/die_widget/die_widget.ui \
+    projects/DIE-engine/die_widget/dieoptionswidget.ui \
     projects/DIE-engine/gui_source/dialogabout.ui \
     projects/DIE-engine/gui_source/dialogoptions.ui \
     projects/DIE-engine/gui_source/guimainwindow.ui \
+    projects/DIE-engine/lite_source/litemainwindow.ui \
     projects/DIE-engine/nfd_widget/nfd_widget.ui \
+    projects/PDBRipper/XOptions/xoptionswidget.ui \
     projects/PDBRipper/XShortcuts/dialogshortcuts.ui \
     projects/PDBRipper/gui_source/dialogabout.ui \
     projects/PDBRipper/gui_source/dialogexport.ui \
@@ -113,7 +128,6 @@ FORMS += \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.ui \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.ui \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.ui \
-    projects/XAPKDetector/FormatDialogs/dialoginfo.ui \
     projects/XAPKDetector/FormatDialogs/dialogsearch.ui \
     projects/XAPKDetector/FormatDialogs/dialogsearchprocess.ui \
     projects/XAPKDetector/FormatDialogs/dialogtextinfo.ui \
@@ -142,6 +156,7 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XAPKDetector/FormatWidgets/PE/pewidget.ui \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XAPKDetector/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XAPKDetector/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -153,10 +168,12 @@ FORMS += \
     projects/XAPKDetector/QHexView/dialoghex.ui \
     projects/XAPKDetector/QHexView/qhexviewwidget.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscan.ui \
+    projects/XAPKDetector/StaticScan/dialogstaticscandirectory.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscanprocess.ui \
     projects/XAPKDetector/StaticScan/formresult.ui \
     projects/XAPKDetector/StaticScan/formstaticscan.ui \
     projects/XAPKDetector/StaticScan/heurwidget.ui \
+    projects/XAPKDetector/StaticScan/staticscanoptionswidget.ui \
     projects/XAPKDetector/XDemangleWidget/dialogdemangle.ui \
     projects/XAPKDetector/XDemangleWidget/xdemanglewidget.ui \
     projects/XAPKDetector/XDisasm/dialogasmsignature.ui \
@@ -166,19 +183,25 @@ FORMS += \
     projects/XAPKDetector/XDisasm/xdisasmwidget.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XAPKDetector/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.ui \
     projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.ui \
     projects/XAPKDetector/XDynStructsWidget/xdynstructswidget.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.ui \
     projects/XAPKDetector/XEntropyWidget/xentropywidget.ui \
+    projects/XAPKDetector/XFileInfo/dialogxfileinfo.ui \
+    projects/XAPKDetector/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/XAPKDetector/XFileInfo/xfileinfowidget.ui \
     projects/XAPKDetector/XHashWidget/dialoghash.ui \
     projects/XAPKDetector/XHashWidget/dialoghashprocess.ui \
     projects/XAPKDetector/XHashWidget/xhashwidget.ui \
     projects/XAPKDetector/XHexView/dialoghexview.ui \
+    projects/XAPKDetector/XHexView/xhexviewoptionswidget.ui \
     projects/XAPKDetector/XHexView/xhexviewwidget.ui \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XAPKDetector/XOptions/xoptionswidget.ui \
     projects/XAPKDetector/XShortcuts/dialogshortcuts.ui \
     projects/XAPKDetector/archive_widget/archive_widget.ui \
     projects/XAPKDetector/archive_widget/dialogarchive.ui \
@@ -195,7 +218,6 @@ FORMS += \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.ui \
-    projects/XELFViewer/FormatDialogs/dialoginfo.ui \
     projects/XELFViewer/FormatDialogs/dialogsearch.ui \
     projects/XELFViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XELFViewer/FormatDialogs/dialogtextinfo.ui \
@@ -224,6 +246,7 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XELFViewer/FormatWidgets/PE/pewidget.ui \
     projects/XELFViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XELFViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XELFViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -235,10 +258,12 @@ FORMS += \
     projects/XELFViewer/QHexView/dialoghex.ui \
     projects/XELFViewer/QHexView/qhexviewwidget.ui \
     projects/XELFViewer/StaticScan/dialogstaticscan.ui \
+    projects/XELFViewer/StaticScan/dialogstaticscandirectory.ui \
     projects/XELFViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XELFViewer/StaticScan/formresult.ui \
     projects/XELFViewer/StaticScan/formstaticscan.ui \
     projects/XELFViewer/StaticScan/heurwidget.ui \
+    projects/XELFViewer/StaticScan/staticscanoptionswidget.ui \
     projects/XELFViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XELFViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XELFViewer/XDisasm/dialogasmsignature.ui \
@@ -248,19 +273,25 @@ FORMS += \
     projects/XELFViewer/XDisasm/xdisasmwidget.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XELFViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.ui \
     projects/XELFViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropy.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XELFViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XELFViewer/XFileInfo/dialogxfileinfo.ui \
+    projects/XELFViewer/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/XELFViewer/XFileInfo/xfileinfowidget.ui \
     projects/XELFViewer/XHashWidget/dialoghash.ui \
     projects/XELFViewer/XHashWidget/dialoghashprocess.ui \
     projects/XELFViewer/XHashWidget/xhashwidget.ui \
     projects/XELFViewer/XHexView/dialoghexview.ui \
+    projects/XELFViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XELFViewer/XHexView/xhexviewwidget.ui \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XELFViewer/XOptions/xoptionswidget.ui \
     projects/XELFViewer/XShortcuts/dialogshortcuts.ui \
     projects/XELFViewer/gui_source/dialogabout.ui \
     projects/XELFViewer/gui_source/dialogoptions.ui \
@@ -269,7 +300,6 @@ FORMS += \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.ui \
-    projects/XMACHOViewer/FormatDialogs/dialoginfo.ui \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.ui \
     projects/XMACHOViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XMACHOViewer/FormatDialogs/dialogtextinfo.ui \
@@ -298,6 +328,7 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XMACHOViewer/FormatWidgets/PE/pewidget.ui \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -309,10 +340,12 @@ FORMS += \
     projects/XMACHOViewer/QHexView/dialoghex.ui \
     projects/XMACHOViewer/QHexView/qhexviewwidget.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscan.ui \
+    projects/XMACHOViewer/StaticScan/dialogstaticscandirectory.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XMACHOViewer/StaticScan/formresult.ui \
     projects/XMACHOViewer/StaticScan/formstaticscan.ui \
     projects/XMACHOViewer/StaticScan/heurwidget.ui \
+    projects/XMACHOViewer/StaticScan/staticscanoptionswidget.ui \
     projects/XMACHOViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XMACHOViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XMACHOViewer/XDisasm/dialogasmsignature.ui \
@@ -322,19 +355,25 @@ FORMS += \
     projects/XMACHOViewer/XDisasm/xdisasmwidget.ui \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XMACHOViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.ui \
     projects/XMACHOViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XMACHOViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XMACHOViewer/XFileInfo/dialogxfileinfo.ui \
+    projects/XMACHOViewer/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/XMACHOViewer/XFileInfo/xfileinfowidget.ui \
     projects/XMACHOViewer/XHashWidget/dialoghash.ui \
     projects/XMACHOViewer/XHashWidget/dialoghashprocess.ui \
     projects/XMACHOViewer/XHashWidget/xhashwidget.ui \
     projects/XMACHOViewer/XHexView/dialoghexview.ui \
+    projects/XMACHOViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XMACHOViewer/XHexView/xhexviewwidget.ui \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XMACHOViewer/XOptions/xoptionswidget.ui \
     projects/XMACHOViewer/XShortcuts/dialogshortcuts.ui \
     projects/XMACHOViewer/archive_widget/archive_widget.ui \
     projects/XMACHOViewer/archive_widget/dialogarchive.ui \
@@ -350,7 +389,6 @@ FORMS += \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.ui \
-    projects/XPEViewer/FormatDialogs/dialoginfo.ui \
     projects/XPEViewer/FormatDialogs/dialogsearch.ui \
     projects/XPEViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XPEViewer/FormatDialogs/dialogtextinfo.ui \
@@ -379,6 +417,7 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XPEViewer/FormatWidgets/PE/pewidget.ui \
     projects/XPEViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XPEViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XPEViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -388,27 +427,35 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/formatswidget.ui \
     projects/XPEViewer/FormatWidgets/toolswidget.ui \
     projects/XPEViewer/StaticScan/dialogstaticscan.ui \
+    projects/XPEViewer/StaticScan/dialogstaticscandirectory.ui \
     projects/XPEViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XPEViewer/StaticScan/formresult.ui \
     projects/XPEViewer/StaticScan/formstaticscan.ui \
     projects/XPEViewer/StaticScan/heurwidget.ui \
+    projects/XPEViewer/StaticScan/staticscanoptionswidget.ui \
     projects/XPEViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XPEViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XPEViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.ui \
     projects/XPEViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropy.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XPEViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XPEViewer/XFileInfo/dialogxfileinfo.ui \
+    projects/XPEViewer/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/XPEViewer/XFileInfo/xfileinfowidget.ui \
     projects/XPEViewer/XHashWidget/dialoghash.ui \
     projects/XPEViewer/XHashWidget/dialoghashprocess.ui \
     projects/XPEViewer/XHashWidget/xhashwidget.ui \
     projects/XPEViewer/XHexView/dialoghexview.ui \
+    projects/XPEViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XPEViewer/XHexView/xhexviewwidget.ui \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XPEViewer/XOptions/xoptionswidget.ui \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
     projects/XPEViewer/gui_source/dialogabout.ui \
     projects/XPEViewer/gui_source/dialogoptions.ui \
@@ -417,7 +464,6 @@ FORMS += \
     projects/xntsv/FormatDialogs/dialogdumpprocess.ui \
     projects/xntsv/FormatDialogs/dialoggotoaddress.ui \
     projects/xntsv/FormatDialogs/dialoghexsignature.ui \
-    projects/xntsv/FormatDialogs/dialoginfo.ui \
     projects/xntsv/FormatDialogs/dialogsearch.ui \
     projects/xntsv/FormatDialogs/dialogsearchprocess.ui \
     projects/xntsv/FormatDialogs/dialogtextinfo.ui \
@@ -446,6 +492,7 @@ FORMS += \
     projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/xntsv/FormatWidgets/PE/pewidget.ui \
     projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
+    projects/xntsv/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.ui \
@@ -455,27 +502,35 @@ FORMS += \
     projects/xntsv/FormatWidgets/formatswidget.ui \
     projects/xntsv/FormatWidgets/toolswidget.ui \
     projects/xntsv/StaticScan/dialogstaticscan.ui \
+    projects/xntsv/StaticScan/dialogstaticscandirectory.ui \
     projects/xntsv/StaticScan/dialogstaticscanprocess.ui \
     projects/xntsv/StaticScan/formresult.ui \
     projects/xntsv/StaticScan/formstaticscan.ui \
     projects/xntsv/StaticScan/heurwidget.ui \
+    projects/xntsv/StaticScan/staticscanoptionswidget.ui \
     projects/xntsv/XDemangleWidget/dialogdemangle.ui \
     projects/xntsv/XDemangleWidget/xdemanglewidget.ui \
     projects/xntsv/XDisasmView/dialogmultidisasm.ui \
     projects/xntsv/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/xntsv/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/xntsv/XDisasmView/xmultidisasmwidget.ui \
     projects/xntsv/XDynStructsWidget/dialogxdynstructs.ui \
     projects/xntsv/XDynStructsWidget/xdynstructswidget.ui \
     projects/xntsv/XEntropyWidget/dialogentropy.ui \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.ui \
     projects/xntsv/XEntropyWidget/xentropywidget.ui \
+    projects/xntsv/XFileInfo/dialogxfileinfo.ui \
+    projects/xntsv/XFileInfo/dialogxfileinfoprocess.ui \
+    projects/xntsv/XFileInfo/xfileinfowidget.ui \
     projects/xntsv/XHashWidget/dialoghash.ui \
     projects/xntsv/XHashWidget/dialoghashprocess.ui \
     projects/xntsv/XHashWidget/xhashwidget.ui \
     projects/xntsv/XHexView/dialoghexview.ui \
+    projects/xntsv/XHexView/xhexviewoptionswidget.ui \
     projects/xntsv/XHexView/xhexviewwidget.ui \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/xntsv/XOptions/xoptionswidget.ui \
     projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.ui \
     projects/xntsv/XProcessWidget/xprocessdialoghex.ui \
     projects/xntsv/XProcessWidget/xprocesswidget.ui \
@@ -503,7 +558,6 @@ SOURCES += \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.cpp \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.cpp \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.cpp \
-    projects/DIE-engine/FormatDialogs/dialoginfo.cpp \
     projects/DIE-engine/FormatDialogs/dialogsearch.cpp \
     projects/DIE-engine/FormatDialogs/dialogsearchprocess.cpp \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.cpp \
@@ -549,6 +603,7 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/DIE-engine/FormatWidgets/PE/pewidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -560,6 +615,8 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/invwidget.cpp \
     projects/DIE-engine/FormatWidgets/processdata.cpp \
     projects/DIE-engine/FormatWidgets/toolswidget.cpp \
+    projects/DIE-engine/Formats/scanitem.cpp \
+    projects/DIE-engine/Formats/scanitemmodel.cpp \
     projects/DIE-engine/Formats/subdevice.cpp \
     projects/DIE-engine/Formats/xbinary.cpp \
     projects/DIE-engine/Formats/xcom.cpp \
@@ -573,6 +630,7 @@ SOURCES += \
     projects/DIE-engine/SpecAbstract/signatures.cpp \
     projects/DIE-engine/SpecAbstract/specabstract.cpp \
     projects/DIE-engine/StaticScan/dialogstaticscan.cpp \
+    projects/DIE-engine/StaticScan/dialogstaticscandirectory.cpp \
     projects/DIE-engine/StaticScan/dialogstaticscanprocess.cpp \
     projects/DIE-engine/StaticScan/formresult.cpp \
     projects/DIE-engine/StaticScan/formstaticscan.cpp \
@@ -580,6 +638,7 @@ SOURCES += \
     projects/DIE-engine/StaticScan/staticscan.cpp \
     projects/DIE-engine/StaticScan/staticscanitem.cpp \
     projects/DIE-engine/StaticScan/staticscanitemmodel.cpp \
+    projects/DIE-engine/StaticScan/staticscanoptionswidget.cpp \
     projects/DIE-engine/XArchive/xarchive.cpp \
     projects/DIE-engine/XArchive/xarchives.cpp \
     projects/DIE-engine/XArchive/xcab.cpp \
@@ -604,6 +663,7 @@ SOURCES += \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.cpp \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/DIE-engine/XDisasmView/xdisasmview.cpp \
+    projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.cpp \
     projects/DIE-engine/XDynStructsEngine/xdynstructsengine.cpp \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -612,6 +672,10 @@ SOURCES += \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.cpp \
     projects/DIE-engine/XEntropyWidget/entropyprocess.cpp \
     projects/DIE-engine/XEntropyWidget/xentropywidget.cpp \
+    projects/DIE-engine/XFileInfo/dialogxfileinfo.cpp \
+    projects/DIE-engine/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/DIE-engine/XFileInfo/xfileinfo.cpp \
+    projects/DIE-engine/XFileInfo/xfileinfowidget.cpp \
     projects/DIE-engine/XGithub/xgithub.cpp \
     projects/DIE-engine/XHashWidget/dialoghash.cpp \
     projects/DIE-engine/XHashWidget/dialoghashprocess.cpp \
@@ -620,6 +684,7 @@ SOURCES += \
     projects/DIE-engine/XHexEdit/xhexedit.cpp \
     projects/DIE-engine/XHexView/dialoghexview.cpp \
     projects/DIE-engine/XHexView/xhexview.cpp \
+    projects/DIE-engine/XHexView/xhexviewoptionswidget.cpp \
     projects/DIE-engine/XHexView/xhexviewwidget.cpp \
     projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -631,6 +696,7 @@ SOURCES += \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/DIE-engine/XOptions/xoptions.cpp \
+    projects/DIE-engine/XOptions/xoptionswidget.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
@@ -740,26 +806,38 @@ SOURCES += \
     projects/DIE-engine/archive_widget/dialogshowtext.cpp \
     projects/DIE-engine/archive_widget/dialogunpackfile.cpp \
     projects/DIE-engine/archive_widget/unpackfileprocess.cpp \
+    projects/DIE-engine/console_source/consoleoutput.cpp \
     projects/DIE-engine/console_source/main_console.cpp \
     projects/DIE-engine/die_script/binary_script.cpp \
+    projects/DIE-engine/die_script/com_script.cpp \
     projects/DIE-engine/die_script/die_script.cpp \
     projects/DIE-engine/die_script/die_scriptengine.cpp \
     projects/DIE-engine/die_script/elf_script.cpp \
+    projects/DIE-engine/die_script/global_script.cpp \
+    projects/DIE-engine/die_script/le_script.cpp \
+    projects/DIE-engine/die_script/lx_script.cpp \
     projects/DIE-engine/die_script/mach_script.cpp \
     projects/DIE-engine/die_script/msdos_script.cpp \
+    projects/DIE-engine/die_script/ne_script.cpp \
     projects/DIE-engine/die_script/pe_script.cpp \
+    projects/DIE-engine/die_widget/dialogdiescandirectory.cpp \
+    projects/DIE-engine/die_widget/dialogdiescanprocess.cpp \
+    projects/DIE-engine/die_widget/dialogelapsed.cpp \
     projects/DIE-engine/die_widget/dialoglog.cpp \
     projects/DIE-engine/die_widget/dialogsignatures.cpp \
     projects/DIE-engine/die_widget/die_highlighter.cpp \
     projects/DIE-engine/die_widget/die_signatureedit.cpp \
     projects/DIE-engine/die_widget/die_widget.cpp \
+    projects/DIE-engine/die_widget/dieoptionswidget.cpp \
     projects/DIE-engine/gui_source/dialogabout.cpp \
     projects/DIE-engine/gui_source/dialogoptions.cpp \
     projects/DIE-engine/gui_source/guimainwindow.cpp \
     projects/DIE-engine/gui_source/main_gui.cpp \
+    projects/DIE-engine/lite_source/litemainwindow.cpp \
+    projects/DIE-engine/lite_source/main_lite.cpp \
     projects/DIE-engine/nfd_widget/nfd_widget.cpp \
-    projects/DIE-engine/winloader_source/winloader.cpp \
     projects/PDBRipper/XOptions/xoptions.cpp \
+    projects/PDBRipper/XOptions/xoptionswidget.cpp \
     projects/PDBRipper/XShortcuts/dialogshortcuts.cpp \
     projects/PDBRipper/XShortcuts/xshortcuts.cpp \
     projects/PDBRipper/XShortcuts/xshortcutsdialog.cpp \
@@ -787,7 +865,6 @@ SOURCES += \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.cpp \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.cpp \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.cpp \
-    projects/XAPKDetector/FormatDialogs/dialoginfo.cpp \
     projects/XAPKDetector/FormatDialogs/dialogsearch.cpp \
     projects/XAPKDetector/FormatDialogs/dialogsearchprocess.cpp \
     projects/XAPKDetector/FormatDialogs/dialogtextinfo.cpp \
@@ -833,6 +910,7 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/XAPKDetector/FormatWidgets/PE/pewidget.cpp \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XAPKDetector/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XAPKDetector/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -844,6 +922,8 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/invwidget.cpp \
     projects/XAPKDetector/FormatWidgets/processdata.cpp \
     projects/XAPKDetector/FormatWidgets/toolswidget.cpp \
+    projects/XAPKDetector/Formats/scanitem.cpp \
+    projects/XAPKDetector/Formats/scanitemmodel.cpp \
     projects/XAPKDetector/Formats/subdevice.cpp \
     projects/XAPKDetector/Formats/xbinary.cpp \
     projects/XAPKDetector/Formats/xcom.cpp \
@@ -860,6 +940,7 @@ SOURCES += \
     projects/XAPKDetector/SpecAbstract/signatures.cpp \
     projects/XAPKDetector/SpecAbstract/specabstract.cpp \
     projects/XAPKDetector/StaticScan/dialogstaticscan.cpp \
+    projects/XAPKDetector/StaticScan/dialogstaticscandirectory.cpp \
     projects/XAPKDetector/StaticScan/dialogstaticscanprocess.cpp \
     projects/XAPKDetector/StaticScan/formresult.cpp \
     projects/XAPKDetector/StaticScan/formstaticscan.cpp \
@@ -867,6 +948,7 @@ SOURCES += \
     projects/XAPKDetector/StaticScan/staticscan.cpp \
     projects/XAPKDetector/StaticScan/staticscanitem.cpp \
     projects/XAPKDetector/StaticScan/staticscanitemmodel.cpp \
+    projects/XAPKDetector/StaticScan/staticscanoptionswidget.cpp \
     projects/XAPKDetector/XArchive/xarchive.cpp \
     projects/XAPKDetector/XArchive/xarchives.cpp \
     projects/XAPKDetector/XArchive/xcab.cpp \
@@ -891,6 +973,7 @@ SOURCES += \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.cpp \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XAPKDetector/XDisasmView/xdisasmview.cpp \
+    projects/XAPKDetector/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.cpp \
     projects/XAPKDetector/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -899,6 +982,10 @@ SOURCES += \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XAPKDetector/XEntropyWidget/entropyprocess.cpp \
     projects/XAPKDetector/XEntropyWidget/xentropywidget.cpp \
+    projects/XAPKDetector/XFileInfo/dialogxfileinfo.cpp \
+    projects/XAPKDetector/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/XAPKDetector/XFileInfo/xfileinfo.cpp \
+    projects/XAPKDetector/XFileInfo/xfileinfowidget.cpp \
     projects/XAPKDetector/XHashWidget/dialoghash.cpp \
     projects/XAPKDetector/XHashWidget/dialoghashprocess.cpp \
     projects/XAPKDetector/XHashWidget/hashprocess.cpp \
@@ -906,6 +993,7 @@ SOURCES += \
     projects/XAPKDetector/XHexEdit/xhexedit.cpp \
     projects/XAPKDetector/XHexView/dialoghexview.cpp \
     projects/XAPKDetector/XHexView/xhexview.cpp \
+    projects/XAPKDetector/XHexView/xhexviewoptionswidget.cpp \
     projects/XAPKDetector/XHexView/xhexviewwidget.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -914,6 +1002,7 @@ SOURCES += \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XAPKDetector/XOptions/xoptions.cpp \
+    projects/XAPKDetector/XOptions/xoptionswidget.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
@@ -1041,7 +1130,6 @@ SOURCES += \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.cpp \
-    projects/XELFViewer/FormatDialogs/dialoginfo.cpp \
     projects/XELFViewer/FormatDialogs/dialogsearch.cpp \
     projects/XELFViewer/FormatDialogs/dialogsearchprocess.cpp \
     projects/XELFViewer/FormatDialogs/dialogtextinfo.cpp \
@@ -1087,6 +1175,7 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/XELFViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XELFViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XELFViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XELFViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -1098,6 +1187,8 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/invwidget.cpp \
     projects/XELFViewer/FormatWidgets/processdata.cpp \
     projects/XELFViewer/FormatWidgets/toolswidget.cpp \
+    projects/XELFViewer/Formats/scanitem.cpp \
+    projects/XELFViewer/Formats/scanitemmodel.cpp \
     projects/XELFViewer/Formats/subdevice.cpp \
     projects/XELFViewer/Formats/xbinary.cpp \
     projects/XELFViewer/Formats/xcom.cpp \
@@ -1114,6 +1205,7 @@ SOURCES += \
     projects/XELFViewer/SpecAbstract/signatures.cpp \
     projects/XELFViewer/SpecAbstract/specabstract.cpp \
     projects/XELFViewer/StaticScan/dialogstaticscan.cpp \
+    projects/XELFViewer/StaticScan/dialogstaticscandirectory.cpp \
     projects/XELFViewer/StaticScan/dialogstaticscanprocess.cpp \
     projects/XELFViewer/StaticScan/formresult.cpp \
     projects/XELFViewer/StaticScan/formstaticscan.cpp \
@@ -1121,6 +1213,7 @@ SOURCES += \
     projects/XELFViewer/StaticScan/staticscan.cpp \
     projects/XELFViewer/StaticScan/staticscanitem.cpp \
     projects/XELFViewer/StaticScan/staticscanitemmodel.cpp \
+    projects/XELFViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XELFViewer/XArchive/xarchive.cpp \
     projects/XELFViewer/XArchive/xarchives.cpp \
     projects/XELFViewer/XArchive/xcab.cpp \
@@ -1145,6 +1238,7 @@ SOURCES += \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XELFViewer/XDisasmView/xdisasmview.cpp \
+    projects/XELFViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XELFViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -1153,6 +1247,10 @@ SOURCES += \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XELFViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XELFViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XELFViewer/XFileInfo/dialogxfileinfo.cpp \
+    projects/XELFViewer/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/XELFViewer/XFileInfo/xfileinfo.cpp \
+    projects/XELFViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XELFViewer/XHashWidget/dialoghash.cpp \
     projects/XELFViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XELFViewer/XHashWidget/hashprocess.cpp \
@@ -1160,6 +1258,7 @@ SOURCES += \
     projects/XELFViewer/XHexEdit/xhexedit.cpp \
     projects/XELFViewer/XHexView/dialoghexview.cpp \
     projects/XELFViewer/XHexView/xhexview.cpp \
+    projects/XELFViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XELFViewer/XHexView/xhexviewwidget.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -1168,6 +1267,7 @@ SOURCES += \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XELFViewer/XOptions/xoptions.cpp \
+    projects/XELFViewer/XOptions/xoptionswidget.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
@@ -1272,7 +1372,6 @@ SOURCES += \
     projects/XELFViewer/gui_source/dialogoptions.cpp \
     projects/XELFViewer/gui_source/guimainwindow.cpp \
     projects/XELFViewer/gui_source/main_gui.cpp \
-    projects/XELFViewer/primeNum .cpp \
     projects/XMACHOViewer/Controls/hexvalidator.cpp \
     projects/XMACHOViewer/Controls/subclassofqstyleditemdelegate.cpp \
     projects/XMACHOViewer/Controls/xabstracttableview.cpp \
@@ -1284,7 +1383,6 @@ SOURCES += \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.cpp \
-    projects/XMACHOViewer/FormatDialogs/dialoginfo.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogsearchprocess.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogtextinfo.cpp \
@@ -1330,6 +1428,7 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -1341,6 +1440,8 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/invwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/processdata.cpp \
     projects/XMACHOViewer/FormatWidgets/toolswidget.cpp \
+    projects/XMACHOViewer/Formats/scanitem.cpp \
+    projects/XMACHOViewer/Formats/scanitemmodel.cpp \
     projects/XMACHOViewer/Formats/subdevice.cpp \
     projects/XMACHOViewer/Formats/xbinary.cpp \
     projects/XMACHOViewer/Formats/xcom.cpp \
@@ -1357,6 +1458,7 @@ SOURCES += \
     projects/XMACHOViewer/SpecAbstract/signatures.cpp \
     projects/XMACHOViewer/SpecAbstract/specabstract.cpp \
     projects/XMACHOViewer/StaticScan/dialogstaticscan.cpp \
+    projects/XMACHOViewer/StaticScan/dialogstaticscandirectory.cpp \
     projects/XMACHOViewer/StaticScan/dialogstaticscanprocess.cpp \
     projects/XMACHOViewer/StaticScan/formresult.cpp \
     projects/XMACHOViewer/StaticScan/formstaticscan.cpp \
@@ -1364,6 +1466,7 @@ SOURCES += \
     projects/XMACHOViewer/StaticScan/staticscan.cpp \
     projects/XMACHOViewer/StaticScan/staticscanitem.cpp \
     projects/XMACHOViewer/StaticScan/staticscanitemmodel.cpp \
+    projects/XMACHOViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XMACHOViewer/XArchive/xarchive.cpp \
     projects/XMACHOViewer/XArchive/xarchives.cpp \
     projects/XMACHOViewer/XArchive/xcab.cpp \
@@ -1388,6 +1491,7 @@ SOURCES += \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XMACHOViewer/XDisasmView/xdisasmview.cpp \
+    projects/XMACHOViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XMACHOViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -1396,6 +1500,10 @@ SOURCES += \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XMACHOViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XMACHOViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XMACHOViewer/XFileInfo/dialogxfileinfo.cpp \
+    projects/XMACHOViewer/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/XMACHOViewer/XFileInfo/xfileinfo.cpp \
+    projects/XMACHOViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghash.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XMACHOViewer/XHashWidget/hashprocess.cpp \
@@ -1403,6 +1511,7 @@ SOURCES += \
     projects/XMACHOViewer/XHexEdit/xhexedit.cpp \
     projects/XMACHOViewer/XHexView/dialoghexview.cpp \
     projects/XMACHOViewer/XHexView/xhexview.cpp \
+    projects/XMACHOViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XMACHOViewer/XHexView/xhexviewwidget.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -1411,6 +1520,7 @@ SOURCES += \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XMACHOViewer/XOptions/xoptions.cpp \
+    projects/XMACHOViewer/XOptions/xoptionswidget.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
@@ -1535,7 +1645,6 @@ SOURCES += \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.cpp \
-    projects/XPEViewer/FormatDialogs/dialoginfo.cpp \
     projects/XPEViewer/FormatDialogs/dialogsearch.cpp \
     projects/XPEViewer/FormatDialogs/dialogsearchprocess.cpp \
     projects/XPEViewer/FormatDialogs/dialogtextinfo.cpp \
@@ -1581,6 +1690,7 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/XPEViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XPEViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XPEViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XPEViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -1592,6 +1702,8 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/invwidget.cpp \
     projects/XPEViewer/FormatWidgets/processdata.cpp \
     projects/XPEViewer/FormatWidgets/toolswidget.cpp \
+    projects/XPEViewer/Formats/scanitem.cpp \
+    projects/XPEViewer/Formats/scanitemmodel.cpp \
     projects/XPEViewer/Formats/subdevice.cpp \
     projects/XPEViewer/Formats/xbinary.cpp \
     projects/XPEViewer/Formats/xcom.cpp \
@@ -1605,6 +1717,7 @@ SOURCES += \
     projects/XPEViewer/SpecAbstract/signatures.cpp \
     projects/XPEViewer/SpecAbstract/specabstract.cpp \
     projects/XPEViewer/StaticScan/dialogstaticscan.cpp \
+    projects/XPEViewer/StaticScan/dialogstaticscandirectory.cpp \
     projects/XPEViewer/StaticScan/dialogstaticscanprocess.cpp \
     projects/XPEViewer/StaticScan/formresult.cpp \
     projects/XPEViewer/StaticScan/formstaticscan.cpp \
@@ -1612,6 +1725,7 @@ SOURCES += \
     projects/XPEViewer/StaticScan/staticscan.cpp \
     projects/XPEViewer/StaticScan/staticscanitem.cpp \
     projects/XPEViewer/StaticScan/staticscanitemmodel.cpp \
+    projects/XPEViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XPEViewer/XArchive/xarchive.cpp \
     projects/XPEViewer/XArchive/xarchives.cpp \
     projects/XPEViewer/XArchive/xcab.cpp \
@@ -1629,6 +1743,7 @@ SOURCES += \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XPEViewer/XDisasmView/xdisasmview.cpp \
+    projects/XPEViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XPEViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -1637,6 +1752,10 @@ SOURCES += \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XPEViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XPEViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XPEViewer/XFileInfo/dialogxfileinfo.cpp \
+    projects/XPEViewer/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/XPEViewer/XFileInfo/xfileinfo.cpp \
+    projects/XPEViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XPEViewer/XHashWidget/dialoghash.cpp \
     projects/XPEViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XPEViewer/XHashWidget/hashprocess.cpp \
@@ -1644,6 +1763,7 @@ SOURCES += \
     projects/XPEViewer/XHexEdit/xhexedit.cpp \
     projects/XPEViewer/XHexView/dialoghexview.cpp \
     projects/XPEViewer/XHexView/xhexview.cpp \
+    projects/XPEViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XPEViewer/XHexView/xhexviewwidget.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -1652,6 +1772,7 @@ SOURCES += \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XPEViewer/XOptions/xoptions.cpp \
+    projects/XPEViewer/XOptions/xoptionswidget.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
@@ -1756,7 +1877,6 @@ SOURCES += \
     projects/XPEViewer/gui_source/dialogoptions.cpp \
     projects/XPEViewer/gui_source/guimainwindow.cpp \
     projects/XPEViewer/gui_source/main_gui.cpp \
-    projects/XPEViewer/leap.cpp \
     projects/xntsv/Controls/hexvalidator.cpp \
     projects/xntsv/Controls/subclassofqstyleditemdelegate.cpp \
     projects/xntsv/Controls/xabstracttableview.cpp \
@@ -1768,7 +1888,6 @@ SOURCES += \
     projects/xntsv/FormatDialogs/dialogdumpprocess.cpp \
     projects/xntsv/FormatDialogs/dialoggotoaddress.cpp \
     projects/xntsv/FormatDialogs/dialoghexsignature.cpp \
-    projects/xntsv/FormatDialogs/dialoginfo.cpp \
     projects/xntsv/FormatDialogs/dialogsearch.cpp \
     projects/xntsv/FormatDialogs/dialogsearchprocess.cpp \
     projects/xntsv/FormatDialogs/dialogtextinfo.cpp \
@@ -1814,6 +1933,7 @@ SOURCES += \
     projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.cpp \
     projects/xntsv/FormatWidgets/PE/pewidget.cpp \
     projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
+    projects/xntsv/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.cpp \
@@ -1825,6 +1945,8 @@ SOURCES += \
     projects/xntsv/FormatWidgets/invwidget.cpp \
     projects/xntsv/FormatWidgets/processdata.cpp \
     projects/xntsv/FormatWidgets/toolswidget.cpp \
+    projects/xntsv/Formats/scanitem.cpp \
+    projects/xntsv/Formats/scanitemmodel.cpp \
     projects/xntsv/Formats/subdevice.cpp \
     projects/xntsv/Formats/xbinary.cpp \
     projects/xntsv/Formats/xcom.cpp \
@@ -1838,6 +1960,7 @@ SOURCES += \
     projects/xntsv/SpecAbstract/signatures.cpp \
     projects/xntsv/SpecAbstract/specabstract.cpp \
     projects/xntsv/StaticScan/dialogstaticscan.cpp \
+    projects/xntsv/StaticScan/dialogstaticscandirectory.cpp \
     projects/xntsv/StaticScan/dialogstaticscanprocess.cpp \
     projects/xntsv/StaticScan/formresult.cpp \
     projects/xntsv/StaticScan/formstaticscan.cpp \
@@ -1845,6 +1968,7 @@ SOURCES += \
     projects/xntsv/StaticScan/staticscan.cpp \
     projects/xntsv/StaticScan/staticscanitem.cpp \
     projects/xntsv/StaticScan/staticscanitemmodel.cpp \
+    projects/xntsv/StaticScan/staticscanoptionswidget.cpp \
     projects/xntsv/XArchive/xarchive.cpp \
     projects/xntsv/XArchive/xarchives.cpp \
     projects/xntsv/XArchive/xcab.cpp \
@@ -1862,6 +1986,7 @@ SOURCES += \
     projects/xntsv/XDisasmView/dialogmultidisasm.cpp \
     projects/xntsv/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/xntsv/XDisasmView/xdisasmview.cpp \
+    projects/xntsv/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/xntsv/XDisasmView/xmultidisasmwidget.cpp \
     projects/xntsv/XDynStructsEngine/xdynstructsengine.cpp \
     projects/xntsv/XDynStructsWidget/dialogxdynstructs.cpp \
@@ -1870,16 +1995,22 @@ SOURCES += \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.cpp \
     projects/xntsv/XEntropyWidget/entropyprocess.cpp \
     projects/xntsv/XEntropyWidget/xentropywidget.cpp \
+    projects/xntsv/XFileInfo/dialogxfileinfo.cpp \
+    projects/xntsv/XFileInfo/dialogxfileinfoprocess.cpp \
+    projects/xntsv/XFileInfo/xfileinfo.cpp \
+    projects/xntsv/XFileInfo/xfileinfowidget.cpp \
     projects/xntsv/XHashWidget/dialoghash.cpp \
     projects/xntsv/XHashWidget/dialoghashprocess.cpp \
     projects/xntsv/XHashWidget/hashprocess.cpp \
     projects/xntsv/XHashWidget/xhashwidget.cpp \
     projects/xntsv/XHexView/dialoghexview.cpp \
     projects/xntsv/XHexView/xhexview.cpp \
+    projects/xntsv/XHexView/xhexviewoptionswidget.cpp \
     projects/xntsv/XHexView/xhexviewwidget.cpp \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/xntsv/XOptions/xoptions.cpp \
+    projects/xntsv/XOptions/xoptionswidget.cpp \
     projects/xntsv/XProcess/xprocess.cpp \
     projects/xntsv/XProcess/xprocessdevice.cpp \
     projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.cpp \
@@ -1998,4 +2129,5 @@ SOURCES += \
     projects/xntsv/gui_source/guimainwindow.cpp \
     projects/xntsv/gui_source/main_gui.cpp \
     projects/xntsv/nfd_widget/nfd_widget.cpp
+
 
