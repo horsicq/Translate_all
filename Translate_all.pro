@@ -48,6 +48,8 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/NE/dialogne.ui \
     projects/DIE-engine/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/DIE-engine/FormatWidgets/NE/newidget.ui \
+    projects/DIE-engine/FormatWidgets/PDF/dialogpdf.ui \
+    projects/DIE-engine/FormatWidgets/PDF/pdfwidget.ui \
     projects/DIE-engine/FormatWidgets/PE/dialogpe.ui \
     projects/DIE-engine/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/DIE-engine/FormatWidgets/PE/pewidget.ui \
@@ -61,6 +63,8 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.ui \
     projects/DIE-engine/FormatWidgets/formatswidget.ui \
     projects/DIE-engine/FormatWidgets/toolswidget.ui \
+    projects/DIE-engine/QHexView/dialoghex.ui \
+    projects/DIE-engine/QHexView/qhexviewwidget.ui \
     projects/DIE-engine/StaticScan/dialogstaticscan.ui \
     projects/DIE-engine/StaticScan/dialogstaticscandirectory.ui \
     projects/DIE-engine/StaticScan/dialogstaticscanprocess.ui \
@@ -77,6 +81,7 @@ FORMS += \
     projects/DIE-engine/XDisasm/xdisasmwidget.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/DIE-engine/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.ui \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.ui \
@@ -90,6 +95,7 @@ FORMS += \
     projects/DIE-engine/XHashWidget/dialoghash.ui \
     projects/DIE-engine/XHashWidget/dialoghashprocess.ui \
     projects/DIE-engine/XHashWidget/xhashwidget.ui \
+    projects/DIE-engine/XHexEdit/dialoghexedit.ui \
     projects/DIE-engine/XHexView/dialoghexview.ui \
     projects/DIE-engine/XHexView/xhexviewoptionswidget.ui \
     projects/DIE-engine/XHexView/xhexviewwidget.ui \
@@ -152,6 +158,8 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/NE/dialogne.ui \
     projects/XAPKDetector/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XAPKDetector/FormatWidgets/NE/newidget.ui \
+    projects/XAPKDetector/FormatWidgets/PDF/dialogpdf.ui \
+    projects/XAPKDetector/FormatWidgets/PDF/pdfwidget.ui \
     projects/XAPKDetector/FormatWidgets/PE/dialogpe.ui \
     projects/XAPKDetector/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XAPKDetector/FormatWidgets/PE/pewidget.ui \
@@ -183,6 +191,7 @@ FORMS += \
     projects/XAPKDetector/XDisasm/xdisasmwidget.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XAPKDetector/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/XAPKDetector/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.ui \
     projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.ui \
@@ -196,6 +205,7 @@ FORMS += \
     projects/XAPKDetector/XHashWidget/dialoghash.ui \
     projects/XAPKDetector/XHashWidget/dialoghashprocess.ui \
     projects/XAPKDetector/XHashWidget/xhashwidget.ui \
+    projects/XAPKDetector/XHexEdit/dialoghexedit.ui \
     projects/XAPKDetector/XHexView/dialoghexview.ui \
     projects/XAPKDetector/XHexView/xhexviewoptionswidget.ui \
     projects/XAPKDetector/XHexView/xhexviewwidget.ui \
@@ -242,6 +252,8 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/NE/dialogne.ui \
     projects/XELFViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XELFViewer/FormatWidgets/NE/newidget.ui \
+    projects/XELFViewer/FormatWidgets/PDF/dialogpdf.ui \
+    projects/XELFViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XELFViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XELFViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XELFViewer/FormatWidgets/PE/pewidget.ui \
@@ -255,8 +267,6 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/dialogsectionheader.ui \
     projects/XELFViewer/FormatWidgets/formatswidget.ui \
     projects/XELFViewer/FormatWidgets/toolswidget.ui \
-    projects/XELFViewer/QHexView/dialoghex.ui \
-    projects/XELFViewer/QHexView/qhexviewwidget.ui \
     projects/XELFViewer/StaticScan/dialogstaticscan.ui \
     projects/XELFViewer/StaticScan/dialogstaticscandirectory.ui \
     projects/XELFViewer/StaticScan/dialogstaticscanprocess.ui \
@@ -266,13 +276,9 @@ FORMS += \
     projects/XELFViewer/StaticScan/staticscanoptionswidget.ui \
     projects/XELFViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XELFViewer/XDemangleWidget/xdemanglewidget.ui \
-    projects/XELFViewer/XDisasm/dialogasmsignature.ui \
-    projects/XELFViewer/XDisasm/dialogdisasm.ui \
-    projects/XELFViewer/XDisasm/dialogdisasmlabels.ui \
-    projects/XELFViewer/XDisasm/dialogdisasmprocess.ui \
-    projects/XELFViewer/XDisasm/xdisasmwidget.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XELFViewer/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/XELFViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.ui \
@@ -286,6 +292,7 @@ FORMS += \
     projects/XELFViewer/XHashWidget/dialoghash.ui \
     projects/XELFViewer/XHashWidget/dialoghashprocess.ui \
     projects/XELFViewer/XHashWidget/xhashwidget.ui \
+    projects/XELFViewer/XHexEdit/dialoghexedit.ui \
     projects/XELFViewer/XHexView/dialoghexview.ui \
     projects/XELFViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XELFViewer/XHexView/xhexviewwidget.ui \
@@ -324,6 +331,8 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/NE/dialogne.ui \
     projects/XMACHOViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XMACHOViewer/FormatWidgets/NE/newidget.ui \
+    projects/XMACHOViewer/FormatWidgets/PDF/dialogpdf.ui \
+    projects/XMACHOViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XMACHOViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XMACHOViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XMACHOViewer/FormatWidgets/PE/pewidget.ui \
@@ -337,8 +346,6 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/dialogsectionheader.ui \
     projects/XMACHOViewer/FormatWidgets/formatswidget.ui \
     projects/XMACHOViewer/FormatWidgets/toolswidget.ui \
-    projects/XMACHOViewer/QHexView/dialoghex.ui \
-    projects/XMACHOViewer/QHexView/qhexviewwidget.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscan.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscandirectory.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscanprocess.ui \
@@ -355,6 +362,7 @@ FORMS += \
     projects/XMACHOViewer/XDisasm/xdisasmwidget.ui \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XMACHOViewer/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/XMACHOViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.ui \
@@ -368,6 +376,7 @@ FORMS += \
     projects/XMACHOViewer/XHashWidget/dialoghash.ui \
     projects/XMACHOViewer/XHashWidget/dialoghashprocess.ui \
     projects/XMACHOViewer/XHashWidget/xhashwidget.ui \
+    projects/XMACHOViewer/XHexEdit/dialoghexedit.ui \
     projects/XMACHOViewer/XHexView/dialoghexview.ui \
     projects/XMACHOViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XMACHOViewer/XHexView/xhexviewwidget.ui \
@@ -413,6 +422,8 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/NE/dialogne.ui \
     projects/XPEViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XPEViewer/FormatWidgets/NE/newidget.ui \
+    projects/XPEViewer/FormatWidgets/PDF/dialogpdf.ui \
+    projects/XPEViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XPEViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XPEViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/XPEViewer/FormatWidgets/PE/pewidget.ui \
@@ -437,6 +448,7 @@ FORMS += \
     projects/XPEViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/XPEViewer/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/XPEViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.ui \
@@ -450,6 +462,7 @@ FORMS += \
     projects/XPEViewer/XHashWidget/dialoghash.ui \
     projects/XPEViewer/XHashWidget/dialoghashprocess.ui \
     projects/XPEViewer/XHashWidget/xhashwidget.ui \
+    projects/XPEViewer/XHexEdit/dialoghexedit.ui \
     projects/XPEViewer/XHexView/dialoghexview.ui \
     projects/XPEViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XPEViewer/XHexView/xhexviewwidget.ui \
@@ -488,6 +501,8 @@ FORMS += \
     projects/xntsv/FormatWidgets/NE/dialogne.ui \
     projects/xntsv/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/xntsv/FormatWidgets/NE/newidget.ui \
+    projects/xntsv/FormatWidgets/PDF/dialogpdf.ui \
+    projects/xntsv/FormatWidgets/PDF/pdfwidget.ui \
     projects/xntsv/FormatWidgets/PE/dialogpe.ui \
     projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.ui \
     projects/xntsv/FormatWidgets/PE/pewidget.ui \
@@ -501,6 +516,8 @@ FORMS += \
     projects/xntsv/FormatWidgets/dialogsectionheader.ui \
     projects/xntsv/FormatWidgets/formatswidget.ui \
     projects/xntsv/FormatWidgets/toolswidget.ui \
+    projects/xntsv/QHexView/dialoghex.ui \
+    projects/xntsv/QHexView/qhexviewwidget.ui \
     projects/xntsv/StaticScan/dialogstaticscan.ui \
     projects/xntsv/StaticScan/dialogstaticscandirectory.ui \
     projects/xntsv/StaticScan/dialogstaticscanprocess.ui \
@@ -510,8 +527,14 @@ FORMS += \
     projects/xntsv/StaticScan/staticscanoptionswidget.ui \
     projects/xntsv/XDemangleWidget/dialogdemangle.ui \
     projects/xntsv/XDemangleWidget/xdemanglewidget.ui \
+    projects/xntsv/XDisasm/dialogasmsignature.ui \
+    projects/xntsv/XDisasm/dialogdisasm.ui \
+    projects/xntsv/XDisasm/dialogdisasmlabels.ui \
+    projects/xntsv/XDisasm/dialogdisasmprocess.ui \
+    projects/xntsv/XDisasm/xdisasmwidget.ui \
     projects/xntsv/XDisasmView/dialogmultidisasm.ui \
     projects/xntsv/XDisasmView/dialogmultidisasmsignature.ui \
+    projects/xntsv/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/xntsv/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/xntsv/XDisasmView/xmultidisasmwidget.ui \
     projects/xntsv/XDynStructsWidget/dialogxdynstructs.ui \
@@ -531,7 +554,10 @@ FORMS += \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/xntsv/XOptions/xoptionswidget.ui \
+    projects/xntsv/XProcessMemoryMapWidget/dialogxprocessmemorymap.ui \
     projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.ui \
+    projects/xntsv/XProcessModulesWidget/dialogxprocessmodules.ui \
+    projects/xntsv/XProcessModulesWidget/xprocessmoduleswidget.ui \
     projects/xntsv/XProcessWidget/xprocessdialoghex.ui \
     projects/xntsv/XProcessWidget/xprocesswidget.ui \
     projects/xntsv/XShortcuts/dialogshortcuts.ui \
@@ -597,6 +623,9 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/NE/neprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/DIE-engine/FormatWidgets/NE/newidget.cpp \
+    projects/DIE-engine/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/DIE-engine/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/DIE-engine/FormatWidgets/PDF/pdfwidget.cpp \
     projects/DIE-engine/FormatWidgets/PE/dialogpe.cpp \
     projects/DIE-engine/FormatWidgets/PE/pe_defs.cpp \
     projects/DIE-engine/FormatWidgets/PE/peprocessdata.cpp \
@@ -627,6 +656,9 @@ SOURCES += \
     projects/DIE-engine/Formats/xmsdos.cpp \
     projects/DIE-engine/Formats/xne.cpp \
     projects/DIE-engine/Formats/xpe.cpp \
+    projects/DIE-engine/QHexView/dialoghex.cpp \
+    projects/DIE-engine/QHexView/qhexview.cpp \
+    projects/DIE-engine/QHexView/qhexviewwidget.cpp \
     projects/DIE-engine/SpecAbstract/signatures.cpp \
     projects/DIE-engine/SpecAbstract/specabstract.cpp \
     projects/DIE-engine/StaticScan/dialogstaticscan.cpp \
@@ -662,6 +694,7 @@ SOURCES += \
     projects/DIE-engine/XDisasm/xdisasmwidget.cpp \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.cpp \
     projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/DIE-engine/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/DIE-engine/XDisasmView/xdisasmview.cpp \
     projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.cpp \
@@ -675,12 +708,15 @@ SOURCES += \
     projects/DIE-engine/XFileInfo/dialogxfileinfo.cpp \
     projects/DIE-engine/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/DIE-engine/XFileInfo/xfileinfo.cpp \
+    projects/DIE-engine/XFileInfo/xfileinfoitem.cpp \
+    projects/DIE-engine/XFileInfo/xfileinfomodel.cpp \
     projects/DIE-engine/XFileInfo/xfileinfowidget.cpp \
     projects/DIE-engine/XGithub/xgithub.cpp \
     projects/DIE-engine/XHashWidget/dialoghash.cpp \
     projects/DIE-engine/XHashWidget/dialoghashprocess.cpp \
     projects/DIE-engine/XHashWidget/hashprocess.cpp \
     projects/DIE-engine/XHashWidget/xhashwidget.cpp \
+    projects/DIE-engine/XHexEdit/dialoghexedit.cpp \
     projects/DIE-engine/XHexEdit/xhexedit.cpp \
     projects/DIE-engine/XHexView/dialoghexview.cpp \
     projects/DIE-engine/XHexView/xhexview.cpp \
@@ -697,12 +733,15 @@ SOURCES += \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/DIE-engine/XOptions/xoptions.cpp \
     projects/DIE-engine/XOptions/xoptionswidget.cpp \
+    projects/DIE-engine/XPDF/xpdf.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -736,6 +775,7 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -743,6 +783,7 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -752,6 +793,7 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -765,13 +807,27 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -783,6 +839,13 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -790,6 +853,8 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/DIE-engine/XShortcuts/dialogshortcuts.cpp \
@@ -851,6 +916,7 @@ SOURCES += \
     projects/PDBRipper/gui_source/dialogprocess.cpp \
     projects/PDBRipper/gui_source/guimainwindow.cpp \
     projects/PDBRipper/gui_source/main_gui.cpp \
+    projects/PDBRipper/msdia/diaCreate.cpp \
     projects/PDBRipper/pdbprocess.cpp \
     projects/PDBRipper/qwinpdb.cpp \
     projects/PDBRipper/winloader_source/winloader.cpp \
@@ -904,6 +970,9 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/NE/neprocessdata.cpp \
     projects/XAPKDetector/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/XAPKDetector/FormatWidgets/NE/newidget.cpp \
+    projects/XAPKDetector/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/XAPKDetector/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/XAPKDetector/FormatWidgets/PDF/pdfwidget.cpp \
     projects/XAPKDetector/FormatWidgets/PE/dialogpe.cpp \
     projects/XAPKDetector/FormatWidgets/PE/pe_defs.cpp \
     projects/XAPKDetector/FormatWidgets/PE/peprocessdata.cpp \
@@ -972,6 +1041,7 @@ SOURCES += \
     projects/XAPKDetector/XDisasm/xdisasmwidget.cpp \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.cpp \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/XAPKDetector/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/XAPKDetector/XDisasmView/xdisasmview.cpp \
     projects/XAPKDetector/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.cpp \
@@ -985,11 +1055,14 @@ SOURCES += \
     projects/XAPKDetector/XFileInfo/dialogxfileinfo.cpp \
     projects/XAPKDetector/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfo.cpp \
+    projects/XAPKDetector/XFileInfo/xfileinfoitem.cpp \
+    projects/XAPKDetector/XFileInfo/xfileinfomodel.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfowidget.cpp \
     projects/XAPKDetector/XHashWidget/dialoghash.cpp \
     projects/XAPKDetector/XHashWidget/dialoghashprocess.cpp \
     projects/XAPKDetector/XHashWidget/hashprocess.cpp \
     projects/XAPKDetector/XHashWidget/xhashwidget.cpp \
+    projects/XAPKDetector/XHexEdit/dialoghexedit.cpp \
     projects/XAPKDetector/XHexEdit/xhexedit.cpp \
     projects/XAPKDetector/XHexView/dialoghexview.cpp \
     projects/XAPKDetector/XHexView/xhexview.cpp \
@@ -1003,12 +1076,15 @@ SOURCES += \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XAPKDetector/XOptions/xoptions.cpp \
     projects/XAPKDetector/XOptions/xoptionswidget.cpp \
+    projects/XAPKDetector/XPDF/xpdf.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -1042,6 +1118,7 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -1049,6 +1126,7 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -1058,6 +1136,7 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -1071,13 +1150,27 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -1089,6 +1182,13 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -1096,6 +1196,8 @@ SOURCES += \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/XAPKDetector/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/XAPKDetector/XShortcuts/dialogshortcuts.cpp \
@@ -1169,6 +1271,9 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/NE/neprocessdata.cpp \
     projects/XELFViewer/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/XELFViewer/FormatWidgets/NE/newidget.cpp \
+    projects/XELFViewer/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/XELFViewer/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/XELFViewer/FormatWidgets/PDF/pdfwidget.cpp \
     projects/XELFViewer/FormatWidgets/PE/dialogpe.cpp \
     projects/XELFViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XELFViewer/FormatWidgets/PE/peprocessdata.cpp \
@@ -1199,9 +1304,6 @@ SOURCES += \
     projects/XELFViewer/Formats/xmsdos.cpp \
     projects/XELFViewer/Formats/xne.cpp \
     projects/XELFViewer/Formats/xpe.cpp \
-    projects/XELFViewer/QHexView/dialoghex.cpp \
-    projects/XELFViewer/QHexView/qhexview.cpp \
-    projects/XELFViewer/QHexView/qhexviewwidget.cpp \
     projects/XELFViewer/SpecAbstract/signatures.cpp \
     projects/XELFViewer/SpecAbstract/specabstract.cpp \
     projects/XELFViewer/StaticScan/dialogstaticscan.cpp \
@@ -1228,15 +1330,9 @@ SOURCES += \
     projects/XELFViewer/XDemangle/xdemangle.cpp \
     projects/XELFViewer/XDemangleWidget/dialogdemangle.cpp \
     projects/XELFViewer/XDemangleWidget/xdemanglewidget.cpp \
-    projects/XELFViewer/XDisasm/dialogasmsignature.cpp \
-    projects/XELFViewer/XDisasm/dialogdisasm.cpp \
-    projects/XELFViewer/XDisasm/dialogdisasmlabels.cpp \
-    projects/XELFViewer/XDisasm/dialogdisasmprocess.cpp \
-    projects/XELFViewer/XDisasm/xdisasm.cpp \
-    projects/XELFViewer/XDisasm/xdisasmmodel.cpp \
-    projects/XELFViewer/XDisasm/xdisasmwidget.cpp \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XELFViewer/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/XELFViewer/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/XELFViewer/XDisasmView/xdisasmview.cpp \
     projects/XELFViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.cpp \
@@ -1250,11 +1346,14 @@ SOURCES += \
     projects/XELFViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XELFViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XELFViewer/XFileInfo/xfileinfo.cpp \
+    projects/XELFViewer/XFileInfo/xfileinfoitem.cpp \
+    projects/XELFViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XELFViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XELFViewer/XHashWidget/dialoghash.cpp \
     projects/XELFViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XELFViewer/XHashWidget/hashprocess.cpp \
     projects/XELFViewer/XHashWidget/xhashwidget.cpp \
+    projects/XELFViewer/XHexEdit/dialoghexedit.cpp \
     projects/XELFViewer/XHexEdit/xhexedit.cpp \
     projects/XELFViewer/XHexView/dialoghexview.cpp \
     projects/XELFViewer/XHexView/xhexview.cpp \
@@ -1268,12 +1367,15 @@ SOURCES += \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XELFViewer/XOptions/xoptions.cpp \
     projects/XELFViewer/XOptions/xoptionswidget.cpp \
+    projects/XELFViewer/XPDF/xpdf.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -1307,6 +1409,7 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -1314,6 +1417,7 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -1323,6 +1427,7 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -1336,13 +1441,27 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -1354,6 +1473,13 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -1361,6 +1487,8 @@ SOURCES += \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/XELFViewer/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/XELFViewer/XShortcuts/dialogshortcuts.cpp \
@@ -1422,6 +1550,9 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/NE/neprocessdata.cpp \
     projects/XMACHOViewer/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/NE/newidget.cpp \
+    projects/XMACHOViewer/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/XMACHOViewer/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/XMACHOViewer/FormatWidgets/PDF/pdfwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/dialogpe.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/peprocessdata.cpp \
@@ -1452,9 +1583,6 @@ SOURCES += \
     projects/XMACHOViewer/Formats/xmsdos.cpp \
     projects/XMACHOViewer/Formats/xne.cpp \
     projects/XMACHOViewer/Formats/xpe.cpp \
-    projects/XMACHOViewer/QHexView/dialoghex.cpp \
-    projects/XMACHOViewer/QHexView/qhexview.cpp \
-    projects/XMACHOViewer/QHexView/qhexviewwidget.cpp \
     projects/XMACHOViewer/SpecAbstract/signatures.cpp \
     projects/XMACHOViewer/SpecAbstract/specabstract.cpp \
     projects/XMACHOViewer/StaticScan/dialogstaticscan.cpp \
@@ -1490,6 +1618,7 @@ SOURCES += \
     projects/XMACHOViewer/XDisasm/xdisasmwidget.cpp \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XMACHOViewer/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/XMACHOViewer/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/XMACHOViewer/XDisasmView/xdisasmview.cpp \
     projects/XMACHOViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.cpp \
@@ -1503,11 +1632,14 @@ SOURCES += \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfo.cpp \
+    projects/XMACHOViewer/XFileInfo/xfileinfoitem.cpp \
+    projects/XMACHOViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghash.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XMACHOViewer/XHashWidget/hashprocess.cpp \
     projects/XMACHOViewer/XHashWidget/xhashwidget.cpp \
+    projects/XMACHOViewer/XHexEdit/dialoghexedit.cpp \
     projects/XMACHOViewer/XHexEdit/xhexedit.cpp \
     projects/XMACHOViewer/XHexView/dialoghexview.cpp \
     projects/XMACHOViewer/XHexView/xhexview.cpp \
@@ -1521,12 +1653,15 @@ SOURCES += \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XMACHOViewer/XOptions/xoptions.cpp \
     projects/XMACHOViewer/XOptions/xoptionswidget.cpp \
+    projects/XMACHOViewer/XPDF/xpdf.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -1560,6 +1695,7 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -1567,6 +1703,7 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -1576,6 +1713,7 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -1589,13 +1727,27 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -1607,6 +1759,13 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -1614,6 +1773,8 @@ SOURCES += \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/XMACHOViewer/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/XMACHOViewer/XShortcuts/dialogshortcuts.cpp \
@@ -1684,6 +1845,9 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/NE/neprocessdata.cpp \
     projects/XPEViewer/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/XPEViewer/FormatWidgets/NE/newidget.cpp \
+    projects/XPEViewer/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/XPEViewer/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/XPEViewer/FormatWidgets/PDF/pdfwidget.cpp \
     projects/XPEViewer/FormatWidgets/PE/dialogpe.cpp \
     projects/XPEViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XPEViewer/FormatWidgets/PE/peprocessdata.cpp \
@@ -1742,6 +1906,7 @@ SOURCES += \
     projects/XPEViewer/XDemangleWidget/xdemanglewidget.cpp \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.cpp \
     projects/XPEViewer/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/XPEViewer/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/XPEViewer/XDisasmView/xdisasmview.cpp \
     projects/XPEViewer/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.cpp \
@@ -1755,11 +1920,14 @@ SOURCES += \
     projects/XPEViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XPEViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XPEViewer/XFileInfo/xfileinfo.cpp \
+    projects/XPEViewer/XFileInfo/xfileinfoitem.cpp \
+    projects/XPEViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XPEViewer/XFileInfo/xfileinfowidget.cpp \
     projects/XPEViewer/XHashWidget/dialoghash.cpp \
     projects/XPEViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XPEViewer/XHashWidget/hashprocess.cpp \
     projects/XPEViewer/XHashWidget/xhashwidget.cpp \
+    projects/XPEViewer/XHexEdit/dialoghexedit.cpp \
     projects/XPEViewer/XHexEdit/xhexedit.cpp \
     projects/XPEViewer/XHexView/dialoghexview.cpp \
     projects/XPEViewer/XHexView/xhexview.cpp \
@@ -1773,12 +1941,15 @@ SOURCES += \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/XPEViewer/XOptions/xoptions.cpp \
     projects/XPEViewer/XOptions/xoptionswidget.cpp \
+    projects/XPEViewer/XPDF/xpdf.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -1812,6 +1983,7 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -1819,6 +1991,7 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -1828,6 +2001,7 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -1841,13 +2015,27 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -1859,6 +2047,13 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -1866,6 +2061,8 @@ SOURCES += \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/XPEViewer/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/XPEViewer/XShortcuts/dialogshortcuts.cpp \
@@ -1927,6 +2124,9 @@ SOURCES += \
     projects/xntsv/FormatWidgets/NE/neprocessdata.cpp \
     projects/xntsv/FormatWidgets/NE/nesectionheaderwidget.cpp \
     projects/xntsv/FormatWidgets/NE/newidget.cpp \
+    projects/xntsv/FormatWidgets/PDF/dialogpdf.cpp \
+    projects/xntsv/FormatWidgets/PDF/pdf_defs.cpp \
+    projects/xntsv/FormatWidgets/PDF/pdfwidget.cpp \
     projects/xntsv/FormatWidgets/PE/dialogpe.cpp \
     projects/xntsv/FormatWidgets/PE/pe_defs.cpp \
     projects/xntsv/FormatWidgets/PE/peprocessdata.cpp \
@@ -1957,6 +2157,9 @@ SOURCES += \
     projects/xntsv/Formats/xmsdos.cpp \
     projects/xntsv/Formats/xne.cpp \
     projects/xntsv/Formats/xpe.cpp \
+    projects/xntsv/QHexView/dialoghex.cpp \
+    projects/xntsv/QHexView/qhexview.cpp \
+    projects/xntsv/QHexView/qhexviewwidget.cpp \
     projects/xntsv/SpecAbstract/signatures.cpp \
     projects/xntsv/SpecAbstract/specabstract.cpp \
     projects/xntsv/StaticScan/dialogstaticscan.cpp \
@@ -1983,8 +2186,16 @@ SOURCES += \
     projects/xntsv/XDemangle/xdemangle.cpp \
     projects/xntsv/XDemangleWidget/dialogdemangle.cpp \
     projects/xntsv/XDemangleWidget/xdemanglewidget.cpp \
+    projects/xntsv/XDisasm/dialogasmsignature.cpp \
+    projects/xntsv/XDisasm/dialogdisasm.cpp \
+    projects/xntsv/XDisasm/dialogdisasmlabels.cpp \
+    projects/xntsv/XDisasm/dialogdisasmprocess.cpp \
+    projects/xntsv/XDisasm/xdisasm.cpp \
+    projects/xntsv/XDisasm/xdisasmmodel.cpp \
+    projects/xntsv/XDisasm/xdisasmwidget.cpp \
     projects/xntsv/XDisasmView/dialogmultidisasm.cpp \
     projects/xntsv/XDisasmView/dialogmultidisasmsignature.cpp \
+    projects/xntsv/XDisasmView/dialogxdisasmviewcolors.cpp \
     projects/xntsv/XDisasmView/xdisasmview.cpp \
     projects/xntsv/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/xntsv/XDisasmView/xmultidisasmwidget.cpp \
@@ -1998,6 +2209,8 @@ SOURCES += \
     projects/xntsv/XFileInfo/dialogxfileinfo.cpp \
     projects/xntsv/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/xntsv/XFileInfo/xfileinfo.cpp \
+    projects/xntsv/XFileInfo/xfileinfoitem.cpp \
+    projects/xntsv/XFileInfo/xfileinfomodel.cpp \
     projects/xntsv/XFileInfo/xfileinfowidget.cpp \
     projects/xntsv/XHashWidget/dialoghash.cpp \
     projects/xntsv/XHashWidget/dialoghashprocess.cpp \
@@ -2007,21 +2220,31 @@ SOURCES += \
     projects/xntsv/XHexView/xhexview.cpp \
     projects/xntsv/XHexView/xhexviewoptionswidget.cpp \
     projects/xntsv/XHexView/xhexviewwidget.cpp \
+    projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
+    projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
+    projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
+    projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.cpp \
     projects/xntsv/XOptions/xoptions.cpp \
     projects/xntsv/XOptions/xoptionswidget.cpp \
+    projects/xntsv/XPDF/xpdf.cpp \
     projects/xntsv/XProcess/xprocess.cpp \
     projects/xntsv/XProcess/xprocessdevice.cpp \
+    projects/xntsv/XProcessMemoryMapWidget/dialogxprocessmemorymap.cpp \
     projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.cpp \
+    projects/xntsv/XProcessModulesWidget/dialogxprocessmodules.cpp \
+    projects/xntsv/XProcessModulesWidget/xprocessmoduleswidget.cpp \
     projects/xntsv/XProcessWidget/xprocessdialoghex.cpp \
     projects/xntsv/XProcessWidget/xprocesswidget.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_legend.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_scale.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_scale_draw.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_abstract_slider.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_analog_clock.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_arrow_button.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_bezier.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_clipper.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_color_map.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_column_symbol.cpp \
@@ -2055,6 +2278,7 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_pixel_matrix.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_abstract_barchart.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_abstract_canvas.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_axis.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_barchart.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_canvas.cpp \
@@ -2062,6 +2286,7 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_dict.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_directpainter.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_glcanvas.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_graphicitem.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_grid.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_histogram.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_intervalcurve.cpp \
@@ -2071,6 +2296,7 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_magnifier.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_marker.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_multi_barchart.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_opengl_canvas.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_panner.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_picker.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_rasteritem.cpp \
@@ -2084,13 +2310,27 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_svgitem.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_textlabel.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_tradingcurve.cpp \
-    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_xml.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_vectorfield.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_zoneitem.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_plot_zoomer.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_3d.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_data.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_mapper.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_point_polar.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_canvas.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_curve.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_fitter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_grid.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_item.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_itemdict.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_layout.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_magnifier.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_marker.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_panner.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_picker.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_plot.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_renderer.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_polar_spectrogram.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_raster_data.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_round_scale_draw.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_sampling_thread.cpp \
@@ -2102,6 +2342,13 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_series_data.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_slider.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_basis.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_cubic.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_curve_fitter.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_local.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_parametrization.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_pleasing.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_spline_polynomial.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_symbol.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_system_clock.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_text.cpp \
@@ -2109,6 +2356,8 @@ SOURCES += \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_text_label.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_thermo.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_transform.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_vectorfield_symbol.cpp \
+    projects/xntsv/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/xntsv/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
     projects/xntsv/XShortcuts/dialogshortcuts.cpp \
