@@ -22,6 +22,7 @@ TRANSLATIONS = \
 FORMS += \
     projects/DIE-engine/FormatDialogs/dialogdump.ui \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.ui \
+    projects/DIE-engine/FormatDialogs/dialogeditstring.ui \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.ui \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.ui \
     projects/DIE-engine/FormatDialogs/dialogsearch.ui \
@@ -85,6 +86,7 @@ FORMS += \
     projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.ui \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/DIE-engine/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/DIE-engine/XDynStructsWidget/xdynstructswidget.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropy.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.ui \
@@ -132,6 +134,7 @@ FORMS += \
     projects/PDBRipper/gui_source/guimainwindow.ui \
     projects/XAPKDetector/FormatDialogs/dialogdump.ui \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.ui \
+    projects/XAPKDetector/FormatDialogs/dialogeditstring.ui \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.ui \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.ui \
     projects/XAPKDetector/FormatDialogs/dialogsearch.ui \
@@ -173,8 +176,6 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/dialogsectionheader.ui \
     projects/XAPKDetector/FormatWidgets/formatswidget.ui \
     projects/XAPKDetector/FormatWidgets/toolswidget.ui \
-    projects/XAPKDetector/QHexView/dialoghex.ui \
-    projects/XAPKDetector/QHexView/qhexviewwidget.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscan.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscandirectory.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscanprocess.ui \
@@ -184,17 +185,13 @@ FORMS += \
     projects/XAPKDetector/StaticScan/staticscanoptionswidget.ui \
     projects/XAPKDetector/XDemangleWidget/dialogdemangle.ui \
     projects/XAPKDetector/XDemangleWidget/xdemanglewidget.ui \
-    projects/XAPKDetector/XDisasm/dialogasmsignature.ui \
-    projects/XAPKDetector/XDisasm/dialogdisasm.ui \
-    projects/XAPKDetector/XDisasm/dialogdisasmlabels.ui \
-    projects/XAPKDetector/XDisasm/dialogdisasmprocess.ui \
-    projects/XAPKDetector/XDisasm/xdisasmwidget.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.ui \
     projects/XAPKDetector/XDisasmView/dialogxdisasmviewcolors.ui \
     projects/XAPKDetector/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.ui \
     projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XAPKDetector/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/XAPKDetector/XDynStructsWidget/xdynstructswidget.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.ui \
@@ -226,6 +223,7 @@ FORMS += \
     projects/XAPKDetector/nfd_widget/nfd_widget.ui \
     projects/XELFViewer/FormatDialogs/dialogdump.ui \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.ui \
+    projects/XELFViewer/FormatDialogs/dialogeditstring.ui \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XELFViewer/FormatDialogs/dialogsearch.ui \
@@ -282,6 +280,7 @@ FORMS += \
     projects/XELFViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XELFViewer/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/XELFViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropy.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.ui \
@@ -305,6 +304,7 @@ FORMS += \
     projects/XELFViewer/gui_source/guimainwindow.ui \
     projects/XMACHOViewer/FormatDialogs/dialogdump.ui \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.ui \
+    projects/XMACHOViewer/FormatDialogs/dialogeditstring.ui \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.ui \
@@ -366,6 +366,7 @@ FORMS += \
     projects/XMACHOViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XMACHOViewer/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/XMACHOViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.ui \
@@ -396,6 +397,7 @@ FORMS += \
     projects/XMACHOViewer/nfd_widget/nfd_widget.ui \
     projects/XPEViewer/FormatDialogs/dialogdump.ui \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.ui \
+    projects/XPEViewer/FormatDialogs/dialogeditstring.ui \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XPEViewer/FormatDialogs/dialogsearch.ui \
@@ -452,6 +454,7 @@ FORMS += \
     projects/XPEViewer/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.ui \
     projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/XPEViewer/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/XPEViewer/XDynStructsWidget/xdynstructswidget.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropy.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.ui \
@@ -475,6 +478,7 @@ FORMS += \
     projects/XPEViewer/gui_source/guimainwindow.ui \
     projects/xntsv/FormatDialogs/dialogdump.ui \
     projects/xntsv/FormatDialogs/dialogdumpprocess.ui \
+    projects/xntsv/FormatDialogs/dialogeditstring.ui \
     projects/xntsv/FormatDialogs/dialoggotoaddress.ui \
     projects/xntsv/FormatDialogs/dialoghexsignature.ui \
     projects/xntsv/FormatDialogs/dialogsearch.ui \
@@ -538,6 +542,7 @@ FORMS += \
     projects/xntsv/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/xntsv/XDisasmView/xmultidisasmwidget.ui \
     projects/xntsv/XDynStructsWidget/dialogxdynstructs.ui \
+    projects/xntsv/XDynStructsWidget/xdynstructsoptionswidget.ui \
     projects/xntsv/XDynStructsWidget/xdynstructswidget.ui \
     projects/xntsv/XEntropyWidget/dialogentropy.ui \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.ui \
@@ -548,6 +553,7 @@ FORMS += \
     projects/xntsv/XHashWidget/dialoghash.ui \
     projects/xntsv/XHashWidget/dialoghashprocess.ui \
     projects/xntsv/XHashWidget/xhashwidget.ui \
+    projects/xntsv/XHexEdit/dialoghexedit.ui \
     projects/xntsv/XHexView/dialoghexview.ui \
     projects/xntsv/XHexView/xhexviewoptionswidget.ui \
     projects/xntsv/XHexView/xhexviewwidget.ui \
@@ -582,6 +588,7 @@ SOURCES += \
     projects/DIE-engine/Controls/xhtml.cpp \
     projects/DIE-engine/Controls/xlineedithex.cpp \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.cpp \
+    projects/DIE-engine/FormatDialogs/dialogeditstring.cpp \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.cpp \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.cpp \
     projects/DIE-engine/FormatDialogs/dialogsearch.cpp \
@@ -651,6 +658,7 @@ SOURCES += \
     projects/DIE-engine/Formats/xcom.cpp \
     projects/DIE-engine/Formats/xelf.cpp \
     projects/DIE-engine/Formats/xformats.cpp \
+    projects/DIE-engine/Formats/xiodevice.cpp \
     projects/DIE-engine/Formats/xle.cpp \
     projects/DIE-engine/Formats/xmach.cpp \
     projects/DIE-engine/Formats/xmsdos.cpp \
@@ -700,6 +708,7 @@ SOURCES += \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.cpp \
     projects/DIE-engine/XDynStructsEngine/xdynstructsengine.cpp \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/DIE-engine/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/DIE-engine/XDynStructsWidget/xdynstructswidget.cpp \
     projects/DIE-engine/XEntropyWidget/dialogentropy.cpp \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.cpp \
@@ -929,6 +938,7 @@ SOURCES += \
     projects/XAPKDetector/Controls/xhtml.cpp \
     projects/XAPKDetector/Controls/xlineedithex.cpp \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.cpp \
+    projects/XAPKDetector/FormatDialogs/dialogeditstring.cpp \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.cpp \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.cpp \
     projects/XAPKDetector/FormatDialogs/dialogsearch.cpp \
@@ -998,14 +1008,12 @@ SOURCES += \
     projects/XAPKDetector/Formats/xcom.cpp \
     projects/XAPKDetector/Formats/xelf.cpp \
     projects/XAPKDetector/Formats/xformats.cpp \
+    projects/XAPKDetector/Formats/xiodevice.cpp \
     projects/XAPKDetector/Formats/xle.cpp \
     projects/XAPKDetector/Formats/xmach.cpp \
     projects/XAPKDetector/Formats/xmsdos.cpp \
     projects/XAPKDetector/Formats/xne.cpp \
     projects/XAPKDetector/Formats/xpe.cpp \
-    projects/XAPKDetector/QHexView/dialoghex.cpp \
-    projects/XAPKDetector/QHexView/qhexview.cpp \
-    projects/XAPKDetector/QHexView/qhexviewwidget.cpp \
     projects/XAPKDetector/SpecAbstract/signatures.cpp \
     projects/XAPKDetector/SpecAbstract/specabstract.cpp \
     projects/XAPKDetector/StaticScan/dialogstaticscan.cpp \
@@ -1032,13 +1040,6 @@ SOURCES += \
     projects/XAPKDetector/XDemangle/xdemangle.cpp \
     projects/XAPKDetector/XDemangleWidget/dialogdemangle.cpp \
     projects/XAPKDetector/XDemangleWidget/xdemanglewidget.cpp \
-    projects/XAPKDetector/XDisasm/dialogasmsignature.cpp \
-    projects/XAPKDetector/XDisasm/dialogdisasm.cpp \
-    projects/XAPKDetector/XDisasm/dialogdisasmlabels.cpp \
-    projects/XAPKDetector/XDisasm/dialogdisasmprocess.cpp \
-    projects/XAPKDetector/XDisasm/xdisasm.cpp \
-    projects/XAPKDetector/XDisasm/xdisasmmodel.cpp \
-    projects/XAPKDetector/XDisasm/xdisasmwidget.cpp \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.cpp \
     projects/XAPKDetector/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/XAPKDetector/XDisasmView/dialogxdisasmviewcolors.cpp \
@@ -1047,6 +1048,7 @@ SOURCES += \
     projects/XAPKDetector/XDisasmView/xmultidisasmwidget.cpp \
     projects/XAPKDetector/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XAPKDetector/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XAPKDetector/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/XAPKDetector/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.cpp \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.cpp \
@@ -1230,6 +1232,7 @@ SOURCES += \
     projects/XELFViewer/Controls/xhtml.cpp \
     projects/XELFViewer/Controls/xlineedithex.cpp \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.cpp \
+    projects/XELFViewer/FormatDialogs/dialogeditstring.cpp \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XELFViewer/FormatDialogs/dialogsearch.cpp \
@@ -1299,6 +1302,7 @@ SOURCES += \
     projects/XELFViewer/Formats/xcom.cpp \
     projects/XELFViewer/Formats/xelf.cpp \
     projects/XELFViewer/Formats/xformats.cpp \
+    projects/XELFViewer/Formats/xiodevice.cpp \
     projects/XELFViewer/Formats/xle.cpp \
     projects/XELFViewer/Formats/xmach.cpp \
     projects/XELFViewer/Formats/xmsdos.cpp \
@@ -1338,6 +1342,7 @@ SOURCES += \
     projects/XELFViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XELFViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XELFViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XELFViewer/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/XELFViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XELFViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.cpp \
@@ -1509,6 +1514,7 @@ SOURCES += \
     projects/XMACHOViewer/Controls/xhtml.cpp \
     projects/XMACHOViewer/Controls/xlineedithex.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.cpp \
+    projects/XMACHOViewer/FormatDialogs/dialogeditstring.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.cpp \
@@ -1578,6 +1584,7 @@ SOURCES += \
     projects/XMACHOViewer/Formats/xcom.cpp \
     projects/XMACHOViewer/Formats/xelf.cpp \
     projects/XMACHOViewer/Formats/xformats.cpp \
+    projects/XMACHOViewer/Formats/xiodevice.cpp \
     projects/XMACHOViewer/Formats/xle.cpp \
     projects/XMACHOViewer/Formats/xmach.cpp \
     projects/XMACHOViewer/Formats/xmsdos.cpp \
@@ -1624,6 +1631,7 @@ SOURCES += \
     projects/XMACHOViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XMACHOViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XMACHOViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XMACHOViewer/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/XMACHOViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.cpp \
@@ -1804,6 +1812,7 @@ SOURCES += \
     projects/XPEViewer/Controls/xhtml.cpp \
     projects/XPEViewer/Controls/xlineedithex.cpp \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.cpp \
+    projects/XPEViewer/FormatDialogs/dialogeditstring.cpp \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XPEViewer/FormatDialogs/dialogsearch.cpp \
@@ -1873,6 +1882,7 @@ SOURCES += \
     projects/XPEViewer/Formats/xcom.cpp \
     projects/XPEViewer/Formats/xelf.cpp \
     projects/XPEViewer/Formats/xformats.cpp \
+    projects/XPEViewer/Formats/xiodevice.cpp \
     projects/XPEViewer/Formats/xle.cpp \
     projects/XPEViewer/Formats/xmach.cpp \
     projects/XPEViewer/Formats/xmsdos.cpp \
@@ -1912,6 +1922,7 @@ SOURCES += \
     projects/XPEViewer/XDisasmView/xmultidisasmwidget.cpp \
     projects/XPEViewer/XDynStructsEngine/xdynstructsengine.cpp \
     projects/XPEViewer/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/XPEViewer/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/XPEViewer/XDynStructsWidget/xdynstructswidget.cpp \
     projects/XPEViewer/XEntropyWidget/dialogentropy.cpp \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.cpp \
@@ -2083,6 +2094,7 @@ SOURCES += \
     projects/xntsv/Controls/xhtml.cpp \
     projects/xntsv/Controls/xlineedithex.cpp \
     projects/xntsv/FormatDialogs/dialogdumpprocess.cpp \
+    projects/xntsv/FormatDialogs/dialogeditstring.cpp \
     projects/xntsv/FormatDialogs/dialoggotoaddress.cpp \
     projects/xntsv/FormatDialogs/dialoghexsignature.cpp \
     projects/xntsv/FormatDialogs/dialogsearch.cpp \
@@ -2152,6 +2164,7 @@ SOURCES += \
     projects/xntsv/Formats/xcom.cpp \
     projects/xntsv/Formats/xelf.cpp \
     projects/xntsv/Formats/xformats.cpp \
+    projects/xntsv/Formats/xiodevice.cpp \
     projects/xntsv/Formats/xle.cpp \
     projects/xntsv/Formats/xmach.cpp \
     projects/xntsv/Formats/xmsdos.cpp \
@@ -2201,6 +2214,7 @@ SOURCES += \
     projects/xntsv/XDisasmView/xmultidisasmwidget.cpp \
     projects/xntsv/XDynStructsEngine/xdynstructsengine.cpp \
     projects/xntsv/XDynStructsWidget/dialogxdynstructs.cpp \
+    projects/xntsv/XDynStructsWidget/xdynstructsoptionswidget.cpp \
     projects/xntsv/XDynStructsWidget/xdynstructswidget.cpp \
     projects/xntsv/XEntropyWidget/dialogentropy.cpp \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.cpp \
@@ -2216,6 +2230,8 @@ SOURCES += \
     projects/xntsv/XHashWidget/dialoghashprocess.cpp \
     projects/xntsv/XHashWidget/hashprocess.cpp \
     projects/xntsv/XHashWidget/xhashwidget.cpp \
+    projects/xntsv/XHexEdit/dialoghexedit.cpp \
+    projects/xntsv/XHexEdit/xhexedit.cpp \
     projects/xntsv/XHexView/dialoghexview.cpp \
     projects/xntsv/XHexView/xhexview.cpp \
     projects/xntsv/XHexView/xhexviewoptionswidget.cpp \
@@ -2365,6 +2381,7 @@ SOURCES += \
     projects/xntsv/XShortcuts/xshortcutsdialog.cpp \
     projects/xntsv/XShortcuts/xshortcutstscrollarea.cpp \
     projects/xntsv/XShortcuts/xshortcutswidget.cpp \
+    projects/xntsv/XWinIODriver/xwiniodriver.cpp \
     projects/xntsv/archive_widget/archive_widget.cpp \
     projects/xntsv/archive_widget/createviewmodelprocess.cpp \
     projects/xntsv/archive_widget/dialogarchive.cpp \
@@ -2378,5 +2395,4 @@ SOURCES += \
     projects/xntsv/gui_source/guimainwindow.cpp \
     projects/xntsv/gui_source/main_gui.cpp \
     projects/xntsv/nfd_widget/nfd_widget.cpp
-
 
