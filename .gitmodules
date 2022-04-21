@@ -22,3 +22,6 @@
 [submodule "projects/PDBRipper"]
 	path = projects/PDBRipper
 	url = https://github.com/horsicq/PDBRipper
+[submodule "projects/Nauz-File-Detector"]
+	path = projects/Nauz-File-Detector
+	url = https://github.com/horsicq/Nauz-File-Detector
