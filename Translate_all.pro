@@ -101,12 +101,15 @@ FORMS += \
     projects/DIE-engine/XHexView/dialoghexview.ui \
     projects/DIE-engine/XHexView/xhexviewoptionswidget.ui \
     projects/DIE-engine/XHexView/xhexviewwidget.ui \
+    projects/DIE-engine/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/DIE-engine/XMIMEWidget/dialogmime.ui \
     projects/DIE-engine/XMIMEWidget/xmimewidget.ui \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.ui \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/DIE-engine/XOptions/xoptionswidget.ui \
     projects/DIE-engine/XShortcuts/dialogshortcuts.ui \
+    projects/DIE-engine/XSymbolsWidget/dialogxsymbols.ui \
+    projects/DIE-engine/XSymbolsWidget/xsymbolswidget.ui \
     projects/DIE-engine/archive_widget/archive_widget.ui \
     projects/DIE-engine/archive_widget/dialogarchive.ui \
     projects/DIE-engine/archive_widget/dialogcreateviewmodel.ui \
@@ -125,6 +128,29 @@ FORMS += \
     projects/DIE-engine/gui_source/guimainwindow.ui \
     projects/DIE-engine/lite_source/litemainwindow.ui \
     projects/DIE-engine/nfd_widget/nfd_widget.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogdump.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogdumpprocess.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogsearch.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogsearchprocess.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.ui \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscan.ui \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.ui \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscanprocess.ui \
+    projects/Nauz-File-Detector/StaticScan/formresult.ui \
+    projects/Nauz-File-Detector/StaticScan/formstaticscan.ui \
+    projects/Nauz-File-Detector/StaticScan/heurwidget.ui \
+    projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.ui \
+    projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/Nauz-File-Detector/XOptions/xoptionswidget.ui \
+    projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.ui \
+    projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.ui \
+    projects/Nauz-File-Detector/XSymbolsWidget/xsymbolswidget.ui \
+    projects/Nauz-File-Detector/gui_source/dialogabout.ui \
+    projects/Nauz-File-Detector/gui_source/dialogoptions.ui \
+    projects/Nauz-File-Detector/gui_source/guimainwindow.ui \
     projects/PDBRipper/XOptions/xoptionswidget.ui \
     projects/PDBRipper/XShortcuts/dialogshortcuts.ui \
     projects/PDBRipper/gui_source/dialogabout.ui \
@@ -206,10 +232,13 @@ FORMS += \
     projects/XAPKDetector/XHexView/dialoghexview.ui \
     projects/XAPKDetector/XHexView/xhexviewoptionswidget.ui \
     projects/XAPKDetector/XHexView/xhexviewwidget.ui \
+    projects/XAPKDetector/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XAPKDetector/XOptions/xoptionswidget.ui \
     projects/XAPKDetector/XShortcuts/dialogshortcuts.ui \
+    projects/XAPKDetector/XSymbolsWidget/dialogxsymbols.ui \
+    projects/XAPKDetector/XSymbolsWidget/xsymbolswidget.ui \
     projects/XAPKDetector/archive_widget/archive_widget.ui \
     projects/XAPKDetector/archive_widget/dialogarchive.ui \
     projects/XAPKDetector/archive_widget/dialogcreateviewmodel.ui \
@@ -295,10 +324,13 @@ FORMS += \
     projects/XELFViewer/XHexView/dialoghexview.ui \
     projects/XELFViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XELFViewer/XHexView/xhexviewwidget.ui \
+    projects/XELFViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XELFViewer/XOptions/xoptionswidget.ui \
     projects/XELFViewer/XShortcuts/dialogshortcuts.ui \
+    projects/XELFViewer/XSymbolsWidget/dialogxsymbols.ui \
+    projects/XELFViewer/XSymbolsWidget/xsymbolswidget.ui \
     projects/XELFViewer/gui_source/dialogabout.ui \
     projects/XELFViewer/gui_source/dialogoptions.ui \
     projects/XELFViewer/gui_source/guimainwindow.ui \
@@ -381,10 +413,13 @@ FORMS += \
     projects/XMACHOViewer/XHexView/dialoghexview.ui \
     projects/XMACHOViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XMACHOViewer/XHexView/xhexviewwidget.ui \
+    projects/XMACHOViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XMACHOViewer/XOptions/xoptionswidget.ui \
     projects/XMACHOViewer/XShortcuts/dialogshortcuts.ui \
+    projects/XMACHOViewer/XSymbolsWidget/dialogxsymbols.ui \
+    projects/XMACHOViewer/XSymbolsWidget/xsymbolswidget.ui \
     projects/XMACHOViewer/archive_widget/archive_widget.ui \
     projects/XMACHOViewer/archive_widget/dialogarchive.ui \
     projects/XMACHOViewer/archive_widget/dialogcreateviewmodel.ui \
@@ -469,10 +504,13 @@ FORMS += \
     projects/XPEViewer/XHexView/dialoghexview.ui \
     projects/XPEViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XPEViewer/XHexView/xhexviewwidget.ui \
+    projects/XPEViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XPEViewer/XOptions/xoptionswidget.ui \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
+    projects/XPEViewer/XSymbolsWidget/dialogxsymbols.ui \
+    projects/XPEViewer/XSymbolsWidget/xsymbolswidget.ui \
     projects/XPEViewer/gui_source/dialogabout.ui \
     projects/XPEViewer/gui_source/dialogoptions.ui \
     projects/XPEViewer/gui_source/guimainwindow.ui \
@@ -557,6 +595,7 @@ FORMS += \
     projects/xntsv/XHexView/dialoghexview.ui \
     projects/xntsv/XHexView/xhexviewoptionswidget.ui \
     projects/xntsv/XHexView/xhexviewwidget.ui \
+    projects/xntsv/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/xntsv/XOptions/xoptionswidget.ui \
@@ -567,6 +606,8 @@ FORMS += \
     projects/xntsv/XProcessWidget/xprocessdialoghex.ui \
     projects/xntsv/XProcessWidget/xprocesswidget.ui \
     projects/xntsv/XShortcuts/dialogshortcuts.ui \
+    projects/xntsv/XSymbolsWidget/dialogxsymbols.ui \
+    projects/xntsv/XSymbolsWidget/xsymbolswidget.ui \
     projects/xntsv/archive_widget/archive_widget.ui \
     projects/xntsv/archive_widget/dialogarchive.ui \
     projects/xntsv/archive_widget/dialogcreateviewmodel.ui \
@@ -731,6 +772,9 @@ SOURCES += \
     projects/DIE-engine/XHexView/xhexview.cpp \
     projects/DIE-engine/XHexView/xhexviewoptionswidget.cpp \
     projects/DIE-engine/XHexView/xhexviewwidget.cpp \
+    projects/DIE-engine/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/DIE-engine/XInfoDB/xinfodb.cpp \
+    projects/DIE-engine/XInfoDB/xinfodbtransfer.cpp \
     projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -872,6 +916,8 @@ SOURCES += \
     projects/DIE-engine/XShortcuts/xshortcutstscrollarea.cpp \
     projects/DIE-engine/XShortcuts/xshortcutswidget.cpp \
     projects/DIE-engine/XSingleApplication/xsingleapplication.cpp \
+    projects/DIE-engine/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/DIE-engine/XSymbolsWidget/xsymbolswidget.cpp \
     projects/DIE-engine/archive_widget/archive_widget.cpp \
     projects/DIE-engine/archive_widget/createviewmodelprocess.cpp \
     projects/DIE-engine/archive_widget/dialogarchive.cpp \
@@ -910,6 +956,68 @@ SOURCES += \
     projects/DIE-engine/lite_source/litemainwindow.cpp \
     projects/DIE-engine/lite_source/main_lite.cpp \
     projects/DIE-engine/nfd_widget/nfd_widget.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogdumpprocess.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogsearch.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogsearchprocess.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dumpprocess.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/searchprocess.cpp \
+    projects/Nauz-File-Detector/Formats/scanitem.cpp \
+    projects/Nauz-File-Detector/Formats/scanitemmodel.cpp \
+    projects/Nauz-File-Detector/Formats/subdevice.cpp \
+    projects/Nauz-File-Detector/Formats/xbinary.cpp \
+    projects/Nauz-File-Detector/Formats/xcom.cpp \
+    projects/Nauz-File-Detector/Formats/xelf.cpp \
+    projects/Nauz-File-Detector/Formats/xformats.cpp \
+    projects/Nauz-File-Detector/Formats/xiodevice.cpp \
+    projects/Nauz-File-Detector/Formats/xle.cpp \
+    projects/Nauz-File-Detector/Formats/xmach.cpp \
+    projects/Nauz-File-Detector/Formats/xmsdos.cpp \
+    projects/Nauz-File-Detector/Formats/xne.cpp \
+    projects/Nauz-File-Detector/Formats/xpe.cpp \
+    projects/Nauz-File-Detector/SpecAbstract/signatures.cpp \
+    projects/Nauz-File-Detector/SpecAbstract/specabstract.cpp \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscan.cpp \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.cpp \
+    projects/Nauz-File-Detector/StaticScan/dialogstaticscanprocess.cpp \
+    projects/Nauz-File-Detector/StaticScan/formresult.cpp \
+    projects/Nauz-File-Detector/StaticScan/formstaticscan.cpp \
+    projects/Nauz-File-Detector/StaticScan/heurwidget.cpp \
+    projects/Nauz-File-Detector/StaticScan/staticscan.cpp \
+    projects/Nauz-File-Detector/StaticScan/staticscanitem.cpp \
+    projects/Nauz-File-Detector/StaticScan/staticscanitemmodel.cpp \
+    projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.cpp \
+    projects/Nauz-File-Detector/XArchive/xarchive.cpp \
+    projects/Nauz-File-Detector/XArchive/xarchives.cpp \
+    projects/Nauz-File-Detector/XArchive/xcab.cpp \
+    projects/Nauz-File-Detector/XArchive/xmachofat.cpp \
+    projects/Nauz-File-Detector/XArchive/xrar.cpp \
+    projects/Nauz-File-Detector/XArchive/xsevenzip.cpp \
+    projects/Nauz-File-Detector/XArchive/xzip.cpp \
+    projects/Nauz-File-Detector/XCapstone/xcapstone.cpp \
+    projects/Nauz-File-Detector/XDEX/xandroidbinary.cpp \
+    projects/Nauz-File-Detector/XDEX/xdex.cpp \
+    projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/Nauz-File-Detector/XInfoDB/xinfodb.cpp \
+    projects/Nauz-File-Detector/XInfoDB/xinfodbtransfer.cpp \
+    projects/Nauz-File-Detector/XOptions/xoptions.cpp \
+    projects/Nauz-File-Detector/XOptions/xoptionswidget.cpp \
+    projects/Nauz-File-Detector/XPDF/xpdf.cpp \
+    projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.cpp \
+    projects/Nauz-File-Detector/XShortcuts/xshortcuts.cpp \
+    projects/Nauz-File-Detector/XShortcuts/xshortcutsdialog.cpp \
+    projects/Nauz-File-Detector/XShortcuts/xshortcutstscrollarea.cpp \
+    projects/Nauz-File-Detector/XShortcuts/xshortcutswidget.cpp \
+    projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/Nauz-File-Detector/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/Nauz-File-Detector/console_source/main_console.cpp \
+    projects/Nauz-File-Detector/gui_source/dialogabout.cpp \
+    projects/Nauz-File-Detector/gui_source/dialogoptions.cpp \
+    projects/Nauz-File-Detector/gui_source/guimainwindow.cpp \
+    projects/Nauz-File-Detector/gui_source/main_gui.cpp \
     projects/PDBRipper/XOptions/xoptions.cpp \
     projects/PDBRipper/XOptions/xoptionswidget.cpp \
     projects/PDBRipper/XShortcuts/dialogshortcuts.cpp \
@@ -1070,6 +1178,9 @@ SOURCES += \
     projects/XAPKDetector/XHexView/xhexview.cpp \
     projects/XAPKDetector/XHexView/xhexviewoptionswidget.cpp \
     projects/XAPKDetector/XHexView/xhexviewwidget.cpp \
+    projects/XAPKDetector/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/XAPKDetector/XInfoDB/xinfodb.cpp \
+    projects/XAPKDetector/XInfoDB/xinfodbtransfer.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -1207,6 +1318,8 @@ SOURCES += \
     projects/XAPKDetector/XShortcuts/xshortcutsdialog.cpp \
     projects/XAPKDetector/XShortcuts/xshortcutstscrollarea.cpp \
     projects/XAPKDetector/XShortcuts/xshortcutswidget.cpp \
+    projects/XAPKDetector/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/XAPKDetector/XSymbolsWidget/xsymbolswidget.cpp \
     projects/XAPKDetector/archive_widget/archive_widget.cpp \
     projects/XAPKDetector/archive_widget/createviewmodelprocess.cpp \
     projects/XAPKDetector/archive_widget/dialogarchive.cpp \
@@ -1364,6 +1477,9 @@ SOURCES += \
     projects/XELFViewer/XHexView/xhexview.cpp \
     projects/XELFViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XELFViewer/XHexView/xhexviewwidget.cpp \
+    projects/XELFViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/XELFViewer/XInfoDB/xinfodb.cpp \
+    projects/XELFViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -1501,6 +1617,8 @@ SOURCES += \
     projects/XELFViewer/XShortcuts/xshortcutsdialog.cpp \
     projects/XELFViewer/XShortcuts/xshortcutstscrollarea.cpp \
     projects/XELFViewer/XShortcuts/xshortcutswidget.cpp \
+    projects/XELFViewer/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/XELFViewer/XSymbolsWidget/xsymbolswidget.cpp \
     projects/XELFViewer/gui_source/dialogabout.cpp \
     projects/XELFViewer/gui_source/dialogoptions.cpp \
     projects/XELFViewer/gui_source/guimainwindow.cpp \
@@ -1653,6 +1771,9 @@ SOURCES += \
     projects/XMACHOViewer/XHexView/xhexview.cpp \
     projects/XMACHOViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XMACHOViewer/XHexView/xhexviewwidget.cpp \
+    projects/XMACHOViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/XMACHOViewer/XInfoDB/xinfodb.cpp \
+    projects/XMACHOViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -1790,6 +1911,8 @@ SOURCES += \
     projects/XMACHOViewer/XShortcuts/xshortcutsdialog.cpp \
     projects/XMACHOViewer/XShortcuts/xshortcutstscrollarea.cpp \
     projects/XMACHOViewer/XShortcuts/xshortcutswidget.cpp \
+    projects/XMACHOViewer/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/XMACHOViewer/XSymbolsWidget/xsymbolswidget.cpp \
     projects/XMACHOViewer/archive_widget/archive_widget.cpp \
     projects/XMACHOViewer/archive_widget/createviewmodelprocess.cpp \
     projects/XMACHOViewer/archive_widget/dialogarchive.cpp \
@@ -1944,6 +2067,9 @@ SOURCES += \
     projects/XPEViewer/XHexView/xhexview.cpp \
     projects/XPEViewer/XHexView/xhexviewoptionswidget.cpp \
     projects/XPEViewer/XHexView/xhexviewwidget.cpp \
+    projects/XPEViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/XPEViewer/XInfoDB/xinfodb.cpp \
+    projects/XPEViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -2081,6 +2207,8 @@ SOURCES += \
     projects/XPEViewer/XShortcuts/xshortcutsdialog.cpp \
     projects/XPEViewer/XShortcuts/xshortcutstscrollarea.cpp \
     projects/XPEViewer/XShortcuts/xshortcutswidget.cpp \
+    projects/XPEViewer/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/XPEViewer/XSymbolsWidget/xsymbolswidget.cpp \
     projects/XPEViewer/gui_source/dialogabout.cpp \
     projects/XPEViewer/gui_source/dialogoptions.cpp \
     projects/XPEViewer/gui_source/guimainwindow.cpp \
@@ -2236,6 +2364,9 @@ SOURCES += \
     projects/xntsv/XHexView/xhexview.cpp \
     projects/xntsv/XHexView/xhexviewoptionswidget.cpp \
     projects/xntsv/XHexView/xhexviewwidget.cpp \
+    projects/xntsv/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/xntsv/XInfoDB/xinfodb.cpp \
+    projects/xntsv/XInfoDB/xinfodbtransfer.cpp \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
@@ -2381,6 +2512,8 @@ SOURCES += \
     projects/xntsv/XShortcuts/xshortcutsdialog.cpp \
     projects/xntsv/XShortcuts/xshortcutstscrollarea.cpp \
     projects/xntsv/XShortcuts/xshortcutswidget.cpp \
+    projects/xntsv/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/xntsv/XSymbolsWidget/xsymbolswidget.cpp \
     projects/xntsv/XWinIODriver/xwiniodriver.cpp \
     projects/xntsv/archive_widget/archive_widget.cpp \
     projects/xntsv/archive_widget/createviewmodelprocess.cpp \
