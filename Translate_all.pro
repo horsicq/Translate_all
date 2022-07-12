@@ -28,6 +28,7 @@ FORMS += \
     projects/DIE-engine/FormatDialogs/dialogsearch.ui \
     projects/DIE-engine/FormatDialogs/dialogsearchprocess.ui \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.ui \
+    projects/DIE-engine/FormatDialogs/xdialogprocess.ui \
     projects/DIE-engine/FormatWidgets/Binary/binarywidget.ui \
     projects/DIE-engine/FormatWidgets/Binary/dialogbinary.ui \
     projects/DIE-engine/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -42,6 +43,7 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/MACH/dialogmach.ui \
     projects/DIE-engine/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/DIE-engine/FormatWidgets/MACH/machwidget.ui \
+    projects/DIE-engine/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/DIE-engine/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/DIE-engine/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/DIE-engine/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -64,8 +66,6 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.ui \
     projects/DIE-engine/FormatWidgets/formatswidget.ui \
     projects/DIE-engine/FormatWidgets/toolswidget.ui \
-    projects/DIE-engine/QHexView/dialoghex.ui \
-    projects/DIE-engine/QHexView/qhexviewwidget.ui \
     projects/DIE-engine/StaticScan/dialogstaticscan.ui \
     projects/DIE-engine/StaticScan/dialogstaticscandirectory.ui \
     projects/DIE-engine/StaticScan/dialogstaticscanprocess.ui \
@@ -73,6 +73,7 @@ FORMS += \
     projects/DIE-engine/StaticScan/formstaticscan.ui \
     projects/DIE-engine/StaticScan/heurwidget.ui \
     projects/DIE-engine/StaticScan/staticscanoptionswidget.ui \
+    projects/DIE-engine/XAboutWidget/xaboutwidget.ui \
     projects/DIE-engine/XDemangleWidget/dialogdemangle.ui \
     projects/DIE-engine/XDemangleWidget/xdemanglewidget.ui \
     projects/DIE-engine/XDisasm/dialogasmsignature.ui \
@@ -106,6 +107,10 @@ FORMS += \
     projects/DIE-engine/XMIMEWidget/xmimewidget.ui \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.ui \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/DIE-engine/XOnlineTools/dialogxvirustotal.ui \
+    projects/DIE-engine/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/DIE-engine/XOnlineTools/xvirustotaldialog.ui \
+    projects/DIE-engine/XOnlineTools/xvirustotalwidget.ui \
     projects/DIE-engine/XOptions/xoptionswidget.ui \
     projects/DIE-engine/XShortcuts/dialogshortcuts.ui \
     projects/DIE-engine/XSymbolsWidget/dialogxsymbols.ui \
@@ -136,6 +141,7 @@ FORMS += \
     projects/Nauz-File-Detector/FormatDialogs/dialogsearch.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialogsearchprocess.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.ui \
+    projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.ui \
     projects/Nauz-File-Detector/StaticScan/dialogstaticscan.ui \
     projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.ui \
     projects/Nauz-File-Detector/StaticScan/dialogstaticscanprocess.ui \
@@ -143,7 +149,12 @@ FORMS += \
     projects/Nauz-File-Detector/StaticScan/formstaticscan.ui \
     projects/Nauz-File-Detector/StaticScan/heurwidget.ui \
     projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.ui \
+    projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.ui \
     projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.ui \
+    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/Nauz-File-Detector/XOnlineTools/xvirustotaldialog.ui \
+    projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.ui \
     projects/Nauz-File-Detector/XOptions/xoptionswidget.ui \
     projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.ui \
     projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.ui \
@@ -166,6 +177,7 @@ FORMS += \
     projects/XAPKDetector/FormatDialogs/dialogsearch.ui \
     projects/XAPKDetector/FormatDialogs/dialogsearchprocess.ui \
     projects/XAPKDetector/FormatDialogs/dialogtextinfo.ui \
+    projects/XAPKDetector/FormatDialogs/xdialogprocess.ui \
     projects/XAPKDetector/FormatWidgets/Binary/binarywidget.ui \
     projects/XAPKDetector/FormatWidgets/Binary/dialogbinary.ui \
     projects/XAPKDetector/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -180,6 +192,7 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/MACH/dialogmach.ui \
     projects/XAPKDetector/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/XAPKDetector/FormatWidgets/MACH/machwidget.ui \
+    projects/XAPKDetector/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/XAPKDetector/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XAPKDetector/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XAPKDetector/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -209,6 +222,7 @@ FORMS += \
     projects/XAPKDetector/StaticScan/formstaticscan.ui \
     projects/XAPKDetector/StaticScan/heurwidget.ui \
     projects/XAPKDetector/StaticScan/staticscanoptionswidget.ui \
+    projects/XAPKDetector/XAboutWidget/xaboutwidget.ui \
     projects/XAPKDetector/XDemangleWidget/dialogdemangle.ui \
     projects/XAPKDetector/XDemangleWidget/xdemanglewidget.ui \
     projects/XAPKDetector/XDisasmView/dialogmultidisasm.ui \
@@ -235,6 +249,10 @@ FORMS += \
     projects/XAPKDetector/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XAPKDetector/XOnlineTools/dialogxvirustotal.ui \
+    projects/XAPKDetector/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/XAPKDetector/XOnlineTools/xvirustotaldialog.ui \
+    projects/XAPKDetector/XOnlineTools/xvirustotalwidget.ui \
     projects/XAPKDetector/XOptions/xoptionswidget.ui \
     projects/XAPKDetector/XShortcuts/dialogshortcuts.ui \
     projects/XAPKDetector/XSymbolsWidget/dialogxsymbols.ui \
@@ -258,6 +276,7 @@ FORMS += \
     projects/XELFViewer/FormatDialogs/dialogsearch.ui \
     projects/XELFViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XELFViewer/FormatDialogs/dialogtextinfo.ui \
+    projects/XELFViewer/FormatDialogs/xdialogprocess.ui \
     projects/XELFViewer/FormatWidgets/Binary/binarywidget.ui \
     projects/XELFViewer/FormatWidgets/Binary/dialogbinary.ui \
     projects/XELFViewer/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -272,6 +291,7 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/MACH/dialogmach.ui \
     projects/XELFViewer/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/XELFViewer/FormatWidgets/MACH/machwidget.ui \
+    projects/XELFViewer/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/XELFViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XELFViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XELFViewer/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -301,6 +321,7 @@ FORMS += \
     projects/XELFViewer/StaticScan/formstaticscan.ui \
     projects/XELFViewer/StaticScan/heurwidget.ui \
     projects/XELFViewer/StaticScan/staticscanoptionswidget.ui \
+    projects/XELFViewer/XAboutWidget/xaboutwidget.ui \
     projects/XELFViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XELFViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XELFViewer/XDisasmView/dialogmultidisasm.ui \
@@ -327,6 +348,10 @@ FORMS += \
     projects/XELFViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XELFViewer/XOnlineTools/dialogxvirustotal.ui \
+    projects/XELFViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/XELFViewer/XOnlineTools/xvirustotaldialog.ui \
+    projects/XELFViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XELFViewer/XOptions/xoptionswidget.ui \
     projects/XELFViewer/XShortcuts/dialogshortcuts.ui \
     projects/XELFViewer/XSymbolsWidget/dialogxsymbols.ui \
@@ -342,6 +367,7 @@ FORMS += \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.ui \
     projects/XMACHOViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XMACHOViewer/FormatDialogs/dialogtextinfo.ui \
+    projects/XMACHOViewer/FormatDialogs/xdialogprocess.ui \
     projects/XMACHOViewer/FormatWidgets/Binary/binarywidget.ui \
     projects/XMACHOViewer/FormatWidgets/Binary/dialogbinary.ui \
     projects/XMACHOViewer/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -356,6 +382,7 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/MACH/dialogmach.ui \
     projects/XMACHOViewer/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/XMACHOViewer/FormatWidgets/MACH/machwidget.ui \
+    projects/XMACHOViewer/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/XMACHOViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XMACHOViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XMACHOViewer/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -385,6 +412,7 @@ FORMS += \
     projects/XMACHOViewer/StaticScan/formstaticscan.ui \
     projects/XMACHOViewer/StaticScan/heurwidget.ui \
     projects/XMACHOViewer/StaticScan/staticscanoptionswidget.ui \
+    projects/XMACHOViewer/XAboutWidget/xaboutwidget.ui \
     projects/XMACHOViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XMACHOViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XMACHOViewer/XDisasm/dialogasmsignature.ui \
@@ -416,6 +444,10 @@ FORMS += \
     projects/XMACHOViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XMACHOViewer/XOnlineTools/dialogxvirustotal.ui \
+    projects/XMACHOViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/XMACHOViewer/XOnlineTools/xvirustotaldialog.ui \
+    projects/XMACHOViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XMACHOViewer/XOptions/xoptionswidget.ui \
     projects/XMACHOViewer/XShortcuts/dialogshortcuts.ui \
     projects/XMACHOViewer/XSymbolsWidget/dialogxsymbols.ui \
@@ -438,6 +470,7 @@ FORMS += \
     projects/XPEViewer/FormatDialogs/dialogsearch.ui \
     projects/XPEViewer/FormatDialogs/dialogsearchprocess.ui \
     projects/XPEViewer/FormatDialogs/dialogtextinfo.ui \
+    projects/XPEViewer/FormatDialogs/xdialogprocess.ui \
     projects/XPEViewer/FormatWidgets/Binary/binarywidget.ui \
     projects/XPEViewer/FormatWidgets/Binary/dialogbinary.ui \
     projects/XPEViewer/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -452,6 +485,7 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/MACH/dialogmach.ui \
     projects/XPEViewer/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/XPEViewer/FormatWidgets/MACH/machwidget.ui \
+    projects/XPEViewer/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/XPEViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XPEViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XPEViewer/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -481,6 +515,7 @@ FORMS += \
     projects/XPEViewer/StaticScan/formstaticscan.ui \
     projects/XPEViewer/StaticScan/heurwidget.ui \
     projects/XPEViewer/StaticScan/staticscanoptionswidget.ui \
+    projects/XPEViewer/XAboutWidget/xaboutwidget.ui \
     projects/XPEViewer/XDemangleWidget/dialogdemangle.ui \
     projects/XPEViewer/XDemangleWidget/xdemanglewidget.ui \
     projects/XPEViewer/XDisasmView/dialogmultidisasm.ui \
@@ -507,6 +542,10 @@ FORMS += \
     projects/XPEViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/XPEViewer/XOnlineTools/dialogxvirustotal.ui \
+    projects/XPEViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/XPEViewer/XOnlineTools/xvirustotaldialog.ui \
+    projects/XPEViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XPEViewer/XOptions/xoptionswidget.ui \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
     projects/XPEViewer/XSymbolsWidget/dialogxsymbols.ui \
@@ -522,6 +561,7 @@ FORMS += \
     projects/xntsv/FormatDialogs/dialogsearch.ui \
     projects/xntsv/FormatDialogs/dialogsearchprocess.ui \
     projects/xntsv/FormatDialogs/dialogtextinfo.ui \
+    projects/xntsv/FormatDialogs/xdialogprocess.ui \
     projects/xntsv/FormatWidgets/Binary/binarywidget.ui \
     projects/xntsv/FormatWidgets/Binary/dialogbinary.ui \
     projects/xntsv/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -536,6 +576,7 @@ FORMS += \
     projects/xntsv/FormatWidgets/MACH/dialogmach.ui \
     projects/xntsv/FormatWidgets/MACH/machsectionheaderwidget.ui \
     projects/xntsv/FormatWidgets/MACH/machwidget.ui \
+    projects/xntsv/FormatWidgets/MACHOFAT/dialogmachofat.ui \
     projects/xntsv/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/xntsv/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/xntsv/FormatWidgets/MSDOS/msdoswidget.ui \
@@ -567,6 +608,7 @@ FORMS += \
     projects/xntsv/StaticScan/formstaticscan.ui \
     projects/xntsv/StaticScan/heurwidget.ui \
     projects/xntsv/StaticScan/staticscanoptionswidget.ui \
+    projects/xntsv/XAboutWidget/xaboutwidget.ui \
     projects/xntsv/XDemangleWidget/dialogdemangle.ui \
     projects/xntsv/XDemangleWidget/xdemanglewidget.ui \
     projects/xntsv/XDisasm/dialogasmsignature.ui \
@@ -598,6 +640,10 @@ FORMS += \
     projects/xntsv/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
+    projects/xntsv/XOnlineTools/dialogxvirustotal.ui \
+    projects/xntsv/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/xntsv/XOnlineTools/xvirustotaldialog.ui \
+    projects/xntsv/XOnlineTools/xvirustotalwidget.ui \
     projects/xntsv/XOptions/xoptionswidget.ui \
     projects/xntsv/XProcessMemoryMapWidget/dialogxprocessmemorymap.ui \
     projects/xntsv/XProcessMemoryMapWidget/xprocessmemorymapwidget.ui \
@@ -625,6 +671,7 @@ SOURCES += \
     projects/DIE-engine/Controls/xabstracttableview.cpp \
     projects/DIE-engine/Controls/xcomboboxex.cpp \
     projects/DIE-engine/Controls/xdatetimeeditx.cpp \
+    projects/DIE-engine/Controls/xdevicetableeditview.cpp \
     projects/DIE-engine/Controls/xdevicetableview.cpp \
     projects/DIE-engine/Controls/xhtml.cpp \
     projects/DIE-engine/Controls/xlineedithex.cpp \
@@ -637,6 +684,7 @@ SOURCES += \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.cpp \
     projects/DIE-engine/FormatDialogs/dumpprocess.cpp \
     projects/DIE-engine/FormatDialogs/searchprocess.cpp \
+    projects/DIE-engine/FormatDialogs/xdialogprocess.cpp \
     projects/DIE-engine/FormatWidgets/Binary/binary_defs.cpp \
     projects/DIE-engine/FormatWidgets/Binary/binarywidget.cpp \
     projects/DIE-engine/FormatWidgets/Binary/dialogbinary.cpp \
@@ -660,6 +708,7 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/MACH/machprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/DIE-engine/FormatWidgets/MACH/machwidget.cpp \
+    projects/DIE-engine/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/DIE-engine/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/DIE-engine/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/DIE-engine/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -705,9 +754,6 @@ SOURCES += \
     projects/DIE-engine/Formats/xmsdos.cpp \
     projects/DIE-engine/Formats/xne.cpp \
     projects/DIE-engine/Formats/xpe.cpp \
-    projects/DIE-engine/QHexView/dialoghex.cpp \
-    projects/DIE-engine/QHexView/qhexview.cpp \
-    projects/DIE-engine/QHexView/qhexviewwidget.cpp \
     projects/DIE-engine/SpecAbstract/signatures.cpp \
     projects/DIE-engine/SpecAbstract/specabstract.cpp \
     projects/DIE-engine/StaticScan/dialogstaticscan.cpp \
@@ -720,6 +766,7 @@ SOURCES += \
     projects/DIE-engine/StaticScan/staticscanitem.cpp \
     projects/DIE-engine/StaticScan/staticscanitemmodel.cpp \
     projects/DIE-engine/StaticScan/staticscanoptionswidget.cpp \
+    projects/DIE-engine/XAboutWidget/xaboutwidget.cpp \
     projects/DIE-engine/XArchive/xarchive.cpp \
     projects/DIE-engine/XArchive/xarchives.cpp \
     projects/DIE-engine/XArchive/xcab.cpp \
@@ -775,15 +822,18 @@ SOURCES += \
     projects/DIE-engine/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/DIE-engine/XInfoDB/xinfodb.cpp \
     projects/DIE-engine/XInfoDB/xinfodbtransfer.cpp \
-    projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
-    projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
-    projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangle.cpp \
-    projects/DIE-engine/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/DIE-engine/XMIME/xmime.cpp \
     projects/DIE-engine/XMIMEWidget/dialogmime.cpp \
     projects/DIE-engine/XMIMEWidget/xmimewidget.cpp \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/DIE-engine/XOnlineTools/dialogxvirustotal.cpp \
+    projects/DIE-engine/XOnlineTools/xonlinetools.cpp \
+    projects/DIE-engine/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/DIE-engine/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/DIE-engine/XOnlineTools/xvirustotal.cpp \
+    projects/DIE-engine/XOnlineTools/xvirustotaldialog.cpp \
+    projects/DIE-engine/XOnlineTools/xvirustotalwidget.cpp \
     projects/DIE-engine/XOptions/xoptions.cpp \
     projects/DIE-engine/XOptions/xoptionswidget.cpp \
     projects/DIE-engine/XPDF/xpdf.cpp \
@@ -965,6 +1015,7 @@ SOURCES += \
     projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dumpprocess.cpp \
     projects/Nauz-File-Detector/FormatDialogs/searchprocess.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.cpp \
     projects/Nauz-File-Detector/Formats/scanitem.cpp \
     projects/Nauz-File-Detector/Formats/scanitemmodel.cpp \
     projects/Nauz-File-Detector/Formats/subdevice.cpp \
@@ -990,6 +1041,7 @@ SOURCES += \
     projects/Nauz-File-Detector/StaticScan/staticscanitem.cpp \
     projects/Nauz-File-Detector/StaticScan/staticscanitemmodel.cpp \
     projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.cpp \
+    projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.cpp \
     projects/Nauz-File-Detector/XArchive/xarchive.cpp \
     projects/Nauz-File-Detector/XArchive/xarchives.cpp \
     projects/Nauz-File-Detector/XArchive/xcab.cpp \
@@ -1003,6 +1055,13 @@ SOURCES += \
     projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/Nauz-File-Detector/XInfoDB/xinfodb.cpp \
     projects/Nauz-File-Detector/XInfoDB/xinfodbtransfer.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xonlinetools.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xvirustotal.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xvirustotaldialog.cpp \
+    projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.cpp \
     projects/Nauz-File-Detector/XOptions/xoptions.cpp \
     projects/Nauz-File-Detector/XOptions/xoptionswidget.cpp \
     projects/Nauz-File-Detector/XPDF/xpdf.cpp \
@@ -1036,12 +1095,12 @@ SOURCES += \
     projects/PDBRipper/msdia/diaCreate.cpp \
     projects/PDBRipper/pdbprocess.cpp \
     projects/PDBRipper/qwinpdb.cpp \
-    projects/PDBRipper/winloader_source/winloader.cpp \
     projects/XAPKDetector/Controls/hexvalidator.cpp \
     projects/XAPKDetector/Controls/subclassofqstyleditemdelegate.cpp \
     projects/XAPKDetector/Controls/xabstracttableview.cpp \
     projects/XAPKDetector/Controls/xcomboboxex.cpp \
     projects/XAPKDetector/Controls/xdatetimeeditx.cpp \
+    projects/XAPKDetector/Controls/xdevicetableeditview.cpp \
     projects/XAPKDetector/Controls/xdevicetableview.cpp \
     projects/XAPKDetector/Controls/xhtml.cpp \
     projects/XAPKDetector/Controls/xlineedithex.cpp \
@@ -1054,6 +1113,7 @@ SOURCES += \
     projects/XAPKDetector/FormatDialogs/dialogtextinfo.cpp \
     projects/XAPKDetector/FormatDialogs/dumpprocess.cpp \
     projects/XAPKDetector/FormatDialogs/searchprocess.cpp \
+    projects/XAPKDetector/FormatDialogs/xdialogprocess.cpp \
     projects/XAPKDetector/FormatWidgets/Binary/binary_defs.cpp \
     projects/XAPKDetector/FormatWidgets/Binary/binarywidget.cpp \
     projects/XAPKDetector/FormatWidgets/Binary/dialogbinary.cpp \
@@ -1077,6 +1137,7 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/MACH/machprocessdata.cpp \
     projects/XAPKDetector/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/XAPKDetector/FormatWidgets/MACH/machwidget.cpp \
+    projects/XAPKDetector/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/XAPKDetector/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/XAPKDetector/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/XAPKDetector/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -1134,6 +1195,7 @@ SOURCES += \
     projects/XAPKDetector/StaticScan/staticscanitem.cpp \
     projects/XAPKDetector/StaticScan/staticscanitemmodel.cpp \
     projects/XAPKDetector/StaticScan/staticscanoptionswidget.cpp \
+    projects/XAPKDetector/XAboutWidget/xaboutwidget.cpp \
     projects/XAPKDetector/XArchive/xarchive.cpp \
     projects/XAPKDetector/XArchive/xarchives.cpp \
     projects/XAPKDetector/XArchive/xcab.cpp \
@@ -1187,6 +1249,13 @@ SOURCES += \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/XAPKDetector/XOnlineTools/dialogxvirustotal.cpp \
+    projects/XAPKDetector/XOnlineTools/xonlinetools.cpp \
+    projects/XAPKDetector/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/XAPKDetector/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/XAPKDetector/XOnlineTools/xvirustotal.cpp \
+    projects/XAPKDetector/XOnlineTools/xvirustotaldialog.cpp \
+    projects/XAPKDetector/XOnlineTools/xvirustotalwidget.cpp \
     projects/XAPKDetector/XOptions/xoptions.cpp \
     projects/XAPKDetector/XOptions/xoptionswidget.cpp \
     projects/XAPKDetector/XPDF/xpdf.cpp \
@@ -1341,6 +1410,7 @@ SOURCES += \
     projects/XELFViewer/Controls/xabstracttableview.cpp \
     projects/XELFViewer/Controls/xcomboboxex.cpp \
     projects/XELFViewer/Controls/xdatetimeeditx.cpp \
+    projects/XELFViewer/Controls/xdevicetableeditview.cpp \
     projects/XELFViewer/Controls/xdevicetableview.cpp \
     projects/XELFViewer/Controls/xhtml.cpp \
     projects/XELFViewer/Controls/xlineedithex.cpp \
@@ -1353,6 +1423,7 @@ SOURCES += \
     projects/XELFViewer/FormatDialogs/dialogtextinfo.cpp \
     projects/XELFViewer/FormatDialogs/dumpprocess.cpp \
     projects/XELFViewer/FormatDialogs/searchprocess.cpp \
+    projects/XELFViewer/FormatDialogs/xdialogprocess.cpp \
     projects/XELFViewer/FormatWidgets/Binary/binary_defs.cpp \
     projects/XELFViewer/FormatWidgets/Binary/binarywidget.cpp \
     projects/XELFViewer/FormatWidgets/Binary/dialogbinary.cpp \
@@ -1376,6 +1447,7 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/MACH/machprocessdata.cpp \
     projects/XELFViewer/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/XELFViewer/FormatWidgets/MACH/machwidget.cpp \
+    projects/XELFViewer/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/XELFViewer/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/XELFViewer/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/XELFViewer/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -1433,6 +1505,7 @@ SOURCES += \
     projects/XELFViewer/StaticScan/staticscanitem.cpp \
     projects/XELFViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XELFViewer/StaticScan/staticscanoptionswidget.cpp \
+    projects/XELFViewer/XAboutWidget/xaboutwidget.cpp \
     projects/XELFViewer/XArchive/xarchive.cpp \
     projects/XELFViewer/XArchive/xarchives.cpp \
     projects/XELFViewer/XArchive/xcab.cpp \
@@ -1486,6 +1559,13 @@ SOURCES += \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/XELFViewer/XOnlineTools/dialogxvirustotal.cpp \
+    projects/XELFViewer/XOnlineTools/xonlinetools.cpp \
+    projects/XELFViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/XELFViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/XELFViewer/XOnlineTools/xvirustotal.cpp \
+    projects/XELFViewer/XOnlineTools/xvirustotaldialog.cpp \
+    projects/XELFViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XELFViewer/XOptions/xoptions.cpp \
     projects/XELFViewer/XOptions/xoptionswidget.cpp \
     projects/XELFViewer/XPDF/xpdf.cpp \
@@ -1628,6 +1708,7 @@ SOURCES += \
     projects/XMACHOViewer/Controls/xabstracttableview.cpp \
     projects/XMACHOViewer/Controls/xcomboboxex.cpp \
     projects/XMACHOViewer/Controls/xdatetimeeditx.cpp \
+    projects/XMACHOViewer/Controls/xdevicetableeditview.cpp \
     projects/XMACHOViewer/Controls/xdevicetableview.cpp \
     projects/XMACHOViewer/Controls/xhtml.cpp \
     projects/XMACHOViewer/Controls/xlineedithex.cpp \
@@ -1640,6 +1721,7 @@ SOURCES += \
     projects/XMACHOViewer/FormatDialogs/dialogtextinfo.cpp \
     projects/XMACHOViewer/FormatDialogs/dumpprocess.cpp \
     projects/XMACHOViewer/FormatDialogs/searchprocess.cpp \
+    projects/XMACHOViewer/FormatDialogs/xdialogprocess.cpp \
     projects/XMACHOViewer/FormatWidgets/Binary/binary_defs.cpp \
     projects/XMACHOViewer/FormatWidgets/Binary/binarywidget.cpp \
     projects/XMACHOViewer/FormatWidgets/Binary/dialogbinary.cpp \
@@ -1663,6 +1745,7 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/MACH/machprocessdata.cpp \
     projects/XMACHOViewer/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/MACH/machwidget.cpp \
+    projects/XMACHOViewer/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/XMACHOViewer/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/XMACHOViewer/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -1720,6 +1803,7 @@ SOURCES += \
     projects/XMACHOViewer/StaticScan/staticscanitem.cpp \
     projects/XMACHOViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XMACHOViewer/StaticScan/staticscanoptionswidget.cpp \
+    projects/XMACHOViewer/XAboutWidget/xaboutwidget.cpp \
     projects/XMACHOViewer/XArchive/xarchive.cpp \
     projects/XMACHOViewer/XArchive/xarchives.cpp \
     projects/XMACHOViewer/XArchive/xcab.cpp \
@@ -1780,6 +1864,13 @@ SOURCES += \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/XMACHOViewer/XOnlineTools/dialogxvirustotal.cpp \
+    projects/XMACHOViewer/XOnlineTools/xonlinetools.cpp \
+    projects/XMACHOViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/XMACHOViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/XMACHOViewer/XOnlineTools/xvirustotal.cpp \
+    projects/XMACHOViewer/XOnlineTools/xvirustotaldialog.cpp \
+    projects/XMACHOViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XMACHOViewer/XOptions/xoptions.cpp \
     projects/XMACHOViewer/XOptions/xoptionswidget.cpp \
     projects/XMACHOViewer/XPDF/xpdf.cpp \
@@ -1931,6 +2022,7 @@ SOURCES += \
     projects/XPEViewer/Controls/xabstracttableview.cpp \
     projects/XPEViewer/Controls/xcomboboxex.cpp \
     projects/XPEViewer/Controls/xdatetimeeditx.cpp \
+    projects/XPEViewer/Controls/xdevicetableeditview.cpp \
     projects/XPEViewer/Controls/xdevicetableview.cpp \
     projects/XPEViewer/Controls/xhtml.cpp \
     projects/XPEViewer/Controls/xlineedithex.cpp \
@@ -1943,6 +2035,7 @@ SOURCES += \
     projects/XPEViewer/FormatDialogs/dialogtextinfo.cpp \
     projects/XPEViewer/FormatDialogs/dumpprocess.cpp \
     projects/XPEViewer/FormatDialogs/searchprocess.cpp \
+    projects/XPEViewer/FormatDialogs/xdialogprocess.cpp \
     projects/XPEViewer/FormatWidgets/Binary/binary_defs.cpp \
     projects/XPEViewer/FormatWidgets/Binary/binarywidget.cpp \
     projects/XPEViewer/FormatWidgets/Binary/dialogbinary.cpp \
@@ -1966,6 +2059,7 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/MACH/machprocessdata.cpp \
     projects/XPEViewer/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/XPEViewer/FormatWidgets/MACH/machwidget.cpp \
+    projects/XPEViewer/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/XPEViewer/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/XPEViewer/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/XPEViewer/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -2023,6 +2117,7 @@ SOURCES += \
     projects/XPEViewer/StaticScan/staticscanitem.cpp \
     projects/XPEViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XPEViewer/StaticScan/staticscanoptionswidget.cpp \
+    projects/XPEViewer/XAboutWidget/xaboutwidget.cpp \
     projects/XPEViewer/XArchive/xarchive.cpp \
     projects/XPEViewer/XArchive/xarchives.cpp \
     projects/XPEViewer/XArchive/xcab.cpp \
@@ -2076,6 +2171,13 @@ SOURCES += \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/XPEViewer/XOnlineTools/dialogxvirustotal.cpp \
+    projects/XPEViewer/XOnlineTools/xonlinetools.cpp \
+    projects/XPEViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/XPEViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/XPEViewer/XOnlineTools/xvirustotal.cpp \
+    projects/XPEViewer/XOnlineTools/xvirustotaldialog.cpp \
+    projects/XPEViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XPEViewer/XOptions/xoptions.cpp \
     projects/XPEViewer/XOptions/xoptionswidget.cpp \
     projects/XPEViewer/XPDF/xpdf.cpp \
@@ -2218,6 +2320,7 @@ SOURCES += \
     projects/xntsv/Controls/xabstracttableview.cpp \
     projects/xntsv/Controls/xcomboboxex.cpp \
     projects/xntsv/Controls/xdatetimeeditx.cpp \
+    projects/xntsv/Controls/xdevicetableeditview.cpp \
     projects/xntsv/Controls/xdevicetableview.cpp \
     projects/xntsv/Controls/xhtml.cpp \
     projects/xntsv/Controls/xlineedithex.cpp \
@@ -2230,6 +2333,7 @@ SOURCES += \
     projects/xntsv/FormatDialogs/dialogtextinfo.cpp \
     projects/xntsv/FormatDialogs/dumpprocess.cpp \
     projects/xntsv/FormatDialogs/searchprocess.cpp \
+    projects/xntsv/FormatDialogs/xdialogprocess.cpp \
     projects/xntsv/FormatWidgets/Binary/binary_defs.cpp \
     projects/xntsv/FormatWidgets/Binary/binarywidget.cpp \
     projects/xntsv/FormatWidgets/Binary/dialogbinary.cpp \
@@ -2253,6 +2357,7 @@ SOURCES += \
     projects/xntsv/FormatWidgets/MACH/machprocessdata.cpp \
     projects/xntsv/FormatWidgets/MACH/machsectionheaderwidget.cpp \
     projects/xntsv/FormatWidgets/MACH/machwidget.cpp \
+    projects/xntsv/FormatWidgets/MACHOFAT/dialogmachofat.cpp \
     projects/xntsv/FormatWidgets/MACHOFAT/machofatwidget.cpp \
     projects/xntsv/FormatWidgets/MSDOS/dialogmsdos.cpp \
     projects/xntsv/FormatWidgets/MSDOS/msdos_defs.cpp \
@@ -2313,6 +2418,7 @@ SOURCES += \
     projects/xntsv/StaticScan/staticscanitem.cpp \
     projects/xntsv/StaticScan/staticscanitemmodel.cpp \
     projects/xntsv/StaticScan/staticscanoptionswidget.cpp \
+    projects/xntsv/XAboutWidget/xaboutwidget.cpp \
     projects/xntsv/XArchive/xarchive.cpp \
     projects/xntsv/XArchive/xarchives.cpp \
     projects/xntsv/XArchive/xcab.cpp \
@@ -2373,6 +2479,13 @@ SOURCES += \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/MicrosoftDemangleNodes.cpp \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.cpp \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.cpp \
+    projects/xntsv/XOnlineTools/dialogxvirustotal.cpp \
+    projects/xntsv/XOnlineTools/xonlinetools.cpp \
+    projects/xntsv/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/xntsv/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/xntsv/XOnlineTools/xvirustotal.cpp \
+    projects/xntsv/XOnlineTools/xvirustotaldialog.cpp \
+    projects/xntsv/XOnlineTools/xvirustotalwidget.cpp \
     projects/xntsv/XOptions/xoptions.cpp \
     projects/xntsv/XOptions/xoptionswidget.cpp \
     projects/xntsv/XPDF/xpdf.cpp \
@@ -2528,4 +2641,5 @@ SOURCES += \
     projects/xntsv/gui_source/guimainwindow.cpp \
     projects/xntsv/gui_source/main_gui.cpp \
     projects/xntsv/nfd_widget/nfd_widget.cpp
+
 
