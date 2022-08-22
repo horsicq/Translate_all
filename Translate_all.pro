@@ -23,6 +23,7 @@ FORMS += \
     projects/DIE-engine/FormatDialogs/dialogdump.ui \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.ui \
     projects/DIE-engine/FormatDialogs/dialogeditstring.ui \
+    projects/DIE-engine/FormatDialogs/dialogfindtext.ui \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.ui \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.ui \
     projects/DIE-engine/FormatDialogs/dialogsearch.ui \
@@ -109,7 +110,6 @@ FORMS += \
     projects/DIE-engine/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/DIE-engine/XOnlineTools/dialogxvirustotal.ui \
     projects/DIE-engine/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/DIE-engine/XOnlineTools/xvirustotaldialog.ui \
     projects/DIE-engine/XOnlineTools/xvirustotalwidget.ui \
     projects/DIE-engine/XOptions/xoptionswidget.ui \
     projects/DIE-engine/XShortcuts/dialogshortcuts.ui \
@@ -136,6 +136,7 @@ FORMS += \
     projects/Nauz-File-Detector/FormatDialogs/dialogdump.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialogdumpprocess.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.ui \
+    projects/Nauz-File-Detector/FormatDialogs/dialogfindtext.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.ui \
     projects/Nauz-File-Detector/FormatDialogs/dialogsearch.ui \
@@ -153,7 +154,6 @@ FORMS += \
     projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.ui \
     projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.ui \
     projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/Nauz-File-Detector/XOnlineTools/xvirustotaldialog.ui \
     projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.ui \
     projects/Nauz-File-Detector/XOptions/xoptionswidget.ui \
     projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.ui \
@@ -172,6 +172,7 @@ FORMS += \
     projects/XAPKDetector/FormatDialogs/dialogdump.ui \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.ui \
     projects/XAPKDetector/FormatDialogs/dialogeditstring.ui \
+    projects/XAPKDetector/FormatDialogs/dialogfindtext.ui \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.ui \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.ui \
     projects/XAPKDetector/FormatDialogs/dialogsearch.ui \
@@ -251,7 +252,6 @@ FORMS += \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XAPKDetector/XOnlineTools/dialogxvirustotal.ui \
     projects/XAPKDetector/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/XAPKDetector/XOnlineTools/xvirustotaldialog.ui \
     projects/XAPKDetector/XOnlineTools/xvirustotalwidget.ui \
     projects/XAPKDetector/XOptions/xoptionswidget.ui \
     projects/XAPKDetector/XShortcuts/dialogshortcuts.ui \
@@ -271,6 +271,7 @@ FORMS += \
     projects/XELFViewer/FormatDialogs/dialogdump.ui \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XELFViewer/FormatDialogs/dialogeditstring.ui \
+    projects/XELFViewer/FormatDialogs/dialogfindtext.ui \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XELFViewer/FormatDialogs/dialogsearch.ui \
@@ -350,7 +351,6 @@ FORMS += \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XELFViewer/XOnlineTools/dialogxvirustotal.ui \
     projects/XELFViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/XELFViewer/XOnlineTools/xvirustotaldialog.ui \
     projects/XELFViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XELFViewer/XOptions/xoptionswidget.ui \
     projects/XELFViewer/XShortcuts/dialogshortcuts.ui \
@@ -362,6 +362,7 @@ FORMS += \
     projects/XMACHOViewer/FormatDialogs/dialogdump.ui \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XMACHOViewer/FormatDialogs/dialogeditstring.ui \
+    projects/XMACHOViewer/FormatDialogs/dialogfindtext.ui \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.ui \
@@ -446,7 +447,6 @@ FORMS += \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XMACHOViewer/XOnlineTools/dialogxvirustotal.ui \
     projects/XMACHOViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/XMACHOViewer/XOnlineTools/xvirustotaldialog.ui \
     projects/XMACHOViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XMACHOViewer/XOptions/xoptionswidget.ui \
     projects/XMACHOViewer/XShortcuts/dialogshortcuts.ui \
@@ -462,9 +462,15 @@ FORMS += \
     projects/XMACHOViewer/gui_source/dialogoptions.ui \
     projects/XMACHOViewer/gui_source/guimainwindow.ui \
     projects/XMACHOViewer/nfd_widget/nfd_widget.ui \
+    projects/XOpcodeCalc/XAboutWidget/xaboutwidget.ui \
+    projects/XOpcodeCalc/XOptions/xoptionswidget.ui \
+    projects/XOpcodeCalc/gui_source/dialogabout.ui \
+    projects/XOpcodeCalc/gui_source/dialogoptions.ui \
+    projects/XOpcodeCalc/gui_source/guimainwindow.ui \
     projects/XPEViewer/FormatDialogs/dialogdump.ui \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.ui \
     projects/XPEViewer/FormatDialogs/dialogeditstring.ui \
+    projects/XPEViewer/FormatDialogs/dialogfindtext.ui \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.ui \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.ui \
     projects/XPEViewer/FormatDialogs/dialogsearch.ui \
@@ -544,7 +550,6 @@ FORMS += \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XPEViewer/XOnlineTools/dialogxvirustotal.ui \
     projects/XPEViewer/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/XPEViewer/XOnlineTools/xvirustotaldialog.ui \
     projects/XPEViewer/XOnlineTools/xvirustotalwidget.ui \
     projects/XPEViewer/XOptions/xoptionswidget.ui \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
@@ -556,6 +561,7 @@ FORMS += \
     projects/xntsv/FormatDialogs/dialogdump.ui \
     projects/xntsv/FormatDialogs/dialogdumpprocess.ui \
     projects/xntsv/FormatDialogs/dialogeditstring.ui \
+    projects/xntsv/FormatDialogs/dialogfindtext.ui \
     projects/xntsv/FormatDialogs/dialoggotoaddress.ui \
     projects/xntsv/FormatDialogs/dialoghexsignature.ui \
     projects/xntsv/FormatDialogs/dialogsearch.ui \
@@ -642,7 +648,6 @@ FORMS += \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/xntsv/XOnlineTools/dialogxvirustotal.ui \
     projects/xntsv/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/xntsv/XOnlineTools/xvirustotaldialog.ui \
     projects/xntsv/XOnlineTools/xvirustotalwidget.ui \
     projects/xntsv/XOptions/xoptionswidget.ui \
     projects/xntsv/XProcessMemoryMapWidget/dialogxprocessmemorymap.ui \
@@ -677,6 +682,7 @@ SOURCES += \
     projects/DIE-engine/Controls/xlineedithex.cpp \
     projects/DIE-engine/FormatDialogs/dialogdumpprocess.cpp \
     projects/DIE-engine/FormatDialogs/dialogeditstring.cpp \
+    projects/DIE-engine/FormatDialogs/dialogfindtext.cpp \
     projects/DIE-engine/FormatDialogs/dialoggotoaddress.cpp \
     projects/DIE-engine/FormatDialogs/dialoghexsignature.cpp \
     projects/DIE-engine/FormatDialogs/dialogsearch.cpp \
@@ -832,7 +838,6 @@ SOURCES += \
     projects/DIE-engine/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/DIE-engine/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/DIE-engine/XOnlineTools/xvirustotal.cpp \
-    projects/DIE-engine/XOnlineTools/xvirustotaldialog.cpp \
     projects/DIE-engine/XOnlineTools/xvirustotalwidget.cpp \
     projects/DIE-engine/XOptions/xoptions.cpp \
     projects/DIE-engine/XOptions/xoptionswidget.cpp \
@@ -990,6 +995,7 @@ SOURCES += \
     projects/DIE-engine/die_script/msdos_script.cpp \
     projects/DIE-engine/die_script/ne_script.cpp \
     projects/DIE-engine/die_script/pe_script.cpp \
+    projects/DIE-engine/die_script/xscriptengine.cpp \
     projects/DIE-engine/die_widget/dialogdiescandirectory.cpp \
     projects/DIE-engine/die_widget/dialogdiescanprocess.cpp \
     projects/DIE-engine/die_widget/dialogelapsed.cpp \
@@ -1008,6 +1014,7 @@ SOURCES += \
     projects/DIE-engine/nfd_widget/nfd_widget.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dialogdumpprocess.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.cpp \
+    projects/Nauz-File-Detector/FormatDialogs/dialogfindtext.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.cpp \
     projects/Nauz-File-Detector/FormatDialogs/dialogsearch.cpp \
@@ -1060,7 +1067,6 @@ SOURCES += \
     projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/Nauz-File-Detector/XOnlineTools/xvirustotal.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xvirustotaldialog.cpp \
     projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.cpp \
     projects/Nauz-File-Detector/XOptions/xoptions.cpp \
     projects/Nauz-File-Detector/XOptions/xoptionswidget.cpp \
@@ -1106,6 +1112,7 @@ SOURCES += \
     projects/XAPKDetector/Controls/xlineedithex.cpp \
     projects/XAPKDetector/FormatDialogs/dialogdumpprocess.cpp \
     projects/XAPKDetector/FormatDialogs/dialogeditstring.cpp \
+    projects/XAPKDetector/FormatDialogs/dialogfindtext.cpp \
     projects/XAPKDetector/FormatDialogs/dialoggotoaddress.cpp \
     projects/XAPKDetector/FormatDialogs/dialoghexsignature.cpp \
     projects/XAPKDetector/FormatDialogs/dialogsearch.cpp \
@@ -1254,7 +1261,6 @@ SOURCES += \
     projects/XAPKDetector/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/XAPKDetector/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/XAPKDetector/XOnlineTools/xvirustotal.cpp \
-    projects/XAPKDetector/XOnlineTools/xvirustotaldialog.cpp \
     projects/XAPKDetector/XOnlineTools/xvirustotalwidget.cpp \
     projects/XAPKDetector/XOptions/xoptions.cpp \
     projects/XAPKDetector/XOptions/xoptionswidget.cpp \
@@ -1398,6 +1404,19 @@ SOURCES += \
     projects/XAPKDetector/archive_widget/dialogunpackfile.cpp \
     projects/XAPKDetector/archive_widget/unpackfileprocess.cpp \
     projects/XAPKDetector/console_source/main_console.cpp \
+    projects/XAPKDetector/die_script/binary_script.cpp \
+    projects/XAPKDetector/die_script/com_script.cpp \
+    projects/XAPKDetector/die_script/die_script.cpp \
+    projects/XAPKDetector/die_script/die_scriptengine.cpp \
+    projects/XAPKDetector/die_script/elf_script.cpp \
+    projects/XAPKDetector/die_script/global_script.cpp \
+    projects/XAPKDetector/die_script/le_script.cpp \
+    projects/XAPKDetector/die_script/lx_script.cpp \
+    projects/XAPKDetector/die_script/mach_script.cpp \
+    projects/XAPKDetector/die_script/msdos_script.cpp \
+    projects/XAPKDetector/die_script/ne_script.cpp \
+    projects/XAPKDetector/die_script/pe_script.cpp \
+    projects/XAPKDetector/die_script/xscriptengine.cpp \
     projects/XAPKDetector/gui_source/dialogabout.cpp \
     projects/XAPKDetector/gui_source/dialogdirectoryscan.cpp \
     projects/XAPKDetector/gui_source/dialogoptions.cpp \
@@ -1416,6 +1435,7 @@ SOURCES += \
     projects/XELFViewer/Controls/xlineedithex.cpp \
     projects/XELFViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XELFViewer/FormatDialogs/dialogeditstring.cpp \
+    projects/XELFViewer/FormatDialogs/dialogfindtext.cpp \
     projects/XELFViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XELFViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XELFViewer/FormatDialogs/dialogsearch.cpp \
@@ -1564,7 +1584,6 @@ SOURCES += \
     projects/XELFViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/XELFViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/XELFViewer/XOnlineTools/xvirustotal.cpp \
-    projects/XELFViewer/XOnlineTools/xvirustotaldialog.cpp \
     projects/XELFViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XELFViewer/XOptions/xoptions.cpp \
     projects/XELFViewer/XOptions/xoptionswidget.cpp \
@@ -1699,6 +1718,19 @@ SOURCES += \
     projects/XELFViewer/XShortcuts/xshortcutswidget.cpp \
     projects/XELFViewer/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XELFViewer/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XELFViewer/die_script/binary_script.cpp \
+    projects/XELFViewer/die_script/com_script.cpp \
+    projects/XELFViewer/die_script/die_script.cpp \
+    projects/XELFViewer/die_script/die_scriptengine.cpp \
+    projects/XELFViewer/die_script/elf_script.cpp \
+    projects/XELFViewer/die_script/global_script.cpp \
+    projects/XELFViewer/die_script/le_script.cpp \
+    projects/XELFViewer/die_script/lx_script.cpp \
+    projects/XELFViewer/die_script/mach_script.cpp \
+    projects/XELFViewer/die_script/msdos_script.cpp \
+    projects/XELFViewer/die_script/ne_script.cpp \
+    projects/XELFViewer/die_script/pe_script.cpp \
+    projects/XELFViewer/die_script/xscriptengine.cpp \
     projects/XELFViewer/gui_source/dialogabout.cpp \
     projects/XELFViewer/gui_source/dialogoptions.cpp \
     projects/XELFViewer/gui_source/guimainwindow.cpp \
@@ -1714,6 +1746,7 @@ SOURCES += \
     projects/XMACHOViewer/Controls/xlineedithex.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogeditstring.cpp \
+    projects/XMACHOViewer/FormatDialogs/dialogfindtext.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XMACHOViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XMACHOViewer/FormatDialogs/dialogsearch.cpp \
@@ -1869,7 +1902,6 @@ SOURCES += \
     projects/XMACHOViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/XMACHOViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/XMACHOViewer/XOnlineTools/xvirustotal.cpp \
-    projects/XMACHOViewer/XOnlineTools/xvirustotaldialog.cpp \
     projects/XMACHOViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XMACHOViewer/XOptions/xoptions.cpp \
     projects/XMACHOViewer/XOptions/xoptionswidget.cpp \
@@ -2012,11 +2044,32 @@ SOURCES += \
     projects/XMACHOViewer/archive_widget/dialogshowtext.cpp \
     projects/XMACHOViewer/archive_widget/dialogunpackfile.cpp \
     projects/XMACHOViewer/archive_widget/unpackfileprocess.cpp \
+    projects/XMACHOViewer/die_script/binary_script.cpp \
+    projects/XMACHOViewer/die_script/com_script.cpp \
+    projects/XMACHOViewer/die_script/die_script.cpp \
+    projects/XMACHOViewer/die_script/die_scriptengine.cpp \
+    projects/XMACHOViewer/die_script/elf_script.cpp \
+    projects/XMACHOViewer/die_script/global_script.cpp \
+    projects/XMACHOViewer/die_script/le_script.cpp \
+    projects/XMACHOViewer/die_script/lx_script.cpp \
+    projects/XMACHOViewer/die_script/mach_script.cpp \
+    projects/XMACHOViewer/die_script/msdos_script.cpp \
+    projects/XMACHOViewer/die_script/ne_script.cpp \
+    projects/XMACHOViewer/die_script/pe_script.cpp \
+    projects/XMACHOViewer/die_script/xscriptengine.cpp \
     projects/XMACHOViewer/gui_source/dialogabout.cpp \
     projects/XMACHOViewer/gui_source/dialogoptions.cpp \
     projects/XMACHOViewer/gui_source/guimainwindow.cpp \
     projects/XMACHOViewer/gui_source/main_gui.cpp \
     projects/XMACHOViewer/nfd_widget/nfd_widget.cpp \
+    projects/XOpcodeCalc/XAboutWidget/xaboutwidget.cpp \
+    projects/XOpcodeCalc/XOptions/xoptions.cpp \
+    projects/XOpcodeCalc/XOptions/xoptionswidget.cpp \
+    projects/XOpcodeCalc/gui_source/dialogabout.cpp \
+    projects/XOpcodeCalc/gui_source/dialogoptions.cpp \
+    projects/XOpcodeCalc/gui_source/guimainwindow.cpp \
+    projects/XOpcodeCalc/gui_source/main_gui.cpp \
+    projects/XOpcodeCalc/gui_source/modevalidator.cpp \
     projects/XPEViewer/Controls/hexvalidator.cpp \
     projects/XPEViewer/Controls/subclassofqstyleditemdelegate.cpp \
     projects/XPEViewer/Controls/xabstracttableview.cpp \
@@ -2028,6 +2081,7 @@ SOURCES += \
     projects/XPEViewer/Controls/xlineedithex.cpp \
     projects/XPEViewer/FormatDialogs/dialogdumpprocess.cpp \
     projects/XPEViewer/FormatDialogs/dialogeditstring.cpp \
+    projects/XPEViewer/FormatDialogs/dialogfindtext.cpp \
     projects/XPEViewer/FormatDialogs/dialoggotoaddress.cpp \
     projects/XPEViewer/FormatDialogs/dialoghexsignature.cpp \
     projects/XPEViewer/FormatDialogs/dialogsearch.cpp \
@@ -2176,7 +2230,6 @@ SOURCES += \
     projects/XPEViewer/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/XPEViewer/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/XPEViewer/XOnlineTools/xvirustotal.cpp \
-    projects/XPEViewer/XOnlineTools/xvirustotaldialog.cpp \
     projects/XPEViewer/XOnlineTools/xvirustotalwidget.cpp \
     projects/XPEViewer/XOptions/xoptions.cpp \
     projects/XPEViewer/XOptions/xoptionswidget.cpp \
@@ -2311,6 +2364,19 @@ SOURCES += \
     projects/XPEViewer/XShortcuts/xshortcutswidget.cpp \
     projects/XPEViewer/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XPEViewer/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XPEViewer/die_script/binary_script.cpp \
+    projects/XPEViewer/die_script/com_script.cpp \
+    projects/XPEViewer/die_script/die_script.cpp \
+    projects/XPEViewer/die_script/die_scriptengine.cpp \
+    projects/XPEViewer/die_script/elf_script.cpp \
+    projects/XPEViewer/die_script/global_script.cpp \
+    projects/XPEViewer/die_script/le_script.cpp \
+    projects/XPEViewer/die_script/lx_script.cpp \
+    projects/XPEViewer/die_script/mach_script.cpp \
+    projects/XPEViewer/die_script/msdos_script.cpp \
+    projects/XPEViewer/die_script/ne_script.cpp \
+    projects/XPEViewer/die_script/pe_script.cpp \
+    projects/XPEViewer/die_script/xscriptengine.cpp \
     projects/XPEViewer/gui_source/dialogabout.cpp \
     projects/XPEViewer/gui_source/dialogoptions.cpp \
     projects/XPEViewer/gui_source/guimainwindow.cpp \
@@ -2326,6 +2392,7 @@ SOURCES += \
     projects/xntsv/Controls/xlineedithex.cpp \
     projects/xntsv/FormatDialogs/dialogdumpprocess.cpp \
     projects/xntsv/FormatDialogs/dialogeditstring.cpp \
+    projects/xntsv/FormatDialogs/dialogfindtext.cpp \
     projects/xntsv/FormatDialogs/dialoggotoaddress.cpp \
     projects/xntsv/FormatDialogs/dialoghexsignature.cpp \
     projects/xntsv/FormatDialogs/dialogsearch.cpp \
@@ -2484,7 +2551,6 @@ SOURCES += \
     projects/xntsv/XOnlineTools/xonlinetoolsdialogprocess.cpp \
     projects/xntsv/XOnlineTools/xonlinetoolsoptionswidget.cpp \
     projects/xntsv/XOnlineTools/xvirustotal.cpp \
-    projects/xntsv/XOnlineTools/xvirustotaldialog.cpp \
     projects/xntsv/XOnlineTools/xvirustotalwidget.cpp \
     projects/xntsv/XOptions/xoptions.cpp \
     projects/xntsv/XOptions/xoptionswidget.cpp \
@@ -2636,10 +2702,22 @@ SOURCES += \
     projects/xntsv/archive_widget/dialogshowtext.cpp \
     projects/xntsv/archive_widget/dialogunpackfile.cpp \
     projects/xntsv/archive_widget/unpackfileprocess.cpp \
+    projects/xntsv/die_script/binary_script.cpp \
+    projects/xntsv/die_script/com_script.cpp \
+    projects/xntsv/die_script/die_script.cpp \
+    projects/xntsv/die_script/die_scriptengine.cpp \
+    projects/xntsv/die_script/elf_script.cpp \
+    projects/xntsv/die_script/global_script.cpp \
+    projects/xntsv/die_script/le_script.cpp \
+    projects/xntsv/die_script/lx_script.cpp \
+    projects/xntsv/die_script/mach_script.cpp \
+    projects/xntsv/die_script/msdos_script.cpp \
+    projects/xntsv/die_script/ne_script.cpp \
+    projects/xntsv/die_script/pe_script.cpp \
+    projects/xntsv/die_script/xscriptengine.cpp \
     projects/xntsv/gui_source/dialogabout.cpp \
     projects/xntsv/gui_source/dialogoptions.cpp \
     projects/xntsv/gui_source/guimainwindow.cpp \
     projects/xntsv/gui_source/main_gui.cpp \
     projects/xntsv/nfd_widget/nfd_widget.cpp
-
 
