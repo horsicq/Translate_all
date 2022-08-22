@@ -28,3 +28,6 @@
 [submodule "XOpcodeCalc"]
 	path = XOpcodeCalc
 	url = https://github.com/horsicq/XOpcodeCalc
+[submodule "projects/XOpcodeCalc"]
+	path = projects/XOpcodeCalc
+	url = https://github.com/horsicq/XOpcodeCalc
