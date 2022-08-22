@@ -25,3 +25,6 @@
 [submodule "projects/Nauz-File-Detector"]
 	path = projects/Nauz-File-Detector
 	url = https://github.com/horsicq/Nauz-File-Detector
+[submodule "XOpcodeCalc"]
+	path = XOpcodeCalc
+	url = https://github.com/horsicq/XOpcodeCalc
