@@ -56,6 +56,7 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/PDF/pdfwidget.ui \
     projects/DIE-engine/FormatWidgets/PE/dialogpe.ui \
     projects/DIE-engine/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/DIE-engine/FormatWidgets/PE/petoolswidget.ui \
     projects/DIE-engine/FormatWidgets/PE/pewidget.ui \
     projects/DIE-engine/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -69,7 +70,6 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/toolswidget.ui \
     projects/DIE-engine/StaticScan/dialogstaticscan.ui \
     projects/DIE-engine/StaticScan/dialogstaticscandirectory.ui \
-    projects/DIE-engine/StaticScan/dialogstaticscanprocess.ui \
     projects/DIE-engine/StaticScan/formresult.ui \
     projects/DIE-engine/StaticScan/formstaticscan.ui \
     projects/DIE-engine/StaticScan/heurwidget.ui \
@@ -93,6 +93,8 @@ FORMS += \
     projects/DIE-engine/XEntropyWidget/dialogentropy.ui \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.ui \
     projects/DIE-engine/XEntropyWidget/xentropywidget.ui \
+    projects/DIE-engine/XExtractorWidget/dialogxextractor.ui \
+    projects/DIE-engine/XExtractorWidget/xextractorwidget.ui \
     projects/DIE-engine/XFileInfo/dialogxfileinfo.ui \
     projects/DIE-engine/XFileInfo/dialogxfileinfoprocess.ui \
     projects/DIE-engine/XFileInfo/xfileinfowidget.ui \
@@ -104,6 +106,7 @@ FORMS += \
     projects/DIE-engine/XHexView/xhexviewoptionswidget.ui \
     projects/DIE-engine/XHexView/xhexviewwidget.ui \
     projects/DIE-engine/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/DIE-engine/XInfoDB/xinfodboptionswidget.ui \
     projects/DIE-engine/XMIMEWidget/dialogmime.ui \
     projects/DIE-engine/XMIMEWidget/xmimewidget.ui \
     projects/DIE-engine/XMemoryMapWidget/dialogmemorymap.ui \
@@ -145,13 +148,13 @@ FORMS += \
     projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.ui \
     projects/Nauz-File-Detector/StaticScan/dialogstaticscan.ui \
     projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.ui \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscanprocess.ui \
     projects/Nauz-File-Detector/StaticScan/formresult.ui \
     projects/Nauz-File-Detector/StaticScan/formstaticscan.ui \
     projects/Nauz-File-Detector/StaticScan/heurwidget.ui \
     projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.ui \
     projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.ui \
     projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/Nauz-File-Detector/XInfoDB/xinfodboptionswidget.ui \
     projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.ui \
     projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.ui \
     projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.ui \
@@ -162,6 +165,7 @@ FORMS += \
     projects/Nauz-File-Detector/gui_source/dialogabout.ui \
     projects/Nauz-File-Detector/gui_source/dialogoptions.ui \
     projects/Nauz-File-Detector/gui_source/guimainwindow.ui \
+    projects/PDBRipper/XAboutWidget/xaboutwidget.ui \
     projects/PDBRipper/XOptions/xoptionswidget.ui \
     projects/PDBRipper/XShortcuts/dialogshortcuts.ui \
     projects/PDBRipper/gui_source/dialogabout.ui \
@@ -205,6 +209,7 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/PDF/pdfwidget.ui \
     projects/XAPKDetector/FormatWidgets/PE/dialogpe.ui \
     projects/XAPKDetector/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/XAPKDetector/FormatWidgets/PE/petoolswidget.ui \
     projects/XAPKDetector/FormatWidgets/PE/pewidget.ui \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -218,7 +223,6 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/toolswidget.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscan.ui \
     projects/XAPKDetector/StaticScan/dialogstaticscandirectory.ui \
-    projects/XAPKDetector/StaticScan/dialogstaticscanprocess.ui \
     projects/XAPKDetector/StaticScan/formresult.ui \
     projects/XAPKDetector/StaticScan/formstaticscan.ui \
     projects/XAPKDetector/StaticScan/heurwidget.ui \
@@ -237,6 +241,8 @@ FORMS += \
     projects/XAPKDetector/XEntropyWidget/dialogentropy.ui \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.ui \
     projects/XAPKDetector/XEntropyWidget/xentropywidget.ui \
+    projects/XAPKDetector/XExtractorWidget/dialogxextractor.ui \
+    projects/XAPKDetector/XExtractorWidget/xextractorwidget.ui \
     projects/XAPKDetector/XFileInfo/dialogxfileinfo.ui \
     projects/XAPKDetector/XFileInfo/dialogxfileinfoprocess.ui \
     projects/XAPKDetector/XFileInfo/xfileinfowidget.ui \
@@ -248,6 +254,7 @@ FORMS += \
     projects/XAPKDetector/XHexView/xhexviewoptionswidget.ui \
     projects/XAPKDetector/XHexView/xhexviewwidget.ui \
     projects/XAPKDetector/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/XAPKDetector/XInfoDB/xinfodboptionswidget.ui \
     projects/XAPKDetector/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XAPKDetector/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XAPKDetector/XOnlineTools/dialogxvirustotal.ui \
@@ -304,6 +311,7 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XELFViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XELFViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/XELFViewer/FormatWidgets/PE/petoolswidget.ui \
     projects/XELFViewer/FormatWidgets/PE/pewidget.ui \
     projects/XELFViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -317,7 +325,6 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/toolswidget.ui \
     projects/XELFViewer/StaticScan/dialogstaticscan.ui \
     projects/XELFViewer/StaticScan/dialogstaticscandirectory.ui \
-    projects/XELFViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XELFViewer/StaticScan/formresult.ui \
     projects/XELFViewer/StaticScan/formstaticscan.ui \
     projects/XELFViewer/StaticScan/heurwidget.ui \
@@ -336,6 +343,8 @@ FORMS += \
     projects/XELFViewer/XEntropyWidget/dialogentropy.ui \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XELFViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XELFViewer/XExtractorWidget/dialogxextractor.ui \
+    projects/XELFViewer/XExtractorWidget/xextractorwidget.ui \
     projects/XELFViewer/XFileInfo/dialogxfileinfo.ui \
     projects/XELFViewer/XFileInfo/dialogxfileinfoprocess.ui \
     projects/XELFViewer/XFileInfo/xfileinfowidget.ui \
@@ -347,6 +356,7 @@ FORMS += \
     projects/XELFViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XELFViewer/XHexView/xhexviewwidget.ui \
     projects/XELFViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/XELFViewer/XInfoDB/xinfodboptionswidget.ui \
     projects/XELFViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XELFViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XELFViewer/XOnlineTools/dialogxvirustotal.ui \
@@ -356,6 +366,12 @@ FORMS += \
     projects/XELFViewer/XShortcuts/dialogshortcuts.ui \
     projects/XELFViewer/XSymbolsWidget/dialogxsymbols.ui \
     projects/XELFViewer/XSymbolsWidget/xsymbolswidget.ui \
+    projects/XELFViewer/archive_widget/archive_widget.ui \
+    projects/XELFViewer/archive_widget/dialogarchive.ui \
+    projects/XELFViewer/archive_widget/dialogcreateviewmodel.ui \
+    projects/XELFViewer/archive_widget/dialogshowimage.ui \
+    projects/XELFViewer/archive_widget/dialogshowtext.ui \
+    projects/XELFViewer/archive_widget/dialogunpackfile.ui \
     projects/XELFViewer/gui_source/dialogabout.ui \
     projects/XELFViewer/gui_source/dialogoptions.ui \
     projects/XELFViewer/gui_source/guimainwindow.ui \
@@ -395,6 +411,7 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XMACHOViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XMACHOViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/XMACHOViewer/FormatWidgets/PE/petoolswidget.ui \
     projects/XMACHOViewer/FormatWidgets/PE/pewidget.ui \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -408,7 +425,6 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/toolswidget.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscan.ui \
     projects/XMACHOViewer/StaticScan/dialogstaticscandirectory.ui \
-    projects/XMACHOViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XMACHOViewer/StaticScan/formresult.ui \
     projects/XMACHOViewer/StaticScan/formstaticscan.ui \
     projects/XMACHOViewer/StaticScan/heurwidget.ui \
@@ -432,6 +448,8 @@ FORMS += \
     projects/XMACHOViewer/XEntropyWidget/dialogentropy.ui \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XMACHOViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XMACHOViewer/XExtractorWidget/dialogxextractor.ui \
+    projects/XMACHOViewer/XExtractorWidget/xextractorwidget.ui \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfo.ui \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfoprocess.ui \
     projects/XMACHOViewer/XFileInfo/xfileinfowidget.ui \
@@ -443,6 +461,7 @@ FORMS += \
     projects/XMACHOViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XMACHOViewer/XHexView/xhexviewwidget.ui \
     projects/XMACHOViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/XMACHOViewer/XInfoDB/xinfodboptionswidget.ui \
     projects/XMACHOViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XMACHOViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XMACHOViewer/XOnlineTools/dialogxvirustotal.ui \
@@ -503,6 +522,7 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/PDF/pdfwidget.ui \
     projects/XPEViewer/FormatWidgets/PE/dialogpe.ui \
     projects/XPEViewer/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/XPEViewer/FormatWidgets/PE/petoolswidget.ui \
     projects/XPEViewer/FormatWidgets/PE/pewidget.ui \
     projects/XPEViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -516,7 +536,6 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/toolswidget.ui \
     projects/XPEViewer/StaticScan/dialogstaticscan.ui \
     projects/XPEViewer/StaticScan/dialogstaticscandirectory.ui \
-    projects/XPEViewer/StaticScan/dialogstaticscanprocess.ui \
     projects/XPEViewer/StaticScan/formresult.ui \
     projects/XPEViewer/StaticScan/formstaticscan.ui \
     projects/XPEViewer/StaticScan/heurwidget.ui \
@@ -535,6 +554,8 @@ FORMS += \
     projects/XPEViewer/XEntropyWidget/dialogentropy.ui \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.ui \
     projects/XPEViewer/XEntropyWidget/xentropywidget.ui \
+    projects/XPEViewer/XExtractorWidget/dialogxextractor.ui \
+    projects/XPEViewer/XExtractorWidget/xextractorwidget.ui \
     projects/XPEViewer/XFileInfo/dialogxfileinfo.ui \
     projects/XPEViewer/XFileInfo/dialogxfileinfoprocess.ui \
     projects/XPEViewer/XFileInfo/xfileinfowidget.ui \
@@ -546,6 +567,7 @@ FORMS += \
     projects/XPEViewer/XHexView/xhexviewoptionswidget.ui \
     projects/XPEViewer/XHexView/xhexviewwidget.ui \
     projects/XPEViewer/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/XPEViewer/XInfoDB/xinfodboptionswidget.ui \
     projects/XPEViewer/XMemoryMapWidget/dialogmemorymap.ui \
     projects/XPEViewer/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/XPEViewer/XOnlineTools/dialogxvirustotal.ui \
@@ -555,6 +577,12 @@ FORMS += \
     projects/XPEViewer/XShortcuts/dialogshortcuts.ui \
     projects/XPEViewer/XSymbolsWidget/dialogxsymbols.ui \
     projects/XPEViewer/XSymbolsWidget/xsymbolswidget.ui \
+    projects/XPEViewer/archive_widget/archive_widget.ui \
+    projects/XPEViewer/archive_widget/dialogarchive.ui \
+    projects/XPEViewer/archive_widget/dialogcreateviewmodel.ui \
+    projects/XPEViewer/archive_widget/dialogshowimage.ui \
+    projects/XPEViewer/archive_widget/dialogshowtext.ui \
+    projects/XPEViewer/archive_widget/dialogunpackfile.ui \
     projects/XPEViewer/gui_source/dialogabout.ui \
     projects/XPEViewer/gui_source/dialogoptions.ui \
     projects/XPEViewer/gui_source/guimainwindow.ui \
@@ -594,6 +622,7 @@ FORMS += \
     projects/xntsv/FormatWidgets/PDF/pdfwidget.ui \
     projects/xntsv/FormatWidgets/PE/dialogpe.ui \
     projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.ui \
+    projects/xntsv/FormatWidgets/PE/petoolswidget.ui \
     projects/xntsv/FormatWidgets/PE/pewidget.ui \
     projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.ui \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.ui \
@@ -609,7 +638,6 @@ FORMS += \
     projects/xntsv/QHexView/qhexviewwidget.ui \
     projects/xntsv/StaticScan/dialogstaticscan.ui \
     projects/xntsv/StaticScan/dialogstaticscandirectory.ui \
-    projects/xntsv/StaticScan/dialogstaticscanprocess.ui \
     projects/xntsv/StaticScan/formresult.ui \
     projects/xntsv/StaticScan/formstaticscan.ui \
     projects/xntsv/StaticScan/heurwidget.ui \
@@ -633,6 +661,8 @@ FORMS += \
     projects/xntsv/XEntropyWidget/dialogentropy.ui \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.ui \
     projects/xntsv/XEntropyWidget/xentropywidget.ui \
+    projects/xntsv/XExtractorWidget/dialogxextractor.ui \
+    projects/xntsv/XExtractorWidget/xextractorwidget.ui \
     projects/xntsv/XFileInfo/dialogxfileinfo.ui \
     projects/xntsv/XFileInfo/dialogxfileinfoprocess.ui \
     projects/xntsv/XFileInfo/xfileinfowidget.ui \
@@ -644,6 +674,7 @@ FORMS += \
     projects/xntsv/XHexView/xhexviewoptionswidget.ui \
     projects/xntsv/XHexView/xhexviewwidget.ui \
     projects/xntsv/XInfoDB/dialogxinfodbtransferprocess.ui \
+    projects/xntsv/XInfoDB/xinfodboptionswidget.ui \
     projects/xntsv/XMemoryMapWidget/dialogmemorymap.ui \
     projects/xntsv/XMemoryMapWidget/xmemorymapwidget.ui \
     projects/xntsv/XOnlineTools/dialogxvirustotal.ui \
@@ -733,6 +764,7 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/PE/pe_defs.cpp \
     projects/DIE-engine/FormatWidgets/PE/peprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/DIE-engine/FormatWidgets/PE/petoolswidget.cpp \
     projects/DIE-engine/FormatWidgets/PE/pewidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -747,9 +779,18 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/invwidget.cpp \
     projects/DIE-engine/FormatWidgets/processdata.cpp \
     projects/DIE-engine/FormatWidgets/toolswidget.cpp \
+    projects/DIE-engine/Formats/audio/xmp3.cpp \
+    projects/DIE-engine/Formats/images/xbmp.cpp \
+    projects/DIE-engine/Formats/images/xgif.cpp \
+    projects/DIE-engine/Formats/images/xicon.cpp \
+    projects/DIE-engine/Formats/images/xjpeg.cpp \
+    projects/DIE-engine/Formats/images/xpng.cpp \
+    projects/DIE-engine/Formats/images/xtiff.cpp \
     projects/DIE-engine/Formats/scanitem.cpp \
     projects/DIE-engine/Formats/scanitemmodel.cpp \
     projects/DIE-engine/Formats/subdevice.cpp \
+    projects/DIE-engine/Formats/video/xmp4.cpp \
+    projects/DIE-engine/Formats/video/xriff.cpp \
     projects/DIE-engine/Formats/xbinary.cpp \
     projects/DIE-engine/Formats/xcom.cpp \
     projects/DIE-engine/Formats/xelf.cpp \
@@ -773,9 +814,11 @@ SOURCES += \
     projects/DIE-engine/StaticScan/staticscanitemmodel.cpp \
     projects/DIE-engine/StaticScan/staticscanoptionswidget.cpp \
     projects/DIE-engine/XAboutWidget/xaboutwidget.cpp \
+    projects/DIE-engine/XArchive/x_ar.cpp \
     projects/DIE-engine/XArchive/xarchive.cpp \
     projects/DIE-engine/XArchive/xarchives.cpp \
     projects/DIE-engine/XArchive/xcab.cpp \
+    projects/DIE-engine/XArchive/xgzip.cpp \
     projects/DIE-engine/XArchive/xmachofat.cpp \
     projects/DIE-engine/XArchive/xrar.cpp \
     projects/DIE-engine/XArchive/xsevenzip.cpp \
@@ -808,6 +851,10 @@ SOURCES += \
     projects/DIE-engine/XEntropyWidget/dialogentropyprocess.cpp \
     projects/DIE-engine/XEntropyWidget/entropyprocess.cpp \
     projects/DIE-engine/XEntropyWidget/xentropywidget.cpp \
+    projects/DIE-engine/XExtractor/xextractor.cpp \
+    projects/DIE-engine/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/DIE-engine/XExtractorWidget/dialogxextractor.cpp \
+    projects/DIE-engine/XExtractorWidget/xextractorwidget.cpp \
     projects/DIE-engine/XFileInfo/dialogxfileinfo.cpp \
     projects/DIE-engine/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/DIE-engine/XFileInfo/xfileinfo.cpp \
@@ -827,6 +874,7 @@ SOURCES += \
     projects/DIE-engine/XHexView/xhexviewwidget.cpp \
     projects/DIE-engine/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/DIE-engine/XInfoDB/xinfodb.cpp \
+    projects/DIE-engine/XInfoDB/xinfodboptionswidget.cpp \
     projects/DIE-engine/XInfoDB/xinfodbtransfer.cpp \
     projects/DIE-engine/XMIME/xmime.cpp \
     projects/DIE-engine/XMIMEWidget/dialogmime.cpp \
@@ -973,6 +1021,7 @@ SOURCES += \
     projects/DIE-engine/XSingleApplication/xsingleapplication.cpp \
     projects/DIE-engine/XSymbolsWidget/dialogxsymbols.cpp \
     projects/DIE-engine/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/DIE-engine/XUpdate/xupdate.cpp \
     projects/DIE-engine/archive_widget/archive_widget.cpp \
     projects/DIE-engine/archive_widget/createviewmodelprocess.cpp \
     projects/DIE-engine/archive_widget/dialogarchive.cpp \
@@ -1023,9 +1072,18 @@ SOURCES += \
     projects/Nauz-File-Detector/FormatDialogs/dumpprocess.cpp \
     projects/Nauz-File-Detector/FormatDialogs/searchprocess.cpp \
     projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.cpp \
+    projects/Nauz-File-Detector/Formats/audio/xmp3.cpp \
+    projects/Nauz-File-Detector/Formats/images/xbmp.cpp \
+    projects/Nauz-File-Detector/Formats/images/xgif.cpp \
+    projects/Nauz-File-Detector/Formats/images/xicon.cpp \
+    projects/Nauz-File-Detector/Formats/images/xjpeg.cpp \
+    projects/Nauz-File-Detector/Formats/images/xpng.cpp \
+    projects/Nauz-File-Detector/Formats/images/xtiff.cpp \
     projects/Nauz-File-Detector/Formats/scanitem.cpp \
     projects/Nauz-File-Detector/Formats/scanitemmodel.cpp \
     projects/Nauz-File-Detector/Formats/subdevice.cpp \
+    projects/Nauz-File-Detector/Formats/video/xmp4.cpp \
+    projects/Nauz-File-Detector/Formats/video/xriff.cpp \
     projects/Nauz-File-Detector/Formats/xbinary.cpp \
     projects/Nauz-File-Detector/Formats/xcom.cpp \
     projects/Nauz-File-Detector/Formats/xelf.cpp \
@@ -1049,9 +1107,11 @@ SOURCES += \
     projects/Nauz-File-Detector/StaticScan/staticscanitemmodel.cpp \
     projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.cpp \
     projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.cpp \
+    projects/Nauz-File-Detector/XArchive/x_ar.cpp \
     projects/Nauz-File-Detector/XArchive/xarchive.cpp \
     projects/Nauz-File-Detector/XArchive/xarchives.cpp \
     projects/Nauz-File-Detector/XArchive/xcab.cpp \
+    projects/Nauz-File-Detector/XArchive/xgzip.cpp \
     projects/Nauz-File-Detector/XArchive/xmachofat.cpp \
     projects/Nauz-File-Detector/XArchive/xrar.cpp \
     projects/Nauz-File-Detector/XArchive/xsevenzip.cpp \
@@ -1059,8 +1119,10 @@ SOURCES += \
     projects/Nauz-File-Detector/XCapstone/xcapstone.cpp \
     projects/Nauz-File-Detector/XDEX/xandroidbinary.cpp \
     projects/Nauz-File-Detector/XDEX/xdex.cpp \
+    projects/Nauz-File-Detector/XGithub/xgithub.cpp \
     projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/Nauz-File-Detector/XInfoDB/xinfodb.cpp \
+    projects/Nauz-File-Detector/XInfoDB/xinfodboptionswidget.cpp \
     projects/Nauz-File-Detector/XInfoDB/xinfodbtransfer.cpp \
     projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.cpp \
     projects/Nauz-File-Detector/XOnlineTools/xonlinetools.cpp \
@@ -1078,11 +1140,14 @@ SOURCES += \
     projects/Nauz-File-Detector/XShortcuts/xshortcutswidget.cpp \
     projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.cpp \
     projects/Nauz-File-Detector/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/Nauz-File-Detector/XUpdate/xupdate.cpp \
     projects/Nauz-File-Detector/console_source/main_console.cpp \
     projects/Nauz-File-Detector/gui_source/dialogabout.cpp \
     projects/Nauz-File-Detector/gui_source/dialogoptions.cpp \
     projects/Nauz-File-Detector/gui_source/guimainwindow.cpp \
     projects/Nauz-File-Detector/gui_source/main_gui.cpp \
+    projects/PDBRipper/XAboutWidget/xaboutwidget.cpp \
+    projects/PDBRipper/XGithub/xgithub.cpp \
     projects/PDBRipper/XOptions/xoptions.cpp \
     projects/PDBRipper/XOptions/xoptionswidget.cpp \
     projects/PDBRipper/XShortcuts/dialogshortcuts.cpp \
@@ -1090,6 +1155,9 @@ SOURCES += \
     projects/PDBRipper/XShortcuts/xshortcutsdialog.cpp \
     projects/PDBRipper/XShortcuts/xshortcutstscrollarea.cpp \
     projects/PDBRipper/XShortcuts/xshortcutswidget.cpp \
+    projects/PDBRipper/XUpdate/xupdate.cpp \
+    projects/PDBRipper/XWinPDB/msdia/diaCreate.cpp \
+    projects/PDBRipper/XWinPDB/xwinpdb.cpp \
     projects/PDBRipper/console_source/consoleoutput.cpp \
     projects/PDBRipper/console_source/main_console.cpp \
     projects/PDBRipper/gui_source/dialogabout.cpp \
@@ -1163,6 +1231,7 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/PE/pe_defs.cpp \
     projects/XAPKDetector/FormatWidgets/PE/peprocessdata.cpp \
     projects/XAPKDetector/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/XAPKDetector/FormatWidgets/PE/petoolswidget.cpp \
     projects/XAPKDetector/FormatWidgets/PE/pewidget.cpp \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -1177,9 +1246,18 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/invwidget.cpp \
     projects/XAPKDetector/FormatWidgets/processdata.cpp \
     projects/XAPKDetector/FormatWidgets/toolswidget.cpp \
+    projects/XAPKDetector/Formats/audio/xmp3.cpp \
+    projects/XAPKDetector/Formats/images/xbmp.cpp \
+    projects/XAPKDetector/Formats/images/xgif.cpp \
+    projects/XAPKDetector/Formats/images/xicon.cpp \
+    projects/XAPKDetector/Formats/images/xjpeg.cpp \
+    projects/XAPKDetector/Formats/images/xpng.cpp \
+    projects/XAPKDetector/Formats/images/xtiff.cpp \
     projects/XAPKDetector/Formats/scanitem.cpp \
     projects/XAPKDetector/Formats/scanitemmodel.cpp \
     projects/XAPKDetector/Formats/subdevice.cpp \
+    projects/XAPKDetector/Formats/video/xmp4.cpp \
+    projects/XAPKDetector/Formats/video/xriff.cpp \
     projects/XAPKDetector/Formats/xbinary.cpp \
     projects/XAPKDetector/Formats/xcom.cpp \
     projects/XAPKDetector/Formats/xelf.cpp \
@@ -1203,9 +1281,11 @@ SOURCES += \
     projects/XAPKDetector/StaticScan/staticscanitemmodel.cpp \
     projects/XAPKDetector/StaticScan/staticscanoptionswidget.cpp \
     projects/XAPKDetector/XAboutWidget/xaboutwidget.cpp \
+    projects/XAPKDetector/XArchive/x_ar.cpp \
     projects/XAPKDetector/XArchive/xarchive.cpp \
     projects/XAPKDetector/XArchive/xarchives.cpp \
     projects/XAPKDetector/XArchive/xcab.cpp \
+    projects/XAPKDetector/XArchive/xgzip.cpp \
     projects/XAPKDetector/XArchive/xmachofat.cpp \
     projects/XAPKDetector/XArchive/xrar.cpp \
     projects/XAPKDetector/XArchive/xsevenzip.cpp \
@@ -1231,12 +1311,17 @@ SOURCES += \
     projects/XAPKDetector/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XAPKDetector/XEntropyWidget/entropyprocess.cpp \
     projects/XAPKDetector/XEntropyWidget/xentropywidget.cpp \
+    projects/XAPKDetector/XExtractor/xextractor.cpp \
+    projects/XAPKDetector/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/XAPKDetector/XExtractorWidget/dialogxextractor.cpp \
+    projects/XAPKDetector/XExtractorWidget/xextractorwidget.cpp \
     projects/XAPKDetector/XFileInfo/dialogxfileinfo.cpp \
     projects/XAPKDetector/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfo.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfoitem.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfomodel.cpp \
     projects/XAPKDetector/XFileInfo/xfileinfowidget.cpp \
+    projects/XAPKDetector/XGithub/xgithub.cpp \
     projects/XAPKDetector/XHashWidget/dialoghash.cpp \
     projects/XAPKDetector/XHashWidget/dialoghashprocess.cpp \
     projects/XAPKDetector/XHashWidget/hashprocess.cpp \
@@ -1249,6 +1334,7 @@ SOURCES += \
     projects/XAPKDetector/XHexView/xhexviewwidget.cpp \
     projects/XAPKDetector/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/XAPKDetector/XInfoDB/xinfodb.cpp \
+    projects/XAPKDetector/XInfoDB/xinfodboptionswidget.cpp \
     projects/XAPKDetector/XInfoDB/xinfodbtransfer.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XAPKDetector/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -1395,6 +1481,7 @@ SOURCES += \
     projects/XAPKDetector/XShortcuts/xshortcutswidget.cpp \
     projects/XAPKDetector/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XAPKDetector/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XAPKDetector/XUpdate/xupdate.cpp \
     projects/XAPKDetector/archive_widget/archive_widget.cpp \
     projects/XAPKDetector/archive_widget/createviewmodelprocess.cpp \
     projects/XAPKDetector/archive_widget/dialogarchive.cpp \
@@ -1486,6 +1573,7 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XELFViewer/FormatWidgets/PE/peprocessdata.cpp \
     projects/XELFViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/XELFViewer/FormatWidgets/PE/petoolswidget.cpp \
     projects/XELFViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XELFViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -1500,9 +1588,18 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/invwidget.cpp \
     projects/XELFViewer/FormatWidgets/processdata.cpp \
     projects/XELFViewer/FormatWidgets/toolswidget.cpp \
+    projects/XELFViewer/Formats/audio/xmp3.cpp \
+    projects/XELFViewer/Formats/images/xbmp.cpp \
+    projects/XELFViewer/Formats/images/xgif.cpp \
+    projects/XELFViewer/Formats/images/xicon.cpp \
+    projects/XELFViewer/Formats/images/xjpeg.cpp \
+    projects/XELFViewer/Formats/images/xpng.cpp \
+    projects/XELFViewer/Formats/images/xtiff.cpp \
     projects/XELFViewer/Formats/scanitem.cpp \
     projects/XELFViewer/Formats/scanitemmodel.cpp \
     projects/XELFViewer/Formats/subdevice.cpp \
+    projects/XELFViewer/Formats/video/xmp4.cpp \
+    projects/XELFViewer/Formats/video/xriff.cpp \
     projects/XELFViewer/Formats/xbinary.cpp \
     projects/XELFViewer/Formats/xcom.cpp \
     projects/XELFViewer/Formats/xelf.cpp \
@@ -1526,9 +1623,11 @@ SOURCES += \
     projects/XELFViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XELFViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XELFViewer/XAboutWidget/xaboutwidget.cpp \
+    projects/XELFViewer/XArchive/x_ar.cpp \
     projects/XELFViewer/XArchive/xarchive.cpp \
     projects/XELFViewer/XArchive/xarchives.cpp \
     projects/XELFViewer/XArchive/xcab.cpp \
+    projects/XELFViewer/XArchive/xgzip.cpp \
     projects/XELFViewer/XArchive/xmachofat.cpp \
     projects/XELFViewer/XArchive/xrar.cpp \
     projects/XELFViewer/XArchive/xsevenzip.cpp \
@@ -1554,12 +1653,17 @@ SOURCES += \
     projects/XELFViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XELFViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XELFViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XELFViewer/XExtractor/xextractor.cpp \
+    projects/XELFViewer/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/XELFViewer/XExtractorWidget/dialogxextractor.cpp \
+    projects/XELFViewer/XExtractorWidget/xextractorwidget.cpp \
     projects/XELFViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XELFViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XELFViewer/XFileInfo/xfileinfo.cpp \
     projects/XELFViewer/XFileInfo/xfileinfoitem.cpp \
     projects/XELFViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XELFViewer/XFileInfo/xfileinfowidget.cpp \
+    projects/XELFViewer/XGithub/xgithub.cpp \
     projects/XELFViewer/XHashWidget/dialoghash.cpp \
     projects/XELFViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XELFViewer/XHashWidget/hashprocess.cpp \
@@ -1572,6 +1676,7 @@ SOURCES += \
     projects/XELFViewer/XHexView/xhexviewwidget.cpp \
     projects/XELFViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/XELFViewer/XInfoDB/xinfodb.cpp \
+    projects/XELFViewer/XInfoDB/xinfodboptionswidget.cpp \
     projects/XELFViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XELFViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -1718,6 +1823,15 @@ SOURCES += \
     projects/XELFViewer/XShortcuts/xshortcutswidget.cpp \
     projects/XELFViewer/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XELFViewer/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XELFViewer/XUpdate/xupdate.cpp \
+    projects/XELFViewer/archive_widget/archive_widget.cpp \
+    projects/XELFViewer/archive_widget/createviewmodelprocess.cpp \
+    projects/XELFViewer/archive_widget/dialogarchive.cpp \
+    projects/XELFViewer/archive_widget/dialogcreateviewmodel.cpp \
+    projects/XELFViewer/archive_widget/dialogshowimage.cpp \
+    projects/XELFViewer/archive_widget/dialogshowtext.cpp \
+    projects/XELFViewer/archive_widget/dialogunpackfile.cpp \
+    projects/XELFViewer/archive_widget/unpackfileprocess.cpp \
     projects/XELFViewer/die_script/binary_script.cpp \
     projects/XELFViewer/die_script/com_script.cpp \
     projects/XELFViewer/die_script/die_script.cpp \
@@ -1797,6 +1911,7 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/peprocessdata.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/XMACHOViewer/FormatWidgets/PE/petoolswidget.cpp \
     projects/XMACHOViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -1811,9 +1926,18 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/invwidget.cpp \
     projects/XMACHOViewer/FormatWidgets/processdata.cpp \
     projects/XMACHOViewer/FormatWidgets/toolswidget.cpp \
+    projects/XMACHOViewer/Formats/audio/xmp3.cpp \
+    projects/XMACHOViewer/Formats/images/xbmp.cpp \
+    projects/XMACHOViewer/Formats/images/xgif.cpp \
+    projects/XMACHOViewer/Formats/images/xicon.cpp \
+    projects/XMACHOViewer/Formats/images/xjpeg.cpp \
+    projects/XMACHOViewer/Formats/images/xpng.cpp \
+    projects/XMACHOViewer/Formats/images/xtiff.cpp \
     projects/XMACHOViewer/Formats/scanitem.cpp \
     projects/XMACHOViewer/Formats/scanitemmodel.cpp \
     projects/XMACHOViewer/Formats/subdevice.cpp \
+    projects/XMACHOViewer/Formats/video/xmp4.cpp \
+    projects/XMACHOViewer/Formats/video/xriff.cpp \
     projects/XMACHOViewer/Formats/xbinary.cpp \
     projects/XMACHOViewer/Formats/xcom.cpp \
     projects/XMACHOViewer/Formats/xelf.cpp \
@@ -1837,9 +1961,11 @@ SOURCES += \
     projects/XMACHOViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XMACHOViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XMACHOViewer/XAboutWidget/xaboutwidget.cpp \
+    projects/XMACHOViewer/XArchive/x_ar.cpp \
     projects/XMACHOViewer/XArchive/xarchive.cpp \
     projects/XMACHOViewer/XArchive/xarchives.cpp \
     projects/XMACHOViewer/XArchive/xcab.cpp \
+    projects/XMACHOViewer/XArchive/xgzip.cpp \
     projects/XMACHOViewer/XArchive/xmachofat.cpp \
     projects/XMACHOViewer/XArchive/xrar.cpp \
     projects/XMACHOViewer/XArchive/xsevenzip.cpp \
@@ -1872,12 +1998,17 @@ SOURCES += \
     projects/XMACHOViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XMACHOViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XMACHOViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XMACHOViewer/XExtractor/xextractor.cpp \
+    projects/XMACHOViewer/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/XMACHOViewer/XExtractorWidget/dialogxextractor.cpp \
+    projects/XMACHOViewer/XExtractorWidget/xextractorwidget.cpp \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XMACHOViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfo.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfoitem.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XMACHOViewer/XFileInfo/xfileinfowidget.cpp \
+    projects/XMACHOViewer/XGithub/xgithub.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghash.cpp \
     projects/XMACHOViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XMACHOViewer/XHashWidget/hashprocess.cpp \
@@ -1890,6 +2021,7 @@ SOURCES += \
     projects/XMACHOViewer/XHexView/xhexviewwidget.cpp \
     projects/XMACHOViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/XMACHOViewer/XInfoDB/xinfodb.cpp \
+    projects/XMACHOViewer/XInfoDB/xinfodboptionswidget.cpp \
     projects/XMACHOViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XMACHOViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -2036,6 +2168,7 @@ SOURCES += \
     projects/XMACHOViewer/XShortcuts/xshortcutswidget.cpp \
     projects/XMACHOViewer/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XMACHOViewer/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XMACHOViewer/XUpdate/xupdate.cpp \
     projects/XMACHOViewer/archive_widget/archive_widget.cpp \
     projects/XMACHOViewer/archive_widget/createviewmodelprocess.cpp \
     projects/XMACHOViewer/archive_widget/dialogarchive.cpp \
@@ -2063,8 +2196,10 @@ SOURCES += \
     projects/XMACHOViewer/gui_source/main_gui.cpp \
     projects/XMACHOViewer/nfd_widget/nfd_widget.cpp \
     projects/XOpcodeCalc/XAboutWidget/xaboutwidget.cpp \
+    projects/XOpcodeCalc/XGithub/xgithub.cpp \
     projects/XOpcodeCalc/XOptions/xoptions.cpp \
     projects/XOpcodeCalc/XOptions/xoptionswidget.cpp \
+    projects/XOpcodeCalc/XUpdate/xupdate.cpp \
     projects/XOpcodeCalc/gui_source/dialogabout.cpp \
     projects/XOpcodeCalc/gui_source/dialogoptions.cpp \
     projects/XOpcodeCalc/gui_source/guimainwindow.cpp \
@@ -2132,6 +2267,7 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/PE/pe_defs.cpp \
     projects/XPEViewer/FormatWidgets/PE/peprocessdata.cpp \
     projects/XPEViewer/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/XPEViewer/FormatWidgets/PE/petoolswidget.cpp \
     projects/XPEViewer/FormatWidgets/PE/pewidget.cpp \
     projects/XPEViewer/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -2146,9 +2282,18 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/invwidget.cpp \
     projects/XPEViewer/FormatWidgets/processdata.cpp \
     projects/XPEViewer/FormatWidgets/toolswidget.cpp \
+    projects/XPEViewer/Formats/audio/xmp3.cpp \
+    projects/XPEViewer/Formats/images/xbmp.cpp \
+    projects/XPEViewer/Formats/images/xgif.cpp \
+    projects/XPEViewer/Formats/images/xicon.cpp \
+    projects/XPEViewer/Formats/images/xjpeg.cpp \
+    projects/XPEViewer/Formats/images/xpng.cpp \
+    projects/XPEViewer/Formats/images/xtiff.cpp \
     projects/XPEViewer/Formats/scanitem.cpp \
     projects/XPEViewer/Formats/scanitemmodel.cpp \
     projects/XPEViewer/Formats/subdevice.cpp \
+    projects/XPEViewer/Formats/video/xmp4.cpp \
+    projects/XPEViewer/Formats/video/xriff.cpp \
     projects/XPEViewer/Formats/xbinary.cpp \
     projects/XPEViewer/Formats/xcom.cpp \
     projects/XPEViewer/Formats/xelf.cpp \
@@ -2172,9 +2317,11 @@ SOURCES += \
     projects/XPEViewer/StaticScan/staticscanitemmodel.cpp \
     projects/XPEViewer/StaticScan/staticscanoptionswidget.cpp \
     projects/XPEViewer/XAboutWidget/xaboutwidget.cpp \
+    projects/XPEViewer/XArchive/x_ar.cpp \
     projects/XPEViewer/XArchive/xarchive.cpp \
     projects/XPEViewer/XArchive/xarchives.cpp \
     projects/XPEViewer/XArchive/xcab.cpp \
+    projects/XPEViewer/XArchive/xgzip.cpp \
     projects/XPEViewer/XArchive/xmachofat.cpp \
     projects/XPEViewer/XArchive/xrar.cpp \
     projects/XPEViewer/XArchive/xsevenzip.cpp \
@@ -2200,12 +2347,17 @@ SOURCES += \
     projects/XPEViewer/XEntropyWidget/dialogentropyprocess.cpp \
     projects/XPEViewer/XEntropyWidget/entropyprocess.cpp \
     projects/XPEViewer/XEntropyWidget/xentropywidget.cpp \
+    projects/XPEViewer/XExtractor/xextractor.cpp \
+    projects/XPEViewer/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/XPEViewer/XExtractorWidget/dialogxextractor.cpp \
+    projects/XPEViewer/XExtractorWidget/xextractorwidget.cpp \
     projects/XPEViewer/XFileInfo/dialogxfileinfo.cpp \
     projects/XPEViewer/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/XPEViewer/XFileInfo/xfileinfo.cpp \
     projects/XPEViewer/XFileInfo/xfileinfoitem.cpp \
     projects/XPEViewer/XFileInfo/xfileinfomodel.cpp \
     projects/XPEViewer/XFileInfo/xfileinfowidget.cpp \
+    projects/XPEViewer/XGithub/xgithub.cpp \
     projects/XPEViewer/XHashWidget/dialoghash.cpp \
     projects/XPEViewer/XHashWidget/dialoghashprocess.cpp \
     projects/XPEViewer/XHashWidget/hashprocess.cpp \
@@ -2218,6 +2370,7 @@ SOURCES += \
     projects/XPEViewer/XHexView/xhexviewwidget.cpp \
     projects/XPEViewer/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/XPEViewer/XInfoDB/xinfodb.cpp \
+    projects/XPEViewer/XInfoDB/xinfodboptionswidget.cpp \
     projects/XPEViewer/XInfoDB/xinfodbtransfer.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/XPEViewer/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -2364,6 +2517,15 @@ SOURCES += \
     projects/XPEViewer/XShortcuts/xshortcutswidget.cpp \
     projects/XPEViewer/XSymbolsWidget/dialogxsymbols.cpp \
     projects/XPEViewer/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/XPEViewer/XUpdate/xupdate.cpp \
+    projects/XPEViewer/archive_widget/archive_widget.cpp \
+    projects/XPEViewer/archive_widget/createviewmodelprocess.cpp \
+    projects/XPEViewer/archive_widget/dialogarchive.cpp \
+    projects/XPEViewer/archive_widget/dialogcreateviewmodel.cpp \
+    projects/XPEViewer/archive_widget/dialogshowimage.cpp \
+    projects/XPEViewer/archive_widget/dialogshowtext.cpp \
+    projects/XPEViewer/archive_widget/dialogunpackfile.cpp \
+    projects/XPEViewer/archive_widget/unpackfileprocess.cpp \
     projects/XPEViewer/die_script/binary_script.cpp \
     projects/XPEViewer/die_script/com_script.cpp \
     projects/XPEViewer/die_script/die_script.cpp \
@@ -2443,6 +2605,7 @@ SOURCES += \
     projects/xntsv/FormatWidgets/PE/pe_defs.cpp \
     projects/xntsv/FormatWidgets/PE/peprocessdata.cpp \
     projects/xntsv/FormatWidgets/PE/pesectionheaderwidget.cpp \
+    projects/xntsv/FormatWidgets/PE/petoolswidget.cpp \
     projects/xntsv/FormatWidgets/PE/pewidget.cpp \
     projects/xntsv/FormatWidgets/SearchSignatures/dialogsearchsignatures.cpp \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignaturesoptionswidget.cpp \
@@ -2457,9 +2620,18 @@ SOURCES += \
     projects/xntsv/FormatWidgets/invwidget.cpp \
     projects/xntsv/FormatWidgets/processdata.cpp \
     projects/xntsv/FormatWidgets/toolswidget.cpp \
+    projects/xntsv/Formats/audio/xmp3.cpp \
+    projects/xntsv/Formats/images/xbmp.cpp \
+    projects/xntsv/Formats/images/xgif.cpp \
+    projects/xntsv/Formats/images/xicon.cpp \
+    projects/xntsv/Formats/images/xjpeg.cpp \
+    projects/xntsv/Formats/images/xpng.cpp \
+    projects/xntsv/Formats/images/xtiff.cpp \
     projects/xntsv/Formats/scanitem.cpp \
     projects/xntsv/Formats/scanitemmodel.cpp \
     projects/xntsv/Formats/subdevice.cpp \
+    projects/xntsv/Formats/video/xmp4.cpp \
+    projects/xntsv/Formats/video/xriff.cpp \
     projects/xntsv/Formats/xbinary.cpp \
     projects/xntsv/Formats/xcom.cpp \
     projects/xntsv/Formats/xelf.cpp \
@@ -2486,9 +2658,11 @@ SOURCES += \
     projects/xntsv/StaticScan/staticscanitemmodel.cpp \
     projects/xntsv/StaticScan/staticscanoptionswidget.cpp \
     projects/xntsv/XAboutWidget/xaboutwidget.cpp \
+    projects/xntsv/XArchive/x_ar.cpp \
     projects/xntsv/XArchive/xarchive.cpp \
     projects/xntsv/XArchive/xarchives.cpp \
     projects/xntsv/XArchive/xcab.cpp \
+    projects/xntsv/XArchive/xgzip.cpp \
     projects/xntsv/XArchive/xmachofat.cpp \
     projects/xntsv/XArchive/xrar.cpp \
     projects/xntsv/XArchive/xsevenzip.cpp \
@@ -2521,12 +2695,17 @@ SOURCES += \
     projects/xntsv/XEntropyWidget/dialogentropyprocess.cpp \
     projects/xntsv/XEntropyWidget/entropyprocess.cpp \
     projects/xntsv/XEntropyWidget/xentropywidget.cpp \
+    projects/xntsv/XExtractor/xextractor.cpp \
+    projects/xntsv/XExtractorWidget/dialogextractorprocess.cpp \
+    projects/xntsv/XExtractorWidget/dialogxextractor.cpp \
+    projects/xntsv/XExtractorWidget/xextractorwidget.cpp \
     projects/xntsv/XFileInfo/dialogxfileinfo.cpp \
     projects/xntsv/XFileInfo/dialogxfileinfoprocess.cpp \
     projects/xntsv/XFileInfo/xfileinfo.cpp \
     projects/xntsv/XFileInfo/xfileinfoitem.cpp \
     projects/xntsv/XFileInfo/xfileinfomodel.cpp \
     projects/xntsv/XFileInfo/xfileinfowidget.cpp \
+    projects/xntsv/XGithub/xgithub.cpp \
     projects/xntsv/XHashWidget/dialoghash.cpp \
     projects/xntsv/XHashWidget/dialoghashprocess.cpp \
     projects/xntsv/XHashWidget/hashprocess.cpp \
@@ -2539,6 +2718,7 @@ SOURCES += \
     projects/xntsv/XHexView/xhexviewwidget.cpp \
     projects/xntsv/XInfoDB/dialogxinfodbtransferprocess.cpp \
     projects/xntsv/XInfoDB/xinfodb.cpp \
+    projects/xntsv/XInfoDB/xinfodboptionswidget.cpp \
     projects/xntsv/XInfoDB/xinfodbtransfer.cpp \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/Demangle.cpp \
     projects/xntsv/XLLVMDemangler/3rdparty/llvm/Demangle/ItaniumDemangle.cpp \
@@ -2693,6 +2873,7 @@ SOURCES += \
     projects/xntsv/XShortcuts/xshortcutswidget.cpp \
     projects/xntsv/XSymbolsWidget/dialogxsymbols.cpp \
     projects/xntsv/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/xntsv/XUpdate/xupdate.cpp \
     projects/xntsv/XWinIODriver/xwiniodriver.cpp \
     projects/xntsv/archive_widget/archive_widget.cpp \
     projects/xntsv/archive_widget/createviewmodelprocess.cpp \
