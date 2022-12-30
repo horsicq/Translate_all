@@ -48,7 +48,6 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/DIE-engine/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/DIE-engine/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/DIE-engine/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/DIE-engine/FormatWidgets/NE/dialogne.ui \
     projects/DIE-engine/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/DIE-engine/FormatWidgets/NE/newidget.ui \
@@ -63,6 +62,8 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/DIE-engine/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/DIE-engine/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/DIE-engine/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/DIE-engine/FormatWidgets/dialogmodelinfo.ui \
     projects/DIE-engine/FormatWidgets/dialogprocessdata.ui \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.ui \
@@ -201,7 +202,6 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XAPKDetector/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XAPKDetector/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/XAPKDetector/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/XAPKDetector/FormatWidgets/NE/dialogne.ui \
     projects/XAPKDetector/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XAPKDetector/FormatWidgets/NE/newidget.ui \
@@ -216,6 +216,8 @@ FORMS += \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XAPKDetector/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XAPKDetector/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/XAPKDetector/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/XAPKDetector/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/XAPKDetector/FormatWidgets/dialogmodelinfo.ui \
     projects/XAPKDetector/FormatWidgets/dialogprocessdata.ui \
     projects/XAPKDetector/FormatWidgets/dialogsectionheader.ui \
@@ -303,7 +305,6 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XELFViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XELFViewer/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/XELFViewer/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/XELFViewer/FormatWidgets/NE/dialogne.ui \
     projects/XELFViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XELFViewer/FormatWidgets/NE/newidget.ui \
@@ -318,6 +319,8 @@ FORMS += \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XELFViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XELFViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/XELFViewer/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/XELFViewer/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/XELFViewer/FormatWidgets/dialogmodelinfo.ui \
     projects/XELFViewer/FormatWidgets/dialogprocessdata.ui \
     projects/XELFViewer/FormatWidgets/dialogsectionheader.ui \
@@ -403,7 +406,6 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XMACHOViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XMACHOViewer/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/XMACHOViewer/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/XMACHOViewer/FormatWidgets/NE/dialogne.ui \
     projects/XMACHOViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XMACHOViewer/FormatWidgets/NE/newidget.ui \
@@ -418,6 +420,8 @@ FORMS += \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/XMACHOViewer/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/XMACHOViewer/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/XMACHOViewer/FormatWidgets/dialogmodelinfo.ui \
     projects/XMACHOViewer/FormatWidgets/dialogprocessdata.ui \
     projects/XMACHOViewer/FormatWidgets/dialogsectionheader.ui \
@@ -514,7 +518,6 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/XPEViewer/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/XPEViewer/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/XPEViewer/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/XPEViewer/FormatWidgets/NE/dialogne.ui \
     projects/XPEViewer/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/XPEViewer/FormatWidgets/NE/newidget.ui \
@@ -529,6 +532,8 @@ FORMS += \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/XPEViewer/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/XPEViewer/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/XPEViewer/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/XPEViewer/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/XPEViewer/FormatWidgets/dialogmodelinfo.ui \
     projects/XPEViewer/FormatWidgets/dialogprocessdata.ui \
     projects/XPEViewer/FormatWidgets/dialogsectionheader.ui \
@@ -614,7 +619,6 @@ FORMS += \
     projects/xntsv/FormatWidgets/MACHOFAT/machofatwidget.ui \
     projects/xntsv/FormatWidgets/MSDOS/dialogmsdos.ui \
     projects/xntsv/FormatWidgets/MSDOS/msdoswidget.ui \
-    projects/xntsv/FormatWidgets/MultiSearch/dialogmultisearchprocess.ui \
     projects/xntsv/FormatWidgets/NE/dialogne.ui \
     projects/xntsv/FormatWidgets/NE/nesectionheaderwidget.ui \
     projects/xntsv/FormatWidgets/NE/newidget.ui \
@@ -629,6 +633,8 @@ FORMS += \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.ui \
     projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.ui \
     projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.ui \
+    projects/xntsv/FormatWidgets/SearchValues/dialogsearchvalues.ui \
+    projects/xntsv/FormatWidgets/SearchValues/searchvalueswidget.ui \
     projects/xntsv/FormatWidgets/dialogmodelinfo.ui \
     projects/xntsv/FormatWidgets/dialogprocessdata.ui \
     projects/xntsv/FormatWidgets/dialogsectionheader.ui \
@@ -771,6 +777,8 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/DIE-engine/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/DIE-engine/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/DIE-engine/FormatWidgets/dialogmodelinfo.cpp \
     projects/DIE-engine/FormatWidgets/dialogprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.cpp \
@@ -1238,6 +1246,8 @@ SOURCES += \
     projects/XAPKDetector/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XAPKDetector/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XAPKDetector/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/XAPKDetector/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/XAPKDetector/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/XAPKDetector/FormatWidgets/dialogmodelinfo.cpp \
     projects/XAPKDetector/FormatWidgets/dialogprocessdata.cpp \
     projects/XAPKDetector/FormatWidgets/dialogsectionheader.cpp \
@@ -1580,6 +1590,8 @@ SOURCES += \
     projects/XELFViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XELFViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XELFViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/XELFViewer/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/XELFViewer/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/XELFViewer/FormatWidgets/dialogmodelinfo.cpp \
     projects/XELFViewer/FormatWidgets/dialogprocessdata.cpp \
     projects/XELFViewer/FormatWidgets/dialogsectionheader.cpp \
@@ -1918,6 +1930,8 @@ SOURCES += \
     projects/XMACHOViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XMACHOViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/XMACHOViewer/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/XMACHOViewer/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/XMACHOViewer/FormatWidgets/dialogmodelinfo.cpp \
     projects/XMACHOViewer/FormatWidgets/dialogprocessdata.cpp \
     projects/XMACHOViewer/FormatWidgets/dialogsectionheader.cpp \
@@ -2274,6 +2288,8 @@ SOURCES += \
     projects/XPEViewer/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/XPEViewer/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/XPEViewer/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/XPEViewer/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/XPEViewer/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/XPEViewer/FormatWidgets/dialogmodelinfo.cpp \
     projects/XPEViewer/FormatWidgets/dialogprocessdata.cpp \
     projects/XPEViewer/FormatWidgets/dialogsectionheader.cpp \
@@ -2612,6 +2628,8 @@ SOURCES += \
     projects/xntsv/FormatWidgets/SearchSignatures/searchsignatureswidget.cpp \
     projects/xntsv/FormatWidgets/SearchStrings/dialogsearchstrings.cpp \
     projects/xntsv/FormatWidgets/SearchStrings/searchstringswidget.cpp \
+    projects/xntsv/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
+    projects/xntsv/FormatWidgets/SearchValues/searchvalueswidget.cpp \
     projects/xntsv/FormatWidgets/dialogmodelinfo.cpp \
     projects/xntsv/FormatWidgets/dialogprocessdata.cpp \
     projects/xntsv/FormatWidgets/dialogsectionheader.cpp \
