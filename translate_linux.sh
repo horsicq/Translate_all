@@ -34,3 +34,4 @@ translate uk dict_uk
 translate vi dict_vi
 translate zh dict_zh
 translate zh_TW dict_zh-TW
+translate fa dict_fa
