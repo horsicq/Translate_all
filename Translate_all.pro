@@ -3,6 +3,7 @@ TRANSLATIONS = \
     translation/de.ts \
     translation/en.ts \
     translation/es.ts \
+    translation/fa.ts \
     translation/fr.ts \
     translation/he.ts \
     translation/id.ts \
