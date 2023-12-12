@@ -16,6 +16,7 @@ function translate {
 }
 
 translate ar dict_ar
+translate bn dict_bn
 translate de dict_de
 translate en dict_en
 translate es dict_es
