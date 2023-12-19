@@ -1,24 +1,9 @@
-[submodule "projects/XPEViewer"]
-	path = projects/XPEViewer
-	url = https://github.com/horsicq/XPEViewer
-[submodule "projects/XELFViewer"]
-	path = projects/XELFViewer
-	url = https://github.com/horsicq/XELFViewer
-[submodule "projects/XMACHOViewer"]
-	path = projects/XMACHOViewer
-	url = https://github.com/horsicq/XMACHOViewer
-[submodule "projects/XAPKDetector"]
-	path = projects/XAPKDetector
-	url = https://github.com/horsicq/XAPKDetector
 [submodule "projects/DIE-engine"]
 	path = projects/DIE-engine
 	url = https://github.com/horsicq/DIE-engine
 [submodule "XTranslation"]
 	path = XTranslation
 	url = https://github.com/horsicq/XTranslation
-[submodule "projects/xntsv"]
-	path = projects/xntsv
-	url = https://github.com/horsicq/xntsv
 [submodule "projects/PDBRipper"]
 	path = projects/PDBRipper
 	url = https://github.com/horsicq/PDBRipper
