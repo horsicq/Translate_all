@@ -15,6 +15,31 @@ function translate {
     mv $TRANSLATE_PATH/$1.po $TRANSLATE_PATH/$2.po
 }
 
+mkdir $TRANSLATE_PATH
+lupdate projects -locations none -ts \
+                $TRANSLATE_PATH/ar.ts \
+                $TRANSLATE_PATH/bn.ts \
+                $TRANSLATE_PATH/de.ts \
+                $TRANSLATE_PATH/en.ts \
+                $TRANSLATE_PATH/es.ts \
+                $TRANSLATE_PATH/fa.ts \
+                $TRANSLATE_PATH/fr.ts \
+                $TRANSLATE_PATH/he.ts \
+                $TRANSLATE_PATH/id.ts \
+                $TRANSLATE_PATH/it.ts \
+                $TRANSLATE_PATH/ja.ts \
+                $TRANSLATE_PATH/ko.ts \
+                $TRANSLATE_PATH/pl.ts \
+                $TRANSLATE_PATH/pt_BR.ts \
+                $TRANSLATE_PATH/pt_PT.ts \
+                $TRANSLATE_PATH/ru.ts \
+                $TRANSLATE_PATH/sv.ts \
+                $TRANSLATE_PATH/tr.ts\
+                $TRANSLATE_PATH/uk.ts\
+                $TRANSLATE_PATH/vi.ts \
+                $TRANSLATE_PATH/zh.ts \
+                $TRANSLATE_PATH/zh_TW.ts
+
 translate ar dict_ar
 translate bn dict_bn
 translate de dict_de
