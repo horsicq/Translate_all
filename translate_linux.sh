@@ -3,7 +3,8 @@ DICT_PATH=XTranslation
 
 function translate {
     # TODO try lconvert
-	ts2po $TRANSLATE_PATH/$1.ts $TRANSLATE_PATH/$1.po
+	#ts2po $TRANSLATE_PATH/$1.ts $TRANSLATE_PATH/$1.po
+    lconvert -i $TRANSLATE_PATH/$1.ts -o $TRANSLATE_PATH/$1.po
     sed -i '/^#/d' $TRANSLATE_PATH/$1.po
     sed -i '/^msgctxt /d' $TRANSLATE_PATH/$1.po
     sed -i '/^"Report-Msgid-Bugs-To/d' $TRANSLATE_PATH/$1.po
