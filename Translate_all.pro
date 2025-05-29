@@ -36,7 +36,16 @@ FORMS += \
     projects/DIE-engine/FormatDialogs/dialogsearchprocess.ui \
     projects/DIE-engine/FormatDialogs/dialogshowdata.ui \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.ui \
+    projects/DIE-engine/FormatDialogs/dialogwidget.ui \
     projects/DIE-engine/FormatDialogs/xdialogprocess.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/dialogsetgenericwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/dialogxmainwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenericdisasmwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenericheaderwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerichexwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerictablehexwidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerictablewidget.ui \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xmainwidget.ui \
     projects/DIE-engine/FormatWidgets/Binary/binarywidget.ui \
     projects/DIE-engine/FormatWidgets/Binary/dialogbinary.ui \
     projects/DIE-engine/FormatWidgets/DEX/dexsectionheaderwidget.ui \
@@ -71,6 +80,8 @@ FORMS += \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.ui \
     projects/DIE-engine/FormatWidgets/SearchValues/dialogsearchvalues.ui \
     projects/DIE-engine/FormatWidgets/SearchValues/searchvalueswidget.ui \
+    projects/DIE-engine/FormatWidgets/XAbstractWidgets/xgenericheaderwidget.ui \
+    projects/DIE-engine/FormatWidgets/XAbstractWidgets/xmainwidget.ui \
     projects/DIE-engine/FormatWidgets/dialogmodelinfo.ui \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.ui \
     projects/DIE-engine/FormatWidgets/formatswidget.ui \
@@ -86,13 +97,8 @@ FORMS += \
     projects/DIE-engine/XDataConvertorWidget/xdataconvertorwidget.ui \
     projects/DIE-engine/XDemangleWidget/dialogdemangle.ui \
     projects/DIE-engine/XDemangleWidget/xdemanglewidget.ui \
-    projects/DIE-engine/XDisasm/dialogasmsignature.ui \
-    projects/DIE-engine/XDisasm/dialogdisasm.ui \
-    projects/DIE-engine/XDisasm/dialogdisasmlabels.ui \
-    projects/DIE-engine/XDisasm/dialogdisasmprocess.ui \
-    projects/DIE-engine/XDisasm/xdisasmwidget.ui \
+    projects/DIE-engine/XDisasmView/Widgets/dialogmultidisasmsignature.ui \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.ui \
-    projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.ui \
     projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.ui \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.ui \
     projects/DIE-engine/XDynStructsWidget/dialogxdynstructs.ui \
@@ -120,6 +126,7 @@ FORMS += \
     projects/DIE-engine/XOnlineTools/xvirustotalwidget.ui \
     projects/DIE-engine/XOptions/dialogviewcolors.ui \
     projects/DIE-engine/XOptions/xoptionswidget.ui \
+    projects/DIE-engine/XRegionsWidget/xregionswidget.ui \
     projects/DIE-engine/XShortcuts/dialogshortcuts.ui \
     projects/DIE-engine/XSymbolsWidget/dialogbookmarks.ui \
     projects/DIE-engine/XSymbolsWidget/dialogxsymbols.ui \
@@ -151,46 +158,47 @@ FORMS += \
     projects/DIE-engine/yara_widget/dialogyarawidgetadvanced.ui \
     projects/DIE-engine/yara_widget/yara_widget.ui \
     projects/DIE-engine/yara_widget/yarawidgetadvanced.ui \
-    projects/Nauz-File-Detector/Controls/dialogbits8.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogdatainspector.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogdump.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogfindtext.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogremove.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogresize.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogsearch.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogsearchprocess.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogshowdata.ui \
-    projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.ui \
-    projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.ui \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscan.ui \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.ui \
-    projects/Nauz-File-Detector/StaticScan/formresult.ui \
-    projects/Nauz-File-Detector/StaticScan/formstaticscan.ui \
-    projects/Nauz-File-Detector/StaticScan/heurwidget.ui \
-    projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.ui \
-    projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.ui \
-    projects/Nauz-File-Detector/XInfoDB/xinfodboptionswidget.ui \
-    projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.ui \
-    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.ui \
-    projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.ui \
-    projects/Nauz-File-Detector/XOptions/dialogviewcolors.ui \
-    projects/Nauz-File-Detector/XOptions/xoptionswidget.ui \
-    projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.ui \
-    projects/Nauz-File-Detector/XSymbolsWidget/dialogbookmarks.ui \
-    projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.ui \
-    projects/Nauz-File-Detector/XSymbolsWidget/xsymbolswidget.ui \
-    projects/Nauz-File-Detector/gui_source/dialogabout.ui \
-    projects/Nauz-File-Detector/gui_source/dialogoptions.ui \
-    projects/Nauz-File-Detector/gui_source/guimainwindow.ui \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdscan.ui \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdscandirectory.ui \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdwidgetadvanced.ui \
-    projects/Nauz-File-Detector/nfd_widget/nfd_widget.ui \
-    projects/Nauz-File-Detector/nfd_widget/nfdoptionswidget.ui \
-    projects/Nauz-File-Detector/nfd_widget/nfdwidgetadvanced.ui \
+    projects/Nauz-File-Detector/dep/Controls/dialogbits8.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogdatainspector.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogdump.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogeditstring.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogfindtext.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialoggotoaddress.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialoghexsignature.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogremove.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogresize.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogsearch.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogsearchprocess.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogshowdata.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogtextinfo.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogwidget.ui \
+    projects/Nauz-File-Detector/dep/FormatDialogs/xdialogprocess.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/dialogstaticscan.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/dialogstaticscandirectory.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/formresult.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/formstaticscan.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/heurwidget.ui \
+    projects/Nauz-File-Detector/dep/StaticScan/staticscanoptionswidget.ui \
+    projects/Nauz-File-Detector/dep/XAboutWidget/xaboutwidget.ui \
+    projects/Nauz-File-Detector/dep/XInfoDB/xinfodboptionswidget.ui \
+    projects/Nauz-File-Detector/dep/XOnlineTools/dialogxvirustotal.ui \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xonlinetoolsoptionswidget.ui \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xvirustotalwidget.ui \
+    projects/Nauz-File-Detector/dep/XOptions/dialogviewcolors.ui \
+    projects/Nauz-File-Detector/dep/XOptions/xoptionswidget.ui \
+    projects/Nauz-File-Detector/dep/XShortcuts/dialogshortcuts.ui \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/dialogbookmarks.ui \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/dialogxsymbols.ui \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/xsymbolswidget.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdscan.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdscandirectory.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdwidgetadvanced.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfd_widget.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfdoptionswidget.ui \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfdwidgetadvanced.ui \
+    projects/Nauz-File-Detector/src/gui/dialogabout.ui \
+    projects/Nauz-File-Detector/src/gui/dialogoptions.ui \
+    projects/Nauz-File-Detector/src/gui/guimainwindow.ui \
     projects/PDBRipper/XAboutWidget/xaboutwidget.ui \
     projects/PDBRipper/XOptions/dialogviewcolors.ui \
     projects/PDBRipper/XOptions/xoptionswidget.ui \
@@ -221,6 +229,8 @@ SOURCES += \
     projects/DIE-engine/Controls/xhtml.cpp \
     projects/DIE-engine/Controls/xlineedithex.cpp \
     projects/DIE-engine/Controls/xlineeditvalidator.cpp \
+    projects/DIE-engine/Controls/xmodel.cpp \
+    projects/DIE-engine/Controls/xmodel_msrecord.cpp \
     projects/DIE-engine/Controls/xsortfilterproxymodel.cpp \
     projects/DIE-engine/Controls/xtableview.cpp \
     projects/DIE-engine/FormatDialogs/dialogdatainspector.cpp \
@@ -235,9 +245,33 @@ SOURCES += \
     projects/DIE-engine/FormatDialogs/dialogsearchprocess.cpp \
     projects/DIE-engine/FormatDialogs/dialogshowdata.cpp \
     projects/DIE-engine/FormatDialogs/dialogtextinfo.cpp \
+    projects/DIE-engine/FormatDialogs/dialogwidget.cpp \
     projects/DIE-engine/FormatDialogs/dumpprocess.cpp \
     projects/DIE-engine/FormatDialogs/searchprocess.cpp \
     projects/DIE-engine/FormatDialogs/xdialogprocess.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/generic_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xarchives_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xdex_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xelf_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xformats_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xle_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xmach_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xmsdos_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xne_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xpe_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/Structs/xsevenzip_defs.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/dialogsetgenericwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/dialogxmainwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xdialogprocessdata.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xformatwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenericdisasmwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenericheaderwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerichexwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerictablehexwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xgenerictablewidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xmainwidget.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xmainwidgetadvanced.cpp \
+    projects/DIE-engine/FormatWidgets/AbstractWidgets/xprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/Binary/binary_defs.cpp \
     projects/DIE-engine/FormatWidgets/Binary/binarywidget.cpp \
     projects/DIE-engine/FormatWidgets/Binary/dialogbinary.cpp \
@@ -289,6 +323,9 @@ SOURCES += \
     projects/DIE-engine/FormatWidgets/SearchStrings/searchstringswidget.cpp \
     projects/DIE-engine/FormatWidgets/SearchValues/dialogsearchvalues.cpp \
     projects/DIE-engine/FormatWidgets/SearchValues/searchvalueswidget.cpp \
+    projects/DIE-engine/FormatWidgets/XAbstractWidgets/xgenericabstractwidget.cpp \
+    projects/DIE-engine/FormatWidgets/XAbstractWidgets/xgenericheaderwidget.cpp \
+    projects/DIE-engine/FormatWidgets/XAbstractWidgets/xmainwidget.cpp \
     projects/DIE-engine/FormatWidgets/dialogmodelinfo.cpp \
     projects/DIE-engine/FormatWidgets/dialogprocessdata.cpp \
     projects/DIE-engine/FormatWidgets/dialogsectionheader.cpp \
@@ -306,6 +343,8 @@ SOURCES += \
     projects/DIE-engine/Formats/exec/xmsdos.cpp \
     projects/DIE-engine/Formats/exec/xne.cpp \
     projects/DIE-engine/Formats/exec/xpe.cpp \
+    projects/DIE-engine/Formats/formats/xcfbf.cpp \
+    projects/DIE-engine/Formats/formats/xjavaclass.cpp \
     projects/DIE-engine/Formats/images/xbmp.cpp \
     projects/DIE-engine/Formats/images/xgif.cpp \
     projects/DIE-engine/Formats/images/xicon.cpp \
@@ -339,6 +378,7 @@ SOURCES += \
     projects/DIE-engine/XArchive/xarchive.cpp \
     projects/DIE-engine/XArchive/xarchives.cpp \
     projects/DIE-engine/XArchive/xcab.cpp \
+    projects/DIE-engine/XArchive/xcfbf.cpp \
     projects/DIE-engine/XArchive/xcompress.cpp \
     projects/DIE-engine/XArchive/xcompresseddevice.cpp \
     projects/DIE-engine/XArchive/xdeb.cpp \
@@ -366,15 +406,13 @@ SOURCES += \
     projects/DIE-engine/XDemangle/xdemangle.cpp \
     projects/DIE-engine/XDemangleWidget/dialogdemangle.cpp \
     projects/DIE-engine/XDemangleWidget/xdemanglewidget.cpp \
-    projects/DIE-engine/XDisasm/dialogasmsignature.cpp \
-    projects/DIE-engine/XDisasm/dialogdisasm.cpp \
-    projects/DIE-engine/XDisasm/dialogdisasmlabels.cpp \
-    projects/DIE-engine/XDisasm/dialogdisasmprocess.cpp \
-    projects/DIE-engine/XDisasm/xdisasm.cpp \
-    projects/DIE-engine/XDisasm/xdisasmmodel.cpp \
-    projects/DIE-engine/XDisasm/xdisasmwidget.cpp \
+    projects/DIE-engine/XDisasmCore/Modules/capstone_bridge.cpp \
+    projects/DIE-engine/XDisasmCore/Modules/x7zip_properties.cpp \
+    projects/DIE-engine/XDisasmCore/Modules/xmacho_commands.cpp \
+    projects/DIE-engine/XDisasmCore/xdisasmabstract.cpp \
+    projects/DIE-engine/XDisasmCore/xdisasmcore.cpp \
+    projects/DIE-engine/XDisasmView/Widgets/dialogmultidisasmsignature.cpp \
     projects/DIE-engine/XDisasmView/dialogmultidisasm.cpp \
-    projects/DIE-engine/XDisasmView/dialogmultidisasmsignature.cpp \
     projects/DIE-engine/XDisasmView/xdisasmview.cpp \
     projects/DIE-engine/XDisasmView/xdisasmviewoptionswidget.cpp \
     projects/DIE-engine/XDisasmView/xmultidisasmwidget.cpp \
@@ -551,17 +589,22 @@ SOURCES += \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_weeding_curve_fitter.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_wheel.cpp \
     projects/DIE-engine/XQwt/3rdparty/qwt/src/qwt_widget_overlay.cpp \
+    projects/DIE-engine/XRegionsWidget/xregionitem.cpp \
+    projects/DIE-engine/XRegionsWidget/xregionsmodel.cpp \
+    projects/DIE-engine/XRegionsWidget/xregionswidget.cpp \
     projects/DIE-engine/XScanEngine/scanitem.cpp \
     projects/DIE-engine/XScanEngine/scanitemmodel.cpp \
     projects/DIE-engine/XScanEngine/xscanengine.cpp \
     projects/DIE-engine/XShortcuts/dialogshortcuts.cpp \
     projects/DIE-engine/XShortcuts/xshortcuts.cpp \
     projects/DIE-engine/XShortcuts/xshortcutsdialog.cpp \
+    projects/DIE-engine/XShortcuts/xshortcutsobject.cpp \
     projects/DIE-engine/XShortcuts/xshortcutstscrollarea.cpp \
     projects/DIE-engine/XShortcuts/xshortcutswidget.cpp \
     projects/DIE-engine/XSingleApplication/xsingleapplication.cpp \
     projects/DIE-engine/XSymbolsWidget/dialogbookmarks.cpp \
     projects/DIE-engine/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/DIE-engine/XSymbolsWidget/xmodel_xsymbol.cpp \
     projects/DIE-engine/XSymbolsWidget/xsymbolswidget.cpp \
     projects/DIE-engine/XUpdate/xupdate.cpp \
     projects/DIE-engine/XVisualizationWidget/dialogvisualization.cpp \
@@ -587,20 +630,28 @@ SOURCES += \
     projects/DIE-engine/die_script/apk_script.cpp \
     projects/DIE-engine/die_script/archive_script.cpp \
     projects/DIE-engine/die_script/binary_script.cpp \
+    projects/DIE-engine/die_script/cfbf_script.cpp \
     projects/DIE-engine/die_script/com_script.cpp \
     projects/DIE-engine/die_script/dex_script.cpp \
     projects/DIE-engine/die_script/die_script.cpp \
     projects/DIE-engine/die_script/die_scriptengine.cpp \
+    projects/DIE-engine/die_script/dos16m_script.cpp \
+    projects/DIE-engine/die_script/dos4g_script.cpp \
     projects/DIE-engine/die_script/elf_script.cpp \
     projects/DIE-engine/die_script/global_script.cpp \
+    projects/DIE-engine/die_script/image_script.cpp \
     projects/DIE-engine/die_script/ipa_script.cpp \
     projects/DIE-engine/die_script/jar_script.cpp \
+    projects/DIE-engine/die_script/javaclass_script.cpp \
+    projects/DIE-engine/die_script/jpeg_script.cpp \
     projects/DIE-engine/die_script/le_script.cpp \
     projects/DIE-engine/die_script/lx_script.cpp \
     projects/DIE-engine/die_script/mach_script.cpp \
+    projects/DIE-engine/die_script/machofat_script.cpp \
     projects/DIE-engine/die_script/msdos_script.cpp \
     projects/DIE-engine/die_script/ne_script.cpp \
     projects/DIE-engine/die_script/npm_script.cpp \
+    projects/DIE-engine/die_script/pdf_script.cpp \
     projects/DIE-engine/die_script/pe_script.cpp \
     projects/DIE-engine/die_script/util_script.cpp \
     projects/DIE-engine/die_script/xscriptengine.cpp \
@@ -633,137 +684,150 @@ SOURCES += \
     projects/DIE-engine/yara_widget/xyaradialogprocess.cpp \
     projects/DIE-engine/yara_widget/yara_widget.cpp \
     projects/DIE-engine/yara_widget/yarawidgetadvanced.cpp \
-    projects/Nauz-File-Detector/Controls/dialogbits8.cpp \
-    projects/Nauz-File-Detector/Controls/subclassofqstyleditemdelegate.cpp \
-    projects/Nauz-File-Detector/Controls/xabstracttableview.cpp \
-    projects/Nauz-File-Detector/Controls/xcomboboxex.cpp \
-    projects/Nauz-File-Detector/Controls/xdatetimeeditx.cpp \
-    projects/Nauz-File-Detector/Controls/xdevicetableeditview.cpp \
-    projects/Nauz-File-Detector/Controls/xdevicetableview.cpp \
-    projects/Nauz-File-Detector/Controls/xheaderview.cpp \
-    projects/Nauz-File-Detector/Controls/xhtml.cpp \
-    projects/Nauz-File-Detector/Controls/xlineedithex.cpp \
-    projects/Nauz-File-Detector/Controls/xlineeditvalidator.cpp \
-    projects/Nauz-File-Detector/Controls/xsortfilterproxymodel.cpp \
-    projects/Nauz-File-Detector/Controls/xtableview.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogdatainspector.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogdumpprocess.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogeditstring.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogfindtext.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialoggotoaddress.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialoghexsignature.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogremove.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogresize.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogsearch.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogsearchprocess.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogshowdata.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dialogtextinfo.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/dumpprocess.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/searchprocess.cpp \
-    projects/Nauz-File-Detector/FormatDialogs/xdialogprocess.cpp \
-    projects/Nauz-File-Detector/Formats/audio/xmp3.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xamigahunk.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xcom.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xelf.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xle.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xmach.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xmsdos.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xne.cpp \
-    projects/Nauz-File-Detector/Formats/exec/xpe.cpp \
-    projects/Nauz-File-Detector/Formats/images/xbmp.cpp \
-    projects/Nauz-File-Detector/Formats/images/xgif.cpp \
-    projects/Nauz-File-Detector/Formats/images/xicon.cpp \
-    projects/Nauz-File-Detector/Formats/images/xjpeg.cpp \
-    projects/Nauz-File-Detector/Formats/images/xpng.cpp \
-    projects/Nauz-File-Detector/Formats/images/xtiff.cpp \
-    projects/Nauz-File-Detector/Formats/subdevice.cpp \
-    projects/Nauz-File-Detector/Formats/video/xmp4.cpp \
-    projects/Nauz-File-Detector/Formats/video/xriff.cpp \
-    projects/Nauz-File-Detector/Formats/xbinary.cpp \
-    projects/Nauz-File-Detector/Formats/xdataconvertor.cpp \
-    projects/Nauz-File-Detector/Formats/xformats.cpp \
-    projects/Nauz-File-Detector/Formats/xiodevice.cpp \
-    projects/Nauz-File-Detector/SpecAbstract/signatures.cpp \
-    projects/Nauz-File-Detector/SpecAbstract/specabstract.cpp \
-    projects/Nauz-File-Detector/SpecAbstract/staticscan.cpp \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscan.cpp \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscandirectory.cpp \
-    projects/Nauz-File-Detector/StaticScan/dialogstaticscanprocess.cpp \
-    projects/Nauz-File-Detector/StaticScan/formresult.cpp \
-    projects/Nauz-File-Detector/StaticScan/formstaticscan.cpp \
-    projects/Nauz-File-Detector/StaticScan/heurwidget.cpp \
-    projects/Nauz-File-Detector/StaticScan/staticscan.cpp \
-    projects/Nauz-File-Detector/StaticScan/staticscanitem.cpp \
-    projects/Nauz-File-Detector/StaticScan/staticscanitemmodel.cpp \
-    projects/Nauz-File-Detector/StaticScan/staticscanoptionswidget.cpp \
-    projects/Nauz-File-Detector/XAboutWidget/xaboutwidget.cpp \
-    projects/Nauz-File-Detector/XArchive/x_ar.cpp \
-    projects/Nauz-File-Detector/XArchive/xapk.cpp \
-    projects/Nauz-File-Detector/XArchive/xapks.cpp \
-    projects/Nauz-File-Detector/XArchive/xarchive.cpp \
-    projects/Nauz-File-Detector/XArchive/xarchives.cpp \
-    projects/Nauz-File-Detector/XArchive/xcab.cpp \
-    projects/Nauz-File-Detector/XArchive/xcompress.cpp \
-    projects/Nauz-File-Detector/XArchive/xcompresseddevice.cpp \
-    projects/Nauz-File-Detector/XArchive/xdeb.cpp \
-    projects/Nauz-File-Detector/XArchive/xdos16.cpp \
-    projects/Nauz-File-Detector/XArchive/xgzip.cpp \
-    projects/Nauz-File-Detector/XArchive/xipa.cpp \
-    projects/Nauz-File-Detector/XArchive/xjar.cpp \
-    projects/Nauz-File-Detector/XArchive/xlha.cpp \
-    projects/Nauz-File-Detector/XArchive/xmachofat.cpp \
-    projects/Nauz-File-Detector/XArchive/xnpm.cpp \
-    projects/Nauz-File-Detector/XArchive/xrar.cpp \
-    projects/Nauz-File-Detector/XArchive/xsevenzip.cpp \
-    projects/Nauz-File-Detector/XArchive/xtar.cpp \
-    projects/Nauz-File-Detector/XArchive/xtgz.cpp \
-    projects/Nauz-File-Detector/XArchive/xzip.cpp \
-    projects/Nauz-File-Detector/XArchive/xzlib.cpp \
-    projects/Nauz-File-Detector/XCapstone/xcapstone.cpp \
-    projects/Nauz-File-Detector/XDEX/xandroidbinary.cpp \
-    projects/Nauz-File-Detector/XDEX/xdex.cpp \
-    projects/Nauz-File-Detector/XExtractor/xextractor.cpp \
-    projects/Nauz-File-Detector/XGithub/xgithub.cpp \
-    projects/Nauz-File-Detector/XInfoDB/dialogxinfodbtransferprocess.cpp \
-    projects/Nauz-File-Detector/XInfoDB/xinfodb.cpp \
-    projects/Nauz-File-Detector/XInfoDB/xinfodboptionswidget.cpp \
-    projects/Nauz-File-Detector/XInfoDB/xinfodbtransfer.cpp \
-    projects/Nauz-File-Detector/XInfoDB/xinfomenu.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/dialogxvirustotal.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xonlinetools.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsdialogprocess.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xonlinetoolsoptionswidget.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xvirustotal.cpp \
-    projects/Nauz-File-Detector/XOnlineTools/xvirustotalwidget.cpp \
-    projects/Nauz-File-Detector/XOptions/codecs/codec_cp437.cpp \
-    projects/Nauz-File-Detector/XOptions/dialogviewcolors.cpp \
-    projects/Nauz-File-Detector/XOptions/xoptions.cpp \
-    projects/Nauz-File-Detector/XOptions/xoptionswidget.cpp \
-    projects/Nauz-File-Detector/XPDF/xpdf.cpp \
-    projects/Nauz-File-Detector/XScanEngine/scanitem.cpp \
-    projects/Nauz-File-Detector/XScanEngine/scanitemmodel.cpp \
-    projects/Nauz-File-Detector/XScanEngine/xscanengine.cpp \
-    projects/Nauz-File-Detector/XShortcuts/dialogshortcuts.cpp \
-    projects/Nauz-File-Detector/XShortcuts/xshortcuts.cpp \
-    projects/Nauz-File-Detector/XShortcuts/xshortcutsdialog.cpp \
-    projects/Nauz-File-Detector/XShortcuts/xshortcutstscrollarea.cpp \
-    projects/Nauz-File-Detector/XShortcuts/xshortcutswidget.cpp \
-    projects/Nauz-File-Detector/XSymbolsWidget/dialogbookmarks.cpp \
-    projects/Nauz-File-Detector/XSymbolsWidget/dialogxsymbols.cpp \
-    projects/Nauz-File-Detector/XSymbolsWidget/xsymbolswidget.cpp \
-    projects/Nauz-File-Detector/XUpdate/xupdate.cpp \
-    projects/Nauz-File-Detector/console_source/main_console.cpp \
-    projects/Nauz-File-Detector/gui_source/dialogabout.cpp \
-    projects/Nauz-File-Detector/gui_source/dialogoptions.cpp \
-    projects/Nauz-File-Detector/gui_source/guimainwindow.cpp \
-    projects/Nauz-File-Detector/gui_source/main_gui.cpp \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdscan.cpp \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdscandirectory.cpp \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdscanprocess.cpp \
-    projects/Nauz-File-Detector/nfd_widget/dialognfdwidgetadvanced.cpp \
-    projects/Nauz-File-Detector/nfd_widget/nfd_widget.cpp \
-    projects/Nauz-File-Detector/nfd_widget/nfdoptionswidget.cpp \
-    projects/Nauz-File-Detector/nfd_widget/nfdwidgetadvanced.cpp \
+    projects/Nauz-File-Detector/dep/Controls/dialogbits8.cpp \
+    projects/Nauz-File-Detector/dep/Controls/subclassofqstyleditemdelegate.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xabstracttableview.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xcomboboxex.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xdatetimeeditx.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xdevicetableeditview.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xdevicetableview.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xheaderview.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xhtml.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xlineedithex.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xlineeditvalidator.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xmodel.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xmodel_msrecord.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xsortfilterproxymodel.cpp \
+    projects/Nauz-File-Detector/dep/Controls/xtableview.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogdatainspector.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogdumpprocess.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogeditstring.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogfindtext.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialoggotoaddress.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialoghexsignature.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogremove.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogresize.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogsearch.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogsearchprocess.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogshowdata.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogtextinfo.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dialogwidget.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/dumpprocess.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/searchprocess.cpp \
+    projects/Nauz-File-Detector/dep/FormatDialogs/xdialogprocess.cpp \
+    projects/Nauz-File-Detector/dep/Formats/audio/xmp3.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xamigahunk.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xcom.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xelf.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xle.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xmach.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xmsdos.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xne.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xpe.cpp \
+    projects/Nauz-File-Detector/dep/Formats/formats/xcfbf.cpp \
+    projects/Nauz-File-Detector/dep/Formats/formats/xjavaclass.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xbmp.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xgif.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xicon.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xjpeg.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xpng.cpp \
+    projects/Nauz-File-Detector/dep/Formats/images/xtiff.cpp \
+    projects/Nauz-File-Detector/dep/Formats/subdevice.cpp \
+    projects/Nauz-File-Detector/dep/Formats/video/xmp4.cpp \
+    projects/Nauz-File-Detector/dep/Formats/video/xriff.cpp \
+    projects/Nauz-File-Detector/dep/Formats/xbinary.cpp \
+    projects/Nauz-File-Detector/dep/Formats/xdataconvertor.cpp \
+    projects/Nauz-File-Detector/dep/Formats/xformats.cpp \
+    projects/Nauz-File-Detector/dep/Formats/xiodevice.cpp \
+    projects/Nauz-File-Detector/dep/SpecAbstract/signatures.cpp \
+    projects/Nauz-File-Detector/dep/SpecAbstract/specabstract.cpp \
+    projects/Nauz-File-Detector/dep/SpecAbstract/staticscan.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/dialogstaticscan.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/dialogstaticscandirectory.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/dialogstaticscanprocess.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/formresult.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/formstaticscan.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/heurwidget.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/staticscan.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/staticscanitem.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/staticscanitemmodel.cpp \
+    projects/Nauz-File-Detector/dep/StaticScan/staticscanoptionswidget.cpp \
+    projects/Nauz-File-Detector/dep/XAboutWidget/xaboutwidget.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/x_ar.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xapk.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xapks.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xarchive.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xarchives.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xcab.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xcfbf.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xcompress.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xcompresseddevice.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xdeb.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xdos16.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xgzip.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xipa.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xjar.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xlha.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xmachofat.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xnpm.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xrar.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xsevenzip.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xtar.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xtgz.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xzip.cpp \
+    projects/Nauz-File-Detector/dep/XArchive/xzlib.cpp \
+    projects/Nauz-File-Detector/dep/XCapstone/xcapstone.cpp \
+    projects/Nauz-File-Detector/dep/XDEX/xandroidbinary.cpp \
+    projects/Nauz-File-Detector/dep/XDEX/xdex.cpp \
+    projects/Nauz-File-Detector/dep/XDisasmCore/Modules/capstone_bridge.cpp \
+    projects/Nauz-File-Detector/dep/XDisasmCore/Modules/x7zip_properties.cpp \
+    projects/Nauz-File-Detector/dep/XDisasmCore/Modules/xmacho_commands.cpp \
+    projects/Nauz-File-Detector/dep/XDisasmCore/xdisasmabstract.cpp \
+    projects/Nauz-File-Detector/dep/XDisasmCore/xdisasmcore.cpp \
+    projects/Nauz-File-Detector/dep/XExtractor/xextractor.cpp \
+    projects/Nauz-File-Detector/dep/XGithub/xgithub.cpp \
+    projects/Nauz-File-Detector/dep/XInfoDB/dialogxinfodbtransferprocess.cpp \
+    projects/Nauz-File-Detector/dep/XInfoDB/xinfodb.cpp \
+    projects/Nauz-File-Detector/dep/XInfoDB/xinfodboptionswidget.cpp \
+    projects/Nauz-File-Detector/dep/XInfoDB/xinfodbtransfer.cpp \
+    projects/Nauz-File-Detector/dep/XInfoDB/xinfomenu.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/dialogxvirustotal.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xonlinetools.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xonlinetoolsdialogprocess.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xonlinetoolsoptionswidget.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xvirustotal.cpp \
+    projects/Nauz-File-Detector/dep/XOnlineTools/xvirustotalwidget.cpp \
+    projects/Nauz-File-Detector/dep/XOptions/codecs/codec_cp437.cpp \
+    projects/Nauz-File-Detector/dep/XOptions/dialogviewcolors.cpp \
+    projects/Nauz-File-Detector/dep/XOptions/xoptions.cpp \
+    projects/Nauz-File-Detector/dep/XOptions/xoptionswidget.cpp \
+    projects/Nauz-File-Detector/dep/XPDF/xpdf.cpp \
+    projects/Nauz-File-Detector/dep/XScanEngine/scanitem.cpp \
+    projects/Nauz-File-Detector/dep/XScanEngine/scanitemmodel.cpp \
+    projects/Nauz-File-Detector/dep/XScanEngine/xscanengine.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/dialogshortcuts.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/xshortcuts.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/xshortcutsdialog.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/xshortcutsobject.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/xshortcutstscrollarea.cpp \
+    projects/Nauz-File-Detector/dep/XShortcuts/xshortcutswidget.cpp \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/dialogbookmarks.cpp \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/dialogxsymbols.cpp \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/xmodel_xsymbol.cpp \
+    projects/Nauz-File-Detector/dep/XSymbolsWidget/xsymbolswidget.cpp \
+    projects/Nauz-File-Detector/dep/XUpdate/xupdate.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdscan.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdscandirectory.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdscanprocess.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/dialognfdwidgetadvanced.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfd_widget.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfdoptionswidget.cpp \
+    projects/Nauz-File-Detector/dep/nfd_widget/nfdwidgetadvanced.cpp \
+    projects/Nauz-File-Detector/src/cli/main_console.cpp \
+    projects/Nauz-File-Detector/src/gui/dialogabout.cpp \
+    projects/Nauz-File-Detector/src/gui/dialogoptions.cpp \
+    projects/Nauz-File-Detector/src/gui/guimainwindow.cpp \
+    projects/Nauz-File-Detector/src/gui/main_gui.cpp \
     projects/PDBRipper/Formats/audio/xmp3.cpp \
     projects/PDBRipper/Formats/exec/xamigahunk.cpp \
     projects/PDBRipper/Formats/exec/xcom.cpp \
@@ -773,6 +837,8 @@ SOURCES += \
     projects/PDBRipper/Formats/exec/xmsdos.cpp \
     projects/PDBRipper/Formats/exec/xne.cpp \
     projects/PDBRipper/Formats/exec/xpe.cpp \
+    projects/PDBRipper/Formats/formats/xcfbf.cpp \
+    projects/PDBRipper/Formats/formats/xjavaclass.cpp \
     projects/PDBRipper/Formats/images/xbmp.cpp \
     projects/PDBRipper/Formats/images/xgif.cpp \
     projects/PDBRipper/Formats/images/xicon.cpp \
@@ -795,6 +861,7 @@ SOURCES += \
     projects/PDBRipper/XShortcuts/dialogshortcuts.cpp \
     projects/PDBRipper/XShortcuts/xshortcuts.cpp \
     projects/PDBRipper/XShortcuts/xshortcutsdialog.cpp \
+    projects/PDBRipper/XShortcuts/xshortcutsobject.cpp \
     projects/PDBRipper/XShortcuts/xshortcutstscrollarea.cpp \
     projects/PDBRipper/XShortcuts/xshortcutswidget.cpp \
     projects/PDBRipper/XUpdate/xupdate.cpp \
@@ -822,6 +889,8 @@ SOURCES += \
     projects/XOpcodeCalc/Controls/xhtml.cpp \
     projects/XOpcodeCalc/Controls/xlineedithex.cpp \
     projects/XOpcodeCalc/Controls/xlineeditvalidator.cpp \
+    projects/XOpcodeCalc/Controls/xmodel.cpp \
+    projects/XOpcodeCalc/Controls/xmodel_msrecord.cpp \
     projects/XOpcodeCalc/Controls/xsortfilterproxymodel.cpp \
     projects/XOpcodeCalc/Controls/xtableview.cpp \
     projects/XOpcodeCalc/XAboutWidget/xaboutwidget.cpp \
@@ -833,6 +902,7 @@ SOURCES += \
     projects/XOpcodeCalc/XShortcuts/dialogshortcuts.cpp \
     projects/XOpcodeCalc/XShortcuts/xshortcuts.cpp \
     projects/XOpcodeCalc/XShortcuts/xshortcutsdialog.cpp \
+    projects/XOpcodeCalc/XShortcuts/xshortcutsobject.cpp \
     projects/XOpcodeCalc/XShortcuts/xshortcutstscrollarea.cpp \
     projects/XOpcodeCalc/XShortcuts/xshortcutswidget.cpp \
     projects/XOpcodeCalc/XUpdate/xupdate.cpp \
@@ -841,3 +911,4 @@ SOURCES += \
     projects/XOpcodeCalc/gui_source/guimainwindow.cpp \
     projects/XOpcodeCalc/gui_source/main_gui.cpp \
     projects/XOpcodeCalc/gui_source/modevalidator.cpp
+
