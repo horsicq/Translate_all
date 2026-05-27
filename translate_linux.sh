@@ -35,6 +35,7 @@ lupdate projects -locations none -ts \
                 $TRANSLATE_PATH/pt_BR.ts \
                 $TRANSLATE_PATH/pt_PT.ts \
                 $TRANSLATE_PATH/ru.ts \
+                $TRANSLATE_PATH/sq.ts \
                 $TRANSLATE_PATH/sv.ts \
                 $TRANSLATE_PATH/tr.ts\
                 $TRANSLATE_PATH/uk.ts\

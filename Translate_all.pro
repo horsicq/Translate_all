@@ -15,6 +15,7 @@ TRANSLATIONS = \
     translation/pt_BR.ts \
     translation/pt_PT.ts \
     translation/ru.ts \
+    translation/sq.ts \
     translation/sv.ts \
     translation/tr.ts\
     translation/uk.ts\
