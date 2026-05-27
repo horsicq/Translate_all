@@ -58,6 +58,7 @@ translate pl dict_pl
 translate pt_BR dict_pt-BR
 translate pt_PT dict_pt-PT
 translate ru dict_ru
+translate sq dict_sq
 translate sv dict_sv
 translate tr dict_tr
 translate uk dict_uk
