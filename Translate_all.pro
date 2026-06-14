@@ -639,7 +639,7 @@ SOURCES += \
     projects/DIE-engine/die_script/dos16m_script.cpp \
     projects/DIE-engine/die_script/dos4g_script.cpp \
     projects/DIE-engine/die_script/elf_script.cpp \
-    projects/DIE-engine/die_script/global_script.cpp \
+    projects/DIE-engine/die_script/die_global_script.cpp \
     projects/DIE-engine/die_script/image_script.cpp \
     projects/DIE-engine/die_script/ipa_script.cpp \
     projects/DIE-engine/die_script/jar_script.cpp \
