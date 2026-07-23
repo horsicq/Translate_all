@@ -35,6 +35,7 @@ lupdate projects -locations none -ts \
                 $TRANSLATE_PATH/pt_BR.ts \
                 $TRANSLATE_PATH/pt_PT.ts \
                 $TRANSLATE_PATH/ru.ts \
+                $TRANSLATE_PATH/sq.ts \
                 $TRANSLATE_PATH/sv.ts \
                 $TRANSLATE_PATH/tr.ts\
                 $TRANSLATE_PATH/uk.ts\
@@ -57,6 +58,7 @@ translate pl dict_pl
 translate pt_BR dict_pt-BR
 translate pt_PT dict_pt-PT
 translate ru dict_ru
+translate sq dict_sq
 translate sv dict_sv
 translate tr dict_tr
 translate uk dict_uk
