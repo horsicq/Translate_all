@@ -374,27 +374,27 @@ SOURCES += \
     projects/DIE-engine/StaticScan/staticscanoptionswidget.cpp \
     projects/DIE-engine/XAboutWidget/xaboutwidget.cpp \
     projects/DIE-engine/XArchive/x_ar.cpp \
-    projects/DIE-engine/XArchive/xapk.cpp \
-    projects/DIE-engine/XArchive/xapks.cpp \
-    projects/DIE-engine/XArchive/xarchive.cpp \
+    projects/DIE-engine/Formats/archives/xapk.cpp \
+    projects/DIE-engine/Formats/archives/xapks.cpp \
+    projects/DIE-engine/Formats/xarchive.cpp \
     projects/DIE-engine/XArchive/xarchives.cpp \
     projects/DIE-engine/XArchive/xcab.cpp \
     projects/DIE-engine/XArchive/xcfbf.cpp \
     projects/DIE-engine/XArchive/xcompress.cpp \
     projects/DIE-engine/XArchive/xcompresseddevice.cpp \
     projects/DIE-engine/XArchive/xdeb.cpp \
-    projects/DIE-engine/XArchive/xdos16.cpp \
-    projects/DIE-engine/XArchive/xgzip.cpp \
-    projects/DIE-engine/XArchive/xipa.cpp \
-    projects/DIE-engine/XArchive/xjar.cpp \
+    projects/DIE-engine/Formats/exec/xdos16.cpp \
+    projects/DIE-engine/Formats/archives/xgzip.cpp \
+    projects/DIE-engine/Formats/archives/xipa.cpp \
+    projects/DIE-engine/Formats/archives/xjar.cpp \
     projects/DIE-engine/XArchive/xlha.cpp \
-    projects/DIE-engine/XArchive/xmachofat.cpp \
-    projects/DIE-engine/XArchive/xnpm.cpp \
+    projects/DIE-engine/Formats/exec/xmachofat.cpp \
+    projects/DIE-engine/Formats/archives/xnpm.cpp \
     projects/DIE-engine/XArchive/xrar.cpp \
     projects/DIE-engine/XArchive/xsevenzip.cpp \
-    projects/DIE-engine/XArchive/xtar.cpp \
+    projects/DIE-engine/Formats/archives/xtar.cpp \
     projects/DIE-engine/XArchive/xtgz.cpp \
-    projects/DIE-engine/XArchive/xzip.cpp \
+    projects/DIE-engine/Formats/archives/xzip.cpp \
     projects/DIE-engine/XArchive/xzlib.cpp \
     projects/DIE-engine/XCapstone/xcapstone.cpp \
     projects/DIE-engine/XCppfilt/xcppfilt.cpp \
@@ -755,27 +755,27 @@ SOURCES += \
     projects/Nauz-File-Detector/dep/StaticScan/staticscanoptionswidget.cpp \
     projects/Nauz-File-Detector/dep/XAboutWidget/xaboutwidget.cpp \
     projects/Nauz-File-Detector/dep/XArchive/x_ar.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xapk.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xapks.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xarchive.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xapk.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xapks.cpp \
+    projects/Nauz-File-Detector/dep/Formats/xarchive.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xarchives.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xcab.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xcfbf.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xcompress.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xcompresseddevice.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xdeb.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xdos16.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xgzip.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xipa.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xjar.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xdos16.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xgzip.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xipa.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xjar.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xlha.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xmachofat.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xnpm.cpp \
+    projects/Nauz-File-Detector/dep/Formats/exec/xmachofat.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xnpm.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xrar.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xsevenzip.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xtar.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xtar.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xtgz.cpp \
-    projects/Nauz-File-Detector/dep/XArchive/xzip.cpp \
+    projects/Nauz-File-Detector/dep/Formats/archives/xzip.cpp \
     projects/Nauz-File-Detector/dep/XArchive/xzlib.cpp \
     projects/Nauz-File-Detector/dep/XCapstone/xcapstone.cpp \
     projects/Nauz-File-Detector/dep/XDEX/xandroidbinary.cpp \
